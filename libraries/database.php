@@ -3,9 +3,11 @@
 $path_config = ('config.php');
 
 if(file_exists($path_config)){
+
     include_once ('./config/config.php');
 }else{
-    include_once '/Users/tuan/centreworld'.'./config/config.php';
+
+    include_once './config/config.php';
 }
 $conn = null;
 
@@ -15,6 +17,7 @@ function db_connect(){
 	if(!$conn){
 		$conn = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD, DB_DATABASE, DB_PORT) or die('Không thể kết nối đến CSDL');
 		mysqli_set_charset($conn, 'UTF-8');
+		
 	}
 }
 
