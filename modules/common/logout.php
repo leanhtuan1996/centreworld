@@ -10,7 +10,7 @@ include_once 'libraries/role.php';
 if(session_get('user')){
 	session_delete('user');	
 	echo '<script language="javascript">';
-    echo 'window.location.href = "index.php?m=common&a=index"';
+    echo 'window.location.href = "index.php"';
     echo '</script>';
 }else{
 	redirect('index.php?m=common&a=404');
