@@ -1,7 +1,7 @@
 <?php
 // Hàm tạo URL
 function base_url($uri = ''){
-    return 'http://localhost:81/cw/'.$uri;
+    return 'http://localhost:8081'.$uri;
 }
 // Hàm redirect
 function redirect($url){

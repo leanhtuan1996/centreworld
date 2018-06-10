@@ -6,7 +6,7 @@ $path_database = '/libraries/database.php';
 if(file_exists($path_helper)){
     include_once './libraries/helper.php';
 }else{
-    include_once '/home/leanhtuan110596/centreworld//libraries/helper.php';
+    include_once '/home/leanhtuan110596/centreworld/libraries/helper.php';
 }
 
 if(file_exists($path_database)){
