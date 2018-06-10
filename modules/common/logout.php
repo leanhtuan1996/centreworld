@@ -9,7 +9,7 @@ include_once 'libraries/role.php';
 
 if(session_get('user')){
 	session_delete('user');	
-	include_once 'index.php?m=common&a=index';
+	include_once 'index.php';
 }else{
 	redirect('index.php?m=common&a=404');
 }
