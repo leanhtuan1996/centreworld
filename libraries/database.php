@@ -5,7 +5,7 @@ $path_config = ('config.php');
 if(file_exists($path_config)){
     include_once ('./config/config.php');
 }else{
-    include_once 'C:\xampp\htdocs\test'.'./config/config.php';
+    include_once '/Users/tuan/centreworld'.'./config/config.php';
 }
 $conn = null;
 
