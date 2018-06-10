@@ -23,6 +23,9 @@
             );
 
             addbill($rq_add);
+            echo '<script language="javascript">';
+            echo 'window.location.href = "index.php?page=bill"';
+            echo '</script>';
         
             
 
