@@ -7,24 +7,24 @@ $path_database = ('database.php');
 
 if(file_exists($path_helper)){
 	
-	include_once ('helper.php');
+	include_once ('./libraries/helper.php');
 	
 }
 else{
 	
-	include_once 'C:\xampp\htdocs\test\libraries/helper.php';
+	include_once '/home/leanhtuan110596/centreworld/libraries/helper.php';
 	
 }
 
 
 if(file_exists($path_database)){
 	
-	include_once ('database.php');
+	include_once ('./libraries/database.php');
 	
 }
 else{
 	
-	include_once 'C:\xampp\htdocs\test\libraries/database.php';
+	include_once '/home/leanhtuan110596/centreworld/libraries/database.php';
 	
 }
 
