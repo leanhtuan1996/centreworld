@@ -12,7 +12,7 @@ if(file_exists($path_helper)){
 }
 else{
 	
-	include_once 'C:\libraries/helper.php';
+	include_once 'C:\xampp\htdocs\test\libraries/helper.php';
 	
 }
 
@@ -24,7 +24,7 @@ if(file_exists($path_database)){
 }
 else{
 	
-	include_once '\libraries/database.php';
+	include_once 'C:\xampp\htdocs\test\libraries/database.php';
 	
 }
 
