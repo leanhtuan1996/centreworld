@@ -4,15 +4,15 @@ $path_helper = '/libraries/helper.php';
 $path_database = '/libraries/database.php';
 
 if(file_exists($path_helper)){
-    include_once '/libraries/helper.php';
+    include_once './libraries/helper.php';
 }else{
-    include_once '/libraries/helper.php';
+    include_once './libraries/helper.php';
 }
 
 if(file_exists($path_database)){
-    include_once '/libraries/database.php';
+    include_once './libraries/database.php';
 }else{
-    include_once '/libraries/database.php';;
+    include_once './libraries/database.php';;
 }
 
 function getUserByEmail($email)
