@@ -7,7 +7,7 @@ if(file_exists($path_config)){
     include_once ('./config/config.php');
 }else{
 
-    include_once './config/config.php';
+    include_once '/home/leanhtuan110596/centreworld/config/config.php';
 }
 $conn = null;
 
