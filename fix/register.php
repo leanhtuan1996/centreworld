@@ -49,7 +49,8 @@ if(session_get('user')){
 $error = array();
 
 if(is_submit('register')){
-    // echo "<script type='text/javascript'>alert('$message');</script>";
+  $message = '4'
+    echo "<script type='text/javascript'>alert('$message');</script>";
 //Co ton tai
 $email =input_post('email');
 $password = md5(input_post('password'));

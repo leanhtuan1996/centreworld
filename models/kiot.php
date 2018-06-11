@@ -53,16 +53,6 @@ function geatallKiotbyid_floor($id){
 }
 
 
-function getProductById_category($id_category){
-	
-	$id_category = addslashes($id_category);
-	
-	$sql = "SELECT * FROM sanpham WHERE id_category = '{$id_category}' LIMIT 0,4 ";
-	
-	//q	uery
-	return db_get_list($sql);
-	
-}
 
 
 function getkiottById($ID_k)
