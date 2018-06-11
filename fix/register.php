@@ -61,7 +61,6 @@ $data = array(
 	'name' => $name,
 
 );
-echo "<script type='text/javascript'>alert('$email');</script>";
 echo "<script type='text/javascript'>alert('$password');</script>";
 echo "<script type='text/javascript'>alert('$name');</script>";
      
