@@ -77,6 +77,7 @@ function db_insert($table, $data = array())
     $fields = trim($fields, ',');
     $values = trim($values, ',');
     echo "<script type='text/javascript'>alert('$fields');</script>";
+    echo "<script type='text/javascript'>alert('$values');</script>";
     // Tạo câu SQL
     $sql = "INSERT INTO {$table}($fields) VALUES ({$values})";
     // Thực hiện INSERT
