@@ -37,10 +37,10 @@
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 <?php 
-include_once '../libraries/helper.php';
 include_once '../libraries/database.php';
-include_once '../libraries/session.php';
+include_once '../libraries/role.php'; 
 include_once '../models/user.php';
+include_once '../libraries/session.php';
 if(session_get('user')){	
 	
 	redirect('index.php');	
@@ -65,6 +65,7 @@ $data = array(
 	$error = db_user_validate($data);
 
 	if(!$error){
+    echo "<script type='text/javascript'>alert('$data');</script>";
 		$error = addUser($data);
 	}
 }
