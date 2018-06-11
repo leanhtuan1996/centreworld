@@ -65,7 +65,7 @@ $data = array(
 	$error = db_user_validate($data);
 
 	if(!$error){
-    echo "<script type='text/javascript'>alert('$data');</script>";
+    echo "<script type='text/javascript'>alert('$data['name']');</script>";
 		$error = addUser($data);
 	}
 }
