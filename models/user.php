@@ -107,7 +107,7 @@ function addUser($data){
 	if(isset($data)){
 		if(db_insert('users', $data) == 1){
             
-         $error['addUser'] = 'Đăng kí thành viênthành công, click vào <a href="index.php?page=users">đây</a> để trở lại';
+         $error['addUser'] = 'Đăng kí thành viênthành công, click vào để trở lại';
 
         }else{
             $error['addUser'] = 'Đăng kí thành viên thất bại';

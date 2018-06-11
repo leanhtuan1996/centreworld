@@ -71,18 +71,17 @@ function db_insert($table, $data = array())
     foreach ($data as $field => $value){
         $fields .= $field .',';
         $values .= "'".addslashes($value)."',";
-     
     }
      
     // Xóa ký từ , ở cuối chuỗi
     $fields = trim($fields, ',');
     $values = trim($values, ',');
- 
+     
     // Tạo câu SQL
     $sql = "INSERT INTO {$table}($fields) VALUES ({$values})";
     // Thực hiện INSERT
     return db_execute($sql);
-  
 }
+
 
 ?>
