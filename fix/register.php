@@ -52,7 +52,7 @@ if(is_submit('register')){
     // echo "<script type='text/javascript'>alert('$message');</script>";
 //Co ton tai
 $email =input_post('email');
-$password = md5(input_post('password');
+$password = md5(input_post('password'));
 $name =input_post('name');
 
 $data = array(
@@ -61,7 +61,6 @@ $data = array(
 	'name' => $name,
 
 );
-echo "<script type='text/javascript'>alert('$data');</script>";
      
 	$error = db_user_validate($data);
 
