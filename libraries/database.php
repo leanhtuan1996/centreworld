@@ -73,8 +73,7 @@ function db_insert($table, $data = array())
         $values .= "'".addslashes($value)."',";
         
     }
-    echo "<script type='text/javascript'>alert('$fields');</script>";
-     
+
     // Xóa ký từ , ở cuối chuỗi
     $fields = trim($fields, ',');
     $values = trim($values, ',');
