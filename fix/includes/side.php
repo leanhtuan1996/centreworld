@@ -35,7 +35,7 @@
 	  </a>
 	  <ul class="treeview-menu">
 		<li><a href="?page=users"><i class="fa fa-circle-o"></i>Thông tin tài khoản</a></li>
-		<li><a href="./register.php"><i class="fa fa-circle-o"></i>Đăng ký</a></li>
+		<li><a href="../cms/register.php"><i class="fa fa-circle-o"></i>Đăng ký</a></li>
 	  </ul>
 	</li>
 	<li class="treeview">
