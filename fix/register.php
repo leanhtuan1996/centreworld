@@ -61,7 +61,7 @@ $data = array(
 	'name' => $name,
 
 );
-echo "<script type='text/javascript'>alert('$data['name']');</script>";
+echo "<script type='text/javascript'>alert('$data');</script>";
      
 	$error = db_user_validate($data);
 
