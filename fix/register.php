@@ -61,7 +61,7 @@ $data = array(
 	'name' => $name,
 
 );
-     
+
 	$error = db_user_validate($data);
 
 	if(!$error){
