@@ -151,22 +151,6 @@ function resetUser($id){
     return db_execute($sql);
 }
 
-function getusers($name)
-{
-    $name = addslashes($name);
-    //sql
-    $sql =
-     "  SELECT sanpham.name, dhchitiet.soluong,dongia, sanpham.image,                   donhang.ngaytao,dhchitiet.masp
-        FROM users join donhang on
-         users.id=donhang.makh join dhchitiet on donhang.madh=dhchitiet.madh
-         JOIN sanpham on dhchitiet.masp=sanpham.id
-         
-         where users.name = '{$name}'";
-
-    //query
-    return db_get_list($sql);
-
-}
 
 
 

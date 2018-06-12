@@ -30,7 +30,7 @@
 </head>
 
 <body>
-    <h1 class="title-agile text-center">Centre World login form</h1>
+    <h1 class="title-agile text-center">Centre World </h1>
     <div class="content-w3ls">
         <div class="agileits-grid">
             <div class="content-top-agile">
