@@ -112,7 +112,7 @@ $data = array(
         </div>
         <!-- /.col -->
         <div class="col-12 text-center">
-        <button class="btn btn-info btn-block btn-flat margin-top-10"  type="submit">Đăng kí</button> 
+        <button class="btn btn-info btn-block btn-flat margin-top-10"  type="submit">Đăng ký</button> 
         <input type="hidden" name="request_name" value="register"/>	
         </div>
         <!-- /.col -->
