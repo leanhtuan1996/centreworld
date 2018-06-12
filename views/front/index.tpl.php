@@ -182,174 +182,174 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<!-- //team -->
-				<!-- testimonial -->
-	<div class="jarallax testimonial" id="testimonial">
-		<div class="testimonial-dot">
-			<div class="container">
-				<div class="agileits-title testimonial-heading"> 
-					<h3>Tuyển dụng</h3> 
-				</div>
-
-			<div class="markets-grids">
-			<?php
-							$rq = getallrqbystatus();
-						
-			
-
-							$count = count($rq);
+		<!-- testimonial -->
+		<div class="jarallax testimonial" id="testimonial">
+			<div class="testimonial-dot">
+				<div class="container">
+					<div class="agileits-title testimonial-heading"> 
+						<h3>Tuyển dụng</h3> 
+					</div>
+	
+				<div class="markets-grids">
+				<?php
+								$rq = getallrqbystatus();
 							
-							for ($i=0; $i < $count ; $i++)
-							{
-								$kiot = getkiottById($rq[$i]['ID_k']);
+				
+	
+								$count = count($rq);
 								
-								$id = $rq[$i]['ID_k'];
-								$ID_h = $rq[$i]['ID_h'];
-								
-								$recruitment = $rq[$i]['recruitment'];
-								
-								$position = $rq[$i]['position'];
-								
-								$salary = $rq[$i]['salary'];
-								?>
-								<div class="col-md-4 w3ls-markets-grid">
-									<div class="agileits-icon-grid">
-										<div class="icon-left">
-											<i class="fa fa-gamepad" aria-hidden="true"></i>
+								for ($i=0; $i < $count ; $i++)
+								{
+									$kiot = getkiottById($rq[$i]['ID_k']);
+									
+									$id = $rq[$i]['ID_k'];
+									$ID_h = $rq[$i]['ID_h'];
+									
+									$recruitment = $rq[$i]['recruitment'];
+									
+									$position = $rq[$i]['position'];
+									
+									$salary = $rq[$i]['salary'];
+									?>
+									<div class="col-md-4 w3ls-markets-grid">
+										<div class="agileits-icon-grid">
+											<div class="icon-left">
+												<i class="fa fa-gamepad" aria-hidden="true"></i>
+											</div>
+											<div class="icon-right">
+												<h5><?php echo $kiot ['description'] ?> - <?php echo $kiot ['name_k'] ?></h5>
+												<p> tuyển dụng: <?php echo $position ?></p>
+												<p>vị trí : <?php 		 if ($recruitment == 1)
+								{
+									echo 'regular employee(full time) ';
+								}
+								else
+	
+								{
+									
+									echo 	'part time employees';
+							
+								}
+	 ?></p>
+	
+											</div>
+											<div class="clearfix"> </div>
 										</div>
-										<div class="icon-right">
-											<h5><?php echo $kiot ['description'] ?> - <?php echo $kiot ['name_k'] ?></h5>
-											<p> tuyển dụng: <?php echo $position ?></p>
-											<p>vị trí : <?php 		 if ($recruitment == 1)
-							{
-								echo 'regular employee(full time) ';
-							}
-							else
-
-							{
-								
-								echo 	'part time employees';
-						
-							}
- ?></p>
-
-										</div>
-										<div class="clearfix"> </div>
 									</div>
-								</div>
-							<?php }?>
-
-			</div>
-		  </div>
-  </div>
-</div>
+								<?php }?>
+	
+				</div>
+			  </div>
+	  </div>
 	</div>
-<!-- //testimonial -->
-	<!-- portfolio -->
-	<div class="portfolio" id="gallery">
-		<div class="container">
-			<div class="agileits-title"> 
-				<h3>Kiot</h3> 
-			</div>
-			<ul class="simplefilter w3layouts agileits">
-				<li class="active w3layouts agileits" data-filter="all">All</li>
-				<li class="w3layouts agileits" data-filter="1">Tầng 1</li>
-				<li class="w3layouts agileits" data-filter="2">Tầng 2</li>
-				<li class="w3layouts agileits" data-filter="3">Tầng 3</li>
-			</ul>
-
-			<div class="filtr-container w3layouts agileits">
-			<?php 
-			$kiot = geatallKiotbyid_floor(1);
-			$count = count($kiot);
-			for ($i = 0; $i< $count ; $i++){
-
-				$ID_k = $kiot[$i]['ID_k'];
-								
-				$name_pro = $kiot[$i]['name_k'];
-				
-				$img = $kiot[$i]['image'];
-
-				$description = $kiot[$i]['description'];
-				
-				$id_floor = $kiot[$i]['id_floor'];
-
-			?>
-
-				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1" data-sort="Busy streets">
-					<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-						<figure>
-							<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
-							<figcaption>
-							<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
-							</figcaption>
-						</figure>
-					</a>
+		</div>
+	<!-- //testimonial -->
+		<!-- portfolio -->
+		<div class="portfolio" id="gallery">
+			<div class="container">
+				<div class="agileits-title"> 
+					<h3>Kiot</h3> 
 				</div>
-				<?php } ?>
-
-			<?php 
-			$kiot = geatallKiotbyid_floor(2);
-			$count = count($kiot);
-			for ($i = 0; $i< $count ; $i++){
-
-				$ID_k = $kiot[$i]['ID_k'];
-								
-				$name_pro = $kiot[$i]['name_k'];
-				
-				$img = $kiot[$i]['image'];
-
-				$id_floor = $kiot[$i]['id_floor'];
-
-				$description = $kiot[$i]['description'];
-
-			?>
-
-				<div class="filtr-item w3layouts agileits portfolio-t" data-category="2" data-sort="Busy streets">
-					<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-						<figure>
-							<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
-							<figcaption>
-							<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<?php } ?>
-
-							<?php 
-			$kiot = geatallKiotbyid_floor(3);
-			$count = count($kiot);
-			for ($i = 0; $i< $count ; $i++){
-
-				$ID_k = $kiot[$i]['ID_k'];
-								
-				$name_pro = $kiot[$i]['name_k'];
-				
-				$img = $kiot[$i]['image'];
-
-				$id_floor = $kiot[$i]['id_floor'];
-
-				$description = $kiot[$i]['description'];
-
-			?>
-
-				<div class="filtr-item w3layouts agileits portfolio-t" data-category="3" data-sort="Busy streets">
-					<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-						<figure>
-							<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
-							<figcaption>
+				<ul class="simplefilter w3layouts agileits">
+					<li class="active w3layouts agileits" data-filter="all">All</li>
+					<li class="w3layouts agileits" data-filter="1">Tầng 1</li>
+					<li class="w3layouts agileits" data-filter="2">Tầng 2</li>
+					<li class="w3layouts agileits" data-filter="3">Tầng 3</li>
+				</ul>
+	
+				<div class="filtr-container w3layouts agileits">
+				<?php 
+				$kiot = geatallKiotbyid_floor(1);
+				$count = count($kiot);
+				for ($i = 0; $i< $count ; $i++){
+	
+					$ID_k = $kiot[$i]['ID_k'];
+									
+					$name_pro = $kiot[$i]['name_k'];
+					
+					$img = $kiot[$i]['image'];
+	
+					$description = $kiot[$i]['description'];
+					
+					$id_floor = $kiot[$i]['id_floor'];
+	
+				?>
+	
+					<div class="filtr-item w3layouts agileits portfolio-t" data-category="1" data-sort="Busy streets">
+						<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<figcaption>
 								<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
-							</figcaption>
-						</figure>
-					</a>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<?php } ?>
+	
+				<?php 
+				$kiot = geatallKiotbyid_floor(2);
+				$count = count($kiot);
+				for ($i = 0; $i< $count ; $i++){
+	
+					$ID_k = $kiot[$i]['ID_k'];
+									
+					$name_pro = $kiot[$i]['name_k'];
+					
+					$img = $kiot[$i]['image'];
+	
+					$id_floor = $kiot[$i]['id_floor'];
+	
+					$description = $kiot[$i]['description'];
+	
+				?>
+	
+					<div class="filtr-item w3layouts agileits portfolio-t" data-category="2" data-sort="Busy streets">
+						<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<figcaption>
+								<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<?php } ?>
+	
+								<?php 
+				$kiot = geatallKiotbyid_floor(3);
+				$count = count($kiot);
+				for ($i = 0; $i< $count ; $i++){
+	
+					$ID_k = $kiot[$i]['ID_k'];
+									
+					$name_pro = $kiot[$i]['name_k'];
+					
+					$img = $kiot[$i]['image'];
+	
+					$id_floor = $kiot[$i]['id_floor'];
+	
+					$description = $kiot[$i]['description'];
+	
+				?>
+	
+					<div class="filtr-item w3layouts agileits portfolio-t" data-category="3" data-sort="Busy streets">
+						<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<figcaption>
+									<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<?php } ?>
+					<div class="clearfix"></div>
 				</div>
-				<?php } ?>
-				<div class="clearfix"></div>
 			</div>
 		</div>
-	</div>
-		
-	<!-- //portfolio -->
+			
+		<!-- //portfolio -->
 	<!-- markets -->
 	<div class="markets" id="markets">
 		<div class="container">
