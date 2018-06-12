@@ -101,12 +101,8 @@ $data = array(
         <span class="ion ion-email form-control-feedback "></span>
       </div>
       <div class="form-group has-feedback">
-      <div class="form-group"><input type="password" class="form-control" id="pwd" value="" name="password" placeholder="Mật khẩu(*)" required></div>
+      <div class="form-group"><input type="password" class="form-control" value="" name="password" placeholder="Mật khẩu(*)" required></div>
         <span class="ion ion-locked form-control-feedback "></span>
-      </div>
-      <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Nhập lại mật khẩu(*)">
-        <span class="ion ion-log-in form-control-feedback "></span>
       </div>
       <div class="row">
         <div class="col-12">
