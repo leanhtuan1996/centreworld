@@ -46,7 +46,7 @@ if(session_get('user')){
 	redirect('index.php');	
 }
 
-$error = array();
+$error_add = array();
 
 if(is_submit('register')){
     // echo "<script type='text/javascript'>alert('$message');</script>";
@@ -64,8 +64,8 @@ $user_add = array(
 
 	$error = db_user_validate($user_add);
 
-	if(!$error){
-		$error = addUser($user_add);
+	if(!$error_add){
+		$error_add = addUser($user_add);
 	}
 }
 	
@@ -81,12 +81,12 @@ $user_add = array(
 
   <div class="register-box-body">
     <p class="login-box-msg">Đăng ký thành viên mới</p>
-    <?php if(isset($error['email'])) { ?>
-        <?php show_error($error, 'email') ?>
+    <?php if(isset($error_add['email'])) { ?>
+        <?php show_error($error_add, 'email') ?>
     <?php }  
     ?>
-<?php if(isset($error['addUser'])) { ?>
-    <?php show_error($error, 'addUser') ?>
+<?php if(isset($error_add['addUser'])) { ?>
+    <?php show_error($error_add, 'addUser') ?>
 <?php }  
 ?>
 
