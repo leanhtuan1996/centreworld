@@ -34,7 +34,7 @@
     <div class="content-w3ls">
         <div class="agileits-grid">
             <div class="content-top-agile">
-                <h2>Login to Centre World</h2>
+                <h2>Đăng nhập Centre World</h2>
             </div>
             <div class="content-bottom">
                 <form action="" method="post">
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="wthree-field">
-                        <input id="saveForm" type="submit" value="Login" />
+                        <input id="saveForm" type="submit" value="Đăng Nhập" />
 						<input type="hidden" name="request_name" value="login"/>
                     </div>
                   
