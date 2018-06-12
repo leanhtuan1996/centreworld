@@ -49,7 +49,7 @@ if(session_get('user')){
 $error_add = array();
 
 if(is_submit('register')){
-    // echo "<script type='text/javascript'>alert('$message');</script>";
+
 //Co ton tai
 $email =input_post('email');
 $password = md5(input_post('password'));
@@ -61,6 +61,7 @@ $user_add = array(
 	'name' => $name,
 
 );
+    echo "<script type='text/javascript'>alert('$user_add');</script>";
 
 	$error = db_user_validate($user_add);
 
