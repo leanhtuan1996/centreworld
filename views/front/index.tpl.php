@@ -137,6 +137,219 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //about --> 
+		<!-- team -->
+		<div class="team" id="team" style="padding-bottom: 200px;">
+			<div class="container">
+				<div class="agileits-title"> 
+					<h3>Tin tức nhanh</h3> 
+				</div>
+				<div class="agileits-team-grids">
+					<div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
+						<div class="team-info">
+							<img src="images/t1.jpg" alt="">
+							<div class="team-caption"> 
+								<h3>SPECIAL OFFERS</h3>
+								<ul>
+								</ul>
+							</div>
+						</div>
+								<p class="text-center">Nằm trong chuỗi các sự kiện tri ân Quý khách hàng, Giovanni trân trọng mang tới chương trình SPECIAL OFFERS với những ưu đãi hấp dẫn. Vậy bạn đã biết chuỗi các sự kiện tri ân Quý khách hàng chưa? Hãy cùng khám phá chuỗi các sự kiện tri ân Quý khách hàng nhé!</p>
+					</div>
+					<div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
+						<div class="team-info">
+							<img src="images/t2.jpg" alt="">
+							<div class="team-caption"> 
+								<h3>KHAI TRƯƠNG GIAN HÀNG H&M </h3>
+								<ul>
+								</ul>
+							</div>
+						</div>
+								<p class="text-center">Là một trong những thương hiệu đình đám với giá cả khá là bình dân H&M sẽ được ra mắt vào thời gian tới. Với không gian của gian hàng rộng rãi có thể trưng bày nhiều sản phầm để quý khách có thể lựa chọn. Với việc khai trương sẽ có những phần quà hấp dẫn giành tặng quý khách hàng!</p>
+					</div>
+				  <div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
+						<div class="team-info">
+							<img src="images/t3.jpg" alt="">
+							<div class="team-caption"> 
+								<h3>VUI XUÂN ĐẮC LỘC ĐÓN ƯU ĐÃI NGẬP TRÀN</h3>
+								<ul>
+								</ul>
+							</div>
+						</div>
+								<p class="text-center">Tết sung túc là khi gia đình hạnh phúc, thuận hòa, là khi xung quanh ngập sắc hoa tươi, là khi gửi trao những lời chúc xuân ý nghĩa. Hiểu được điều đó Tết Mậu Tuất 2018, Centre World sẽ tái hiện khung cảnh HỘI CHỢ XUÂN ĐẮC LỘC với hàng loạt những décor đậm đà sắc xuân!</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!-- //team -->
+		<!-- testimonial -->
+	<div class="jarallax testimonial" id="testimonial">
+			<div class="testimonial-dot">
+				<div class="container">
+					<div class="agileits-title testimonial-heading"> 
+						<h3>Tuyển dụng</h3> 
+					</div>
+	
+				<div class="markets-grids">
+				<?php
+								$rq = getallrqbystatus();
+							
+				
+	
+								$count = count($rq);
+								
+								for ($i=0; $i < $count ; $i++)
+								{
+									$kiot = getkiottById($rq[$i]['ID_k']);
+									
+									$id = $rq[$i]['ID_k'];
+									$ID_h = $rq[$i]['ID_h'];
+									
+									$recruitment = $rq[$i]['recruitment'];
+									
+									$position = $rq[$i]['position'];
+									
+									$salary = $rq[$i]['salary'];
+									?>
+									<div class="col-md-4 w3ls-markets-grid">
+										<div class="agileits-icon-grid">
+											<div class="icon-left">
+												<i class="fa fa-gamepad" aria-hidden="true"></i>
+											</div>
+											<div class="icon-right">
+												<h5><?php echo $kiot ['description'] ?> - <?php echo $kiot ['name_k'] ?></h5>
+												<p> tuyển dụng: <?php echo $position ?></p>
+												<p>vị trí : <?php 		 if ($recruitment == 1)
+								{
+									echo 'regular employee(full time) ';
+								}
+								else
+	
+								{
+									
+									echo 	'part time employees';
+							
+								}
+	 ?></p>
+	
+											</div>
+											<div class="clearfix"> </div>
+										</div>
+									</div>
+								<?php }?>
+	
+				</div>
+			  </div>
+	  </div>
+	</div>
+		</div>
+	<!-- //testimonial -->
+		<!-- portfolio -->
+		<div class="portfolio" id="gallery">
+			<div class="container">
+				<div class="agileits-title"> 
+					<h3>Kiot</h3> 
+				</div>
+				<ul class="simplefilter w3layouts agileits">
+					<li class="active w3layouts agileits" data-filter="all">All</li>
+					<li class="w3layouts agileits" data-filter="1">Tầng 1</li>
+					<li class="w3layouts agileits" data-filter="2">Tầng 2</li>
+					<li class="w3layouts agileits" data-filter="3">Tầng 3</li>
+				</ul>
+	
+				<div class="filtr-container w3layouts agileits">
+				<?php 
+				$kiot = geatallKiotbyid_floor(1);
+				$count = count($kiot);
+				for ($i = 0; $i< $count ; $i++){
+	
+					$ID_k = $kiot[$i]['ID_k'];
+									
+					$name_pro = $kiot[$i]['name_k'];
+					
+					$img = $kiot[$i]['image'];
+	
+					$description = $kiot[$i]['description'];
+					
+					$id_floor = $kiot[$i]['id_floor'];
+	
+				?>
+	
+					<div class="filtr-item w3layouts agileits portfolio-t" data-category="1" data-sort="Busy streets">
+						<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<figcaption>
+								<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<?php } ?>
+	
+				<?php 
+				$kiot = geatallKiotbyid_floor(2);
+				$count = count($kiot);
+				for ($i = 0; $i< $count ; $i++){
+	
+					$ID_k = $kiot[$i]['ID_k'];
+									
+					$name_pro = $kiot[$i]['name_k'];
+					
+					$img = $kiot[$i]['image'];
+	
+					$id_floor = $kiot[$i]['id_floor'];
+	
+					$description = $kiot[$i]['description'];
+	
+				?>
+	
+					<div class="filtr-item w3layouts agileits portfolio-t" data-category="2" data-sort="Busy streets">
+						<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<figcaption>
+								<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<?php } ?>
+	
+								<?php 
+				$kiot = geatallKiotbyid_floor(3);
+				$count = count($kiot);
+				for ($i = 0; $i< $count ; $i++){
+	
+					$ID_k = $kiot[$i]['ID_k'];
+									
+					$name_pro = $kiot[$i]['name_k'];
+					
+					$img = $kiot[$i]['image'];
+	
+					$id_floor = $kiot[$i]['id_floor'];
+	
+					$description = $kiot[$i]['description'];
+	
+				?>
+	
+					<div class="filtr-item w3layouts agileits portfolio-t" data-category="3" data-sort="Busy streets">
+						<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<figcaption>
+									<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<?php } ?>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+			
+		<!-- //portfolio -->
 	<!-- markets -->
 	<div class="markets" id="markets">
 		<div class="container">
@@ -221,219 +434,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //markets -->
-	<!-- team -->
-	<div class="team" id="team" style="padding-bottom: 200px;">
-		<div class="container">
-			<div class="agileits-title"> 
-				<h3>Tin tức nhanh</h3> 
-			</div>
-			<div class="agileits-team-grids">
-				<div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
-					<div class="team-info">
-						<img src="images/t1.jpg" alt="">
-						<div class="team-caption"> 
-							<h3>SPECIAL OFFERS</h3>
-							<ul>
-							</ul>
-						</div>
-					</div>
-							<p class="text-center">Nằm trong chuỗi các sự kiện tri ân Quý khách hàng, Giovanni trân trọng mang tới chương trình SPECIAL OFFERS với những ưu đãi hấp dẫn. Vậy bạn đã biết chuỗi các sự kiện tri ân Quý khách hàng chưa? Hãy cùng khám phá chuỗi các sự kiện tri ân Quý khách hàng nhé!</p>
-				</div>
-				<div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
-					<div class="team-info">
-						<img src="images/t2.jpg" alt="">
-						<div class="team-caption"> 
-							<h3>KHAI TRƯƠNG GIAN HÀNG H&M </h3>
-							<ul>
-							</ul>
-						</div>
-					</div>
-							<p class="text-center">Là một trong những thương hiệu đình đám với giá cả khá là bình dân H&M sẽ được ra mắt vào thời gian tới. Với không gian của gian hàng rộng rãi có thể trưng bày nhiều sản phầm để quý khách có thể lựa chọn. Với việc khai trương sẽ có những phần quà hấp dẫn giành tặng quý khách hàng!</p>
-				</div>
-			  <div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
-					<div class="team-info">
-						<img src="images/t3.jpg" alt="">
-						<div class="team-caption"> 
-							<h3>VUI XUÂN ĐẮC LỘC ĐÓN ƯU ĐÃI NGẬP TRÀN</h3>
-							<ul>
-							</ul>
-						</div>
-					</div>
-							<p class="text-center">Tết sung túc là khi gia đình hạnh phúc, thuận hòa, là khi xung quanh ngập sắc hoa tươi, là khi gửi trao những lời chúc xuân ý nghĩa. Hiểu được điều đó Tết Mậu Tuất 2018, Centre World sẽ tái hiện khung cảnh HỘI CHỢ XUÂN ĐẮC LỘC với hàng loạt những décor đậm đà sắc xuân!</p>
-				</div>
-                <div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //team -->
-	<!-- testimonial -->
-<div class="jarallax testimonial" id="testimonial">
-		<div class="testimonial-dot">
-			<div class="container">
-				<div class="agileits-title testimonial-heading"> 
-					<h3>Tuyển dụng</h3> 
-				</div>
 
-			<div class="markets-grids">
-			<?php
-							$rq = getallrqbystatus();
-						
-			
-
-							$count = count($rq);
-							
-							for ($i=0; $i < $count ; $i++)
-							{
-								$kiot = getkiottById($rq[$i]['ID_k']);
-								
-								$id = $rq[$i]['ID_k'];
-								$ID_h = $rq[$i]['ID_h'];
-								
-								$recruitment = $rq[$i]['recruitment'];
-								
-								$position = $rq[$i]['position'];
-								
-								$salary = $rq[$i]['salary'];
-								?>
-								<div class="col-md-4 w3ls-markets-grid">
-									<div class="agileits-icon-grid">
-										<div class="icon-left">
-											<i class="fa fa-gamepad" aria-hidden="true"></i>
-										</div>
-										<div class="icon-right">
-											<h5><?php echo $kiot ['description'] ?> - <?php echo $kiot ['name_k'] ?></h5>
-											<p> tuyển dụng: <?php echo $position ?></p>
-											<p>vị trí : <?php 		 if ($recruitment == 1)
-							{
-								echo 'regular employee(full time) ';
-							}
-							else
-
-							{
-								
-								echo 	'part time employees';
-						
-							}
- ?></p>
-
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</div>
-							<?php }?>
-
-			</div>
-		  </div>
-  </div>
-</div>
-	</div>
-<!-- //testimonial -->
-	<!-- portfolio -->
-	<div class="portfolio" id="gallery">
-		<div class="container">
-			<div class="agileits-title"> 
-				<h3>Kiot</h3> 
-			</div>
-			<ul class="simplefilter w3layouts agileits">
-				<li class="active w3layouts agileits" data-filter="all">All</li>
-				<li class="w3layouts agileits" data-filter="1">Tầng 1</li>
-				<li class="w3layouts agileits" data-filter="2">Tầng 2</li>
-				<li class="w3layouts agileits" data-filter="3">Tầng 3</li>
-			</ul>
-
-			<div class="filtr-container w3layouts agileits">
-			<?php 
-			$kiot = geatallKiotbyid_floor(1);
-			$count = count($kiot);
-			for ($i = 0; $i< $count ; $i++){
-
-				$ID_k = $kiot[$i]['ID_k'];
-								
-				$name_pro = $kiot[$i]['name_k'];
-				
-				$img = $kiot[$i]['image'];
-
-				$description = $kiot[$i]['description'];
-				
-				$id_floor = $kiot[$i]['id_floor'];
-
-			?>
-
-				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1" data-sort="Busy streets">
-					<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-						<figure>
-							<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
-							<figcaption>
-							<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<?php } ?>
-
-			<?php 
-			$kiot = geatallKiotbyid_floor(2);
-			$count = count($kiot);
-			for ($i = 0; $i< $count ; $i++){
-
-				$ID_k = $kiot[$i]['ID_k'];
-								
-				$name_pro = $kiot[$i]['name_k'];
-				
-				$img = $kiot[$i]['image'];
-
-				$id_floor = $kiot[$i]['id_floor'];
-
-				$description = $kiot[$i]['description'];
-
-			?>
-
-				<div class="filtr-item w3layouts agileits portfolio-t" data-category="2" data-sort="Busy streets">
-					<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-						<figure>
-							<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
-							<figcaption>
-							<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<?php } ?>
-
-							<?php 
-			$kiot = geatallKiotbyid_floor(3);
-			$count = count($kiot);
-			for ($i = 0; $i< $count ; $i++){
-
-				$ID_k = $kiot[$i]['ID_k'];
-								
-				$name_pro = $kiot[$i]['name_k'];
-				
-				$img = $kiot[$i]['image'];
-
-				$id_floor = $kiot[$i]['id_floor'];
-
-				$description = $kiot[$i]['description'];
-
-			?>
-
-				<div class="filtr-item w3layouts agileits portfolio-t" data-category="3" data-sort="Busy streets">
-					<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-						<figure>
-							<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
-							<figcaption>
-								<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<?php } ?>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-		
-	<!-- //portfolio -->
 	<!-- mail -->
 	<div class="mail" id="mail">
 		<div class="container">
