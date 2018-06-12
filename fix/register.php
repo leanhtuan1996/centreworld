@@ -81,9 +81,16 @@ $data = array(
 
   <div class="register-box-body">
     <p class="login-box-msg">Đăng ký thành viên mới</p>
+    <?php if(isset($error['email'])) { ?>
+        <?php show_error($error, 'email') ?>
+    <?php }  
+    ?>
+<?php if(isset($error['addUser'])) { ?>
+    <?php show_error($error, 'addUser') ?>
+<?php }  
+?>
 
-
-    <form id="signup-form" role="form" method="POST" action="" >
+  <form action="" method="POST"enctype="multipart/form-data" class="form-horizontal row-fluid"> 
       <div class="form-group has-feedback">
       <div class="form-group"><input type="text" class="form-control"  value="" name="name" placeholder="Họ và tên(*)" required></div>
         <span class="ion ion-person form-control-feedback "></span>
