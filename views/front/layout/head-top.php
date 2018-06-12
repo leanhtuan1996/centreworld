@@ -16,7 +16,7 @@
 					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						<nav>
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="?m=common&a=info" class="scroll"><?php
+								<li class="active"><a href="?m=common&a=info"><?php
 								$user = session_get('user');
 								echo $user ['name'];
 								?></a></li>
