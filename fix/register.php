@@ -94,15 +94,12 @@ $data = array(
   <form action="" method="POST"enctype="multipart/form-data" class="form-horizontal row-fluid"> 
       <div class="form-group has-feedback">
       <div class="form-group"><input type="text" class="form-control"   name="name"  value= "" placeholder="Họ và tên(*)" required></div>
-        <span class="ion ion-person form-control-feedback "></span>
       </div>
       <div class="form-group has-feedback">
       <div class="form-group"><input type="text" class="form-control" name="email"  value= "" placeholder="Email(*)" required></div>
-        <span class="ion ion-email form-control-feedback "></span>
       </div>
       <div class="form-group has-feedback">
       <div class="form-group"><input type="password" class="form-control"  name="password"  value= "" placeholder="Mật khẩu(*)" required></div>
-        <span class="ion ion-locked form-control-feedback "></span>
       </div>
       <div class="row">
         <div class="col-12">
