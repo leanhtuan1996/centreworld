@@ -81,14 +81,6 @@ $data = array(
 
   <div class="register-box-body">
     <p class="login-box-msg">Đăng ký thành viên mới</p>
-    <?php if(isset($error['email'])) { ?>
-        <?php show_error($error, 'email') ?>
-    <?php }  
-    ?>
-<?php if(isset($error['addUser'])) { ?>
-    <?php show_error($error, 'addUser') ?>
-<?php }  
-?>
 
 
     <form id="signup-form" role="form" method="POST" action="" >
