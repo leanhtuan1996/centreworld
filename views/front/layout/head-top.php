@@ -16,18 +16,16 @@
 					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						<nav>
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="index.html">Trang chủ</a></li>
-								<li><a href="#about" class="scroll">Giới thiệu</a></li>
-								<li><a href="#markets" class="scroll">Dịch vụ</a></li>
-								<li><a href="#team" class="scroll">Tin tức nhanh</a></li>
-								<li><a href="#testimonial" class="scroll">Tuyển dụng</a></li>
-								<li><a href="#gallery" class="scroll">Kiot</a></li>
-								<li><a href="#mail" class="scroll">Liên hệ</a></li>
-								<li><a href="#mail" class="scroll"><?php
+								<li class="active"><a href="?m=common&a=info" class="scroll"><?php
 								$user = session_get('user');
 								echo $user ['name'];
 								?></a></li>
-								<li><a href="?m=common&a=info">Tài khoản</a></li>
+								<li><a href="#testimonial" class="scroll">Tuyển dụng</a></li>
+								<li><a href="#gallery" class="scroll">Kiot</a></li>
+								<li><a href="#about" class="scroll">Giới thiệu</a></li>
+								<li><a href="#markets" class="scroll">Dịch vụ</a></li>
+								<li><a href="#team" class="scroll">Tin tức nhanh</a></li>
+								<li><a href="#mail" class="scroll">Liên hệ</a></li>
 							</ul>
 						</nav>
 					</div>
