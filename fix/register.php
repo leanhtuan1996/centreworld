@@ -55,18 +55,18 @@ $email =input_post('email');
 $password = md5(input_post('password'));
 $name =input_post('name');
 
-$user_add = array(
+$data = array(
 	'email' => $email,
 	'password' => $password,
 	'name' => $name,
 
 );
-    echo "<script type='text/javascript'>alert('$user_add');</script>";
+    echo "<script type='text/javascript'>alert('$data[0]');</script>";
 
-	$error = db_user_validate($user_add);
+	$error = db_user_validate($data);
 
 	if(!$error_add){
-		$error_add = addUser($user_add);
+		$error_add = addUser($data);
 	}
 }
 	
