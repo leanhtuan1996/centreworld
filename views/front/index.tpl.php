@@ -137,51 +137,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //about --> 
-		<!-- team -->
-		<div class="team" id="team" style="padding-bottom: 200px;">
-			<div class="container">
-				<div class="agileits-title"> 
-					<h3>Tin tức nhanh</h3> 
-				</div>
-				<div class="agileits-team-grids">
-					<div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
-						<div class="team-info">
-							<img src="images/t1.jpg" alt="">
-							<div class="team-caption"> 
-								<h3>SPECIAL OFFERS</h3>
-								<ul>
-								</ul>
-							</div>
-						</div>
-								<p class="text-center">Nằm trong chuỗi các sự kiện tri ân Quý khách hàng, Giovanni trân trọng mang tới chương trình SPECIAL OFFERS với những ưu đãi hấp dẫn. Vậy bạn đã biết chuỗi các sự kiện tri ân Quý khách hàng chưa? Hãy cùng khám phá chuỗi các sự kiện tri ân Quý khách hàng nhé!</p>
-					</div>
-					<div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
-						<div class="team-info">
-							<img src="images/t2.jpg" alt="">
-							<div class="team-caption"> 
-								<h3>KHAI TRƯƠNG GIAN HÀNG H&M </h3>
-								<ul>
-								</ul>
-							</div>
-						</div>
-								<p class="text-center">Là một trong những thương hiệu đình đám với giá cả khá là bình dân H&M sẽ được ra mắt vào thời gian tới. Với không gian của gian hàng rộng rãi có thể trưng bày nhiều sản phầm để quý khách có thể lựa chọn. Với việc khai trương sẽ có những phần quà hấp dẫn giành tặng quý khách hàng!</p>
-					</div>
-				  <div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
-						<div class="team-info">
-							<img src="images/t3.jpg" alt="">
-							<div class="team-caption"> 
-								<h3>VUI XUÂN ĐẮC LỘC ĐÓN ƯU ĐÃI NGẬP TRÀN</h3>
-								<ul>
-								</ul>
-							</div>
-						</div>
-								<p class="text-center">Tết sung túc là khi gia đình hạnh phúc, thuận hòa, là khi xung quanh ngập sắc hoa tươi, là khi gửi trao những lời chúc xuân ý nghĩa. Hiểu được điều đó Tết Mậu Tuất 2018, Centre World sẽ tái hiện khung cảnh HỘI CHỢ XUÂN ĐẮC LỘC với hàng loạt những décor đậm đà sắc xuân!</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
-		<!-- //team -->
 		<!-- testimonial -->
 		<div class="jarallax testimonial" id="testimonial">
 			<div class="testimonial-dot">
@@ -350,6 +305,52 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 			
 		<!-- //portfolio -->
+		<!-- team -->
+		<div class="team" id="team" style="padding-bottom: 200px;">
+			<div class="container">
+				<div class="agileits-title"> 
+					<h3>Tin tức nhanh</h3> 
+				</div>
+				<div class="agileits-team-grids">
+					<div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
+						<div class="team-info">
+							<img src="images/t1.jpg" alt="">
+							<div class="team-caption"> 
+								<h3>SPECIAL OFFERS</h3>
+								<ul>
+								</ul>
+							</div>
+						</div>
+								<p class="text-center">Nằm trong chuỗi các sự kiện tri ân Quý khách hàng, Giovanni trân trọng mang tới chương trình SPECIAL OFFERS với những ưu đãi hấp dẫn. Vậy bạn đã biết chuỗi các sự kiện tri ân Quý khách hàng chưa? Hãy cùng khám phá chuỗi các sự kiện tri ân Quý khách hàng nhé!</p>
+					</div>
+					<div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
+						<div class="team-info">
+							<img src="images/t2.jpg" alt="">
+							<div class="team-caption"> 
+								<h3>KHAI TRƯƠNG GIAN HÀNG H&M </h3>
+								<ul>
+								</ul>
+							</div>
+						</div>
+								<p class="text-center">Là một trong những thương hiệu đình đám với giá cả khá là bình dân H&M sẽ được ra mắt vào thời gian tới. Với không gian của gian hàng rộng rãi có thể trưng bày nhiều sản phầm để quý khách có thể lựa chọn. Với việc khai trương sẽ có những phần quà hấp dẫn giành tặng quý khách hàng!</p>
+					</div>
+				  <div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
+						<div class="team-info">
+							<img src="images/t3.jpg" alt="">
+							<div class="team-caption"> 
+								<h3>VUI XUÂN ĐẮC LỘC ĐÓN ƯU ĐÃI NGẬP TRÀN</h3>
+								<ul>
+								</ul>
+							</div>
+						</div>
+								<p class="text-center">Tết sung túc là khi gia đình hạnh phúc, thuận hòa, là khi xung quanh ngập sắc hoa tươi, là khi gửi trao những lời chúc xuân ý nghĩa. Hiểu được điều đó Tết Mậu Tuất 2018, Centre World sẽ tái hiện khung cảnh HỘI CHỢ XUÂN ĐẮC LỘC với hàng loạt những décor đậm đà sắc xuân!</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!-- //team -->
+	
 	<!-- markets -->
 	<div class="markets" id="markets">
 		<div class="container">
@@ -614,18 +615,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 		</script>
 	<!-- //PopUp-Box-JavaScript -->
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/595da06950fd5105d0c8428c/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
 </body>
 </html>
