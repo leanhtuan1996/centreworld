@@ -92,15 +92,15 @@ $data = array(
 
   <form action="" method="POST"enctype="multipart/form-data" class="form-horizontal row-fluid"> 
       <div class="form-group has-feedback">
-      <div class="form-group"><input type="text" class="form-control"  value="" name="name" placeholder="Họ và tên(*)" required></div>
+      <div class="form-group"><input type="text" class="form-control"  value="" name="name" required></div>
         <span class="ion ion-person form-control-feedback "></span>
       </div>
       <div class="form-group has-feedback">
-      <div class="form-group"><input type="text" class="form-control" value="" name="email" placeholder="Email(*)" required></div>
+      <div class="form-group"><input type="text" class="form-control" value="" name="email" required></div>
         <span class="ion ion-email form-control-feedback "></span>
       </div>
       <div class="form-group has-feedback">
-      <div class="form-group"><input type="password" class="form-control" value="" name="password" placeholder="Mật khẩu(*)" required></div>
+      <div class="form-group"><input type="password" class="form-control" value="" name="password"  required></div>
         <span class="ion ion-locked form-control-feedback "></span>
       </div>
       <div class="row">
