@@ -20,6 +20,7 @@
 								$user = session_get('user');
 								echo $user ['name'];
 								?></a></li>
+									<li class="active"><a href="?m=common&a=info">Trang chủ</a></li>
 								<li><a href="#testimonial" class="scroll">Tuyển dụng</a></li>
 								<li><a href="#gallery" class="scroll">Kiot</a></li>
 								<li><a href="#about" class="scroll">Giới thiệu</a></li>
