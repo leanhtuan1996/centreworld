@@ -23,11 +23,17 @@
 								<li><a href="#testimonial" class="scroll">Tuyển dụng</a></li>
 								<li><a href="#gallery" class="scroll">Kiot</a></li>
 								<li><a href="#mail" class="scroll">Liên hệ</a></li>
-								<li><a href="#mail" class="scroll"><?php
-								$id = isset($_GET['id']) ? $_GET['id'] : '';    	
-								$user = getUserById($id);
-								echo $user['name'];
-								?></a></li>
+								<li><a href="#mail" class="scroll">			
+						<?php 
+						include_once 'libraries/session.php';
+			
+						if(session_get('user')){
+						$user = session_get('user');
+						if($user['lever'] == 1){
+							echo '<li><a href="admin">Trang quản trị</a></li>';
+						}
+						}
+						?></a></li>
 								<li><a href="?m=common&a=info">Tài khoản</a></li>
 							</ul>
 						</nav>
