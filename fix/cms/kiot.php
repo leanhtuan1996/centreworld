@@ -15,8 +15,8 @@
             </div>
 		  <thead>
 			  <tr>
-				  <th>Tên Kiot</th>
-				  <th>Miêu tả</th>
+				  <th>Vị trí kiot</th>
+				  <th>Tên thương hiệu</th>
 				  <th>Giá</th>
          		  <th>Tên tầng</th>
          		  <th>Tình trạng</th>
@@ -274,20 +274,20 @@
                                                                     <form action="#">
                                                                         <div class="form-body overflow-hide">
                                                                         <div class="form-group">
-                                                                                    <label class="control-label mb-10" for="name_add">name</label>
+                                                                                    <label class="control-label mb-10" for="name_add">Vị trí kiot</label>
                                                                                     <div class="input-group">
                                                                                         <input type="text" name ="name_k" class="form-control" value="" required>
                                                                                     </div>
                                                                                 </div>
                                                                             <div class="form-group">
-                                                                                    <label class="control-label mb-10" for="price_add">price</label>
+                                                                                    <label class="control-label mb-10" for="price_add">Giá</label>
                                                                                     <div class="input-group">
                                                                                         <input type="text" name ="price" class="form-control" id="price_add" value="" required>
                                                                                     </div>
                                                                                 </div>
 
                                                                             <div class="form-group">
-                                                                                <label class="control-label mb-10" for="description_add">description</label>
+                                                                                <label class="control-label mb-10" for="description_add">Tên thương hiệu</label>
                                                                                 <div class="input-group">
                                                                  
                                                                                     <input type="phone" name="description" class="form-control" id="price_add" value=""required> 
@@ -297,7 +297,7 @@
                                                                             <div class="form-group"	>			 
                                                                             <label>Floor</label>
                                                                             <select class="form-control" name="sltParent">
-                                                                                <option name ="id_floor" value="1">Shopping Area</option><option name ="id_floor" value="2">Food Court</option><option name ="id_floor" value="3">Play Area</option></select>
+                                                                                <option name ="id_floor" value="1">Khu mua sắm</option><option name ="id_floor" value="2">Khu ăn uống</option><option name ="id_floor" value="3">Khu vui chơi</option></select>
                                                                         </div>
                                                                         <div class="controls">
 						                                                              	<input type="file" name="fImg"class="form-control" required="" aria-invalid="false"> <div class="help-block"></div></div>		
