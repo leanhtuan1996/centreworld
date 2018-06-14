@@ -13,16 +13,16 @@
         }else{
             $image_add = "customer/$image_ori";
         }
-          $kiot_add = array(
+          $data = array(
               'name_k' => $name_k,
               'price' => $price,
               'description' => $description,
               'id_floor' => $id_floor,
               'image' => $image_add,
           );
-          $error = db_kiot_validate($kiot_add);
+          $error = db_kiot_validate($data);
           if(!$error){
-              $error = addkiot($kiot_add);  
+              $error = addkiot($data);  
               move_uploaded_file($_FILES['fImg']['tmp_name'], "../customer/$image_ori");
           }
         //   echo '<script language="javascript">';
