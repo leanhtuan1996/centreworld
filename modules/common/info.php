@@ -37,15 +37,7 @@ $data = array(
 	}
 }
 
-if(is_submit('pass')){
-	 $password = md5(input_post('password'));
 
-	 $pass= array (
-	'password' => $password,
-
-	 );
-	 resetUser($pass);
-}
 if(session_get('user')){
 
 	$id = session_get('user')['id'];
@@ -54,6 +46,17 @@ if(session_get('user')){
 
 	$user = getUserById($id);
 	$kiot = getkiottById( $contract['ID_k']);
+
+	if(is_submit('pass')){
+		$password = md5(input_post('password'));
+   
+		$pass= array (
+	   'password' => $password,
+		'id' => $id,
+   
+		);
+		resetUser($pass);
+   }
 
 include_once 'views/front/info.tpl.php'; 
 }
