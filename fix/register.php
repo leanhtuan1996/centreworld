@@ -41,10 +41,9 @@ include_once '../libraries/helper.php';
 include_once '../libraries/database.php';
 include_once '../libraries/session.php';
 include_once '../models/user.php';
-if(session_get('user')){	
-	
-	redirect('index.php');	
-}
+include_once '../models/role.php';
+
+
 
 $error = array();
 
