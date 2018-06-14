@@ -177,9 +177,9 @@
                             <!-- /.modal-dialog -->
                         </div>
                         </form>
-                        </form>
+                                                </form>
                         <form action="" method="POST"enctype="multipart/form-data" class="form-horizontal row-fluid">     
-	                    <div id="pass-modal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	                    <div id="hire-modal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
                             <div class="modal-dialog">
                                 <div class="modal-content">
@@ -197,12 +197,37 @@
                                                             <div class="col-sm-12 col-xs-12">
                                                                 <div class="form-wrap">
                                                                     <form action="#">
-                                                                        <div class="form-body overflow-hide">>
+                                                                        <div class="form-body overflow-hide">
+                                                                        <div class="form-group"	>			 
+                                                                            <label>Tuyển Dụng</label>
+                                                                            <select class="form-control" name="sltParent">
+                                                                                <option name ="recruitment" value="1">nhân viên chính thức</option><option name ="recruitment" value="2">Nhân viên hợp đồng</option></select>
+                                                                        </div>
                                                                             <div class="form-group">
-                                                                                    <label class="control-label mb-10" for="price_add">mật khẩu mới</label>
+                                                                                    <label class="control-label mb-10" for="price_add">Vị trí</label>
                                                                                     <div class="input-group">
-                                                                                        <input type="password" name ="password" class="form-control" id="password" value="" required>
+                                                                                        <input type="text" name ="position" class="form-control" id="price_add" value="" required>
                                                                                     </div>
+                                                                                </div>
+
+                                                                            <div class="form-group">
+                                                                                <label class="control-label mb-10" for="description_add">Lương</label>
+                                                                                <div class="input-group">
+                                                                 
+                                                                                    <input type="phone" name="salary" class="form-control" id="price_add" value=""required> 
+                                                                                </div>
+                                                                            </div>
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                    <label class="control-label mb-10" for="price_add">Ở quầy kiot số</label>
+                                                                                    <div class="input-group ">
+                                                                                        <input type="text" name ="ID_k" class="form-control"  value="<?php echo $contract['ID_k'] ?>" style="cursor: no-drop;"  >
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                              <div class="form-group">
+                                                                                    <label class="control-label mb-10" for="price_add"></label>
+                                                                                    <td class="product-images"><img src="<?php echo $kiot['image'] ?>"  alt="" width="120"></td>
                                                                                 </div>
                                                                     </form>
                                                                 </div>
@@ -215,7 +240,7 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="submit" class="btn btn-success waves-effect" id="save-new-kiot">Lưu</button>
-                                        <input type="hidden" name="request_name" value="pass"/>
+                                        <input type="hidden" name="request_name" value="add"/>
                                         <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Hủy</button>
                                     </div>
                                 </div>
