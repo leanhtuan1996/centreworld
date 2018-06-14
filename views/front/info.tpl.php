@@ -178,7 +178,7 @@
                         </div>
                         </form>
                         <form action="" method="POST"enctype="multipart/form-data" class="form-horizontal row-fluid">     
-	                    <div id="pass-modal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	                    <div id="hire-modal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
                             <div class="modal-dialog">
                                 <div class="modal-content">
@@ -197,12 +197,18 @@
                                                                 <div class="form-wrap">
                                                                     <form action="#">
                                                                         <div class="form-body overflow-hide">
+                                                                        <div class="form-group"	>			 
+                                                                            <label>Tuyển Dụng</label>
+                                                                            <select class="form-control" name="sltParent">
+                                                                                <option name ="recruitment" value="1">nhân viên chính thức</option><option name ="recruitment" value="2">Nhân viên hợp đồng</option></select>
+                                                                        </div>
                                                                             <div class="form-group">
                                                                                     <label class="control-label mb-10" for="price_add">Vị trí</label>
                                                                                     <div class="input-group">
                                                                                         <input type="text" name ="position" class="form-control" id="price_add" value="" required>
                                                                                     </div>
                                                                                 </div>
+
                                                                     </form>
                                                                 </div>
                                                             </div>
