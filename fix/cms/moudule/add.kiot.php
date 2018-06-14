@@ -32,15 +32,15 @@
     ?>
                 	              <!-- SHOW ERROR -->
                     <?php if(isset($error_add['price'])) { ?>
-                            <?php show_error($error, 'price') ?>
+                            <?php show_error($error_add, 'price') ?>
                             <?php }  
                             ?>
                     <?php if(isset($error_add['description'])) { ?>
-                            <?php show_error($error, 'description') ?>
+                            <?php show_error($error_add, 'description') ?>
                             <?php }  
                             ?>
                     <?php if(isset($error_add['addkiot'])) { ?>
-                            <?php show_error($error, 'addkiot') ?>
+                            <?php show_error($error_add, 'addkiot') ?>
                             <?php }  
                             ?>
                             <?php if(isset($error_add['id_floor'])) { ?>
