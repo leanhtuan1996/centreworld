@@ -197,11 +197,6 @@
                                                                 <div class="form-wrap">
                                                                     <form action="#">
                                                                         <div class="form-body overflow-hide">
-                                                                        <div class="form-group"	>			 
-                                                                            <label>Thay đổi mật khẩu</label>
-                                                                            <select class="form-control" name="sltParent">
-                                                                                <option name ="recruitment" value="1">Nhân viên chính thức</option><option name ="recruitment" value="2">Nhân viên hợp đồng</option></select>
-                                                                        </div>
 
                                                                             <div class="form-group">
                                                                                 <label class="control-label mb-10" for="description_add">Lương</label>
@@ -211,12 +206,6 @@
                                                                                 </div>
                                                                             </div>
                                                                             </div>
-                                                                            <div class="form-group">
-                                                                                    <label class="control-label mb-10" for="price_add">Ở quầy kiot số</label>
-                                                                                    <div class="input-group ">
-                                                                                        <input type="text" name ="ID_k" class="form-control"  value="<?php echo $contract['ID_k'] ?>" style="cursor: no-drop;"  >
-                                                                                    </div>
-                                                                                </div>
                                                                     </form>
                                                                 </div>
                                                             </div>
