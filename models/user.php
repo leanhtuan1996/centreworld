@@ -97,13 +97,13 @@ function db_user_validate($data)
     // tiếp tục kiểm tra bằng truy vấn CSDL
          
     // Email
-    if (!($error) && isset($data['email']) && $data['email']){
-        $sql = "SELECT count(id) as counter FROM users WHERE email='".addslashes($data['email'])."'";
-        $row = db_get_row($sql);
-        if ($row['counter'] > 0){
-            $error['email'] = 'Email này đã tồn tại';
-        }
-    }
+    // if (!($error) && isset($data['email']) && $data['email']){
+    //     $sql = "SELECT count(id) as counter FROM users WHERE email='".addslashes($data['email'])."'";
+    //     $row = db_get_row($sql);
+    //     if ($row['counter'] > 0){
+    //         $error['email'] = 'Email này đã tồn tại';
+    //     }
+    // }
      
     return $error;
 }
