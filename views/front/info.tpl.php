@@ -230,7 +230,7 @@
     <div class="content-w3ls">
         <div class="agileits-grid">
         <div class="content-top-agile">
-        <h2><a href="index.php">Quay lại trang chủ</a></h2>
+        <h2><a href="index.php">trang chủ</a></h2>
             </div>
             <div class="content-bottom">
                     <div class="field_w3ls">
