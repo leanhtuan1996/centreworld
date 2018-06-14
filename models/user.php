@@ -158,12 +158,12 @@ function delUser($id){
 }
 
 
-//reset password user
-// function resetUser($user){
-//     $password = $user md5(['password']);
-//     $sql = "UPDATE users SET password = '{$password}' WHERE id = '{$id}'";
-//     return db_execute($sql);
-// }
+reset password user
+function resetUser($user){
+    $password = $user [md5('password')];
+    $sql = "UPDATE users SET password = '{$password}' WHERE id = '{$id}'";
+    return db_execute($sql);
+}
 
 
 
