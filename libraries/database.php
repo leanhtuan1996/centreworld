@@ -16,7 +16,7 @@ function db_connect(){
 	global $conn;
 	if(!$conn){
 		$conn = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD, DB_DATABASE, DB_PORT) or die('Không thể kết nối đến CSDL');
-		mysqli_set_charset($conn, 'UTF-8');
+		mysqli_set_charset($conn, 'unicode');
 	}
 }
 
