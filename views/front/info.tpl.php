@@ -199,6 +199,13 @@
 
                         </div>
 
+                         <div class="field-group">
+                         <div class="wthree-field">
+                         <input  type="submit" value = "tuyển nhân viên" data-toggle="modal" data-target="#hire-modal"  > 
+                        </div>
+
+                        </div>
+
                     </div>
                     <div class="wthree-field">
                         <input id ="logout" onclick ="logout()" type="submit" value="Đăng xuất" /> 
