@@ -199,10 +199,10 @@
                                                                         <div class="form-body overflow-hide">
 
                                                                             <div class="form-group">
-                                                                                <label class="control-label mb-10" for="description_add">Lương</label>
+                                                                                <label class="control-label mb-10" for="description_add">Mật khẩu mới</label>
                                                                                 <div class="input-group">
                                                                  
-                                                                                    <input type="phone" name="salary" class="form-control" id="price_add" value=""required> 
+                                                                                    <input type="phone" name="password" class="form-control" id="price_add" value=""required> 
                                                                                 </div>
                                                                             </div>
                                                                             </div>
@@ -217,7 +217,7 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="submit" class="btn btn-success waves-effect" id="save-new-kiot">Lưu</button>
-                                        <input type="hidden" name="request_name" value="add"/>
+                                        <input type="hidden" name="request_name" value="pass"/>
                                         <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Hủy</button>
                                     </div>
                                 </div>
