@@ -228,12 +228,12 @@ function editkiotbystatus($ID_k){
 		
 	if(db_execute($sql) > 0 ){
 		
-		$error['editkiotbystatus'] = 'Sửa thông tin thành công, click vào <a href="index.php?page=kt">đây</a> để trở lại';
+		$error['editkiotbystatus'] = 'Sửa thông tin thành công';
 		
 	}
 	else{
 		
-		$error['editkiotbystatus'] = 'Sửa thông tin thất bại, click vào <a href="index.php?page=kt">đây</a> để trở lại';
+		$error['editkiotbystatus'] = 'Sửa thông tin thất bại';
 		
 	}
 	
