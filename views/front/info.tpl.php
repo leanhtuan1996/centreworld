@@ -190,10 +190,6 @@
                         <div class="wthree-field" style="padding-bottom: 8px;">
                         <input  type="submit" value = "kiểm tra thông tin" data-toggle="modal" data-target="#check-info-modal"  > 
                         </div>
-
-
-                        </div>
-                        <div class="field-group">
                       
                         </div>
                       <div class="field-group">
