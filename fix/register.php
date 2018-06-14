@@ -67,7 +67,7 @@ $data = array(
 		$error = addUser($data);
   }
   echo '<script language="javascript">';
-  echo 'window.location.href = "index.php?page=users" Đăng ký thành công !';
+  echo 'window.location.href = "index.php?page=users"';
   echo '</script>';
   
 }
