@@ -89,7 +89,7 @@
              <div class="row">
                <div class="col-md-6">
                  <div class="form-group">
-                   <label for="location3">Select Floor :</label>
+                   <label for="location3">Vị trí tầng:</label>
                    <select class="custom-select form-control" name="id_floor">
                    <option name ="id_floor" value="1">khu mua sắm</option>
                    <option name ="id_floor" value="2">khu ăn uống</option>
