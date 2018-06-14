@@ -198,16 +198,10 @@
                                                                     <form action="#">
                                                                         <div class="form-body overflow-hide">
                                                                         <div class="form-group"	>			 
-                                                                            <label>Tuyển Dụng</label>
+                                                                            <label>Thay đổi mật khẩu</label>
                                                                             <select class="form-control" name="sltParent">
                                                                                 <option name ="recruitment" value="1">Nhân viên chính thức</option><option name ="recruitment" value="2">Nhân viên hợp đồng</option></select>
                                                                         </div>
-                                                                            <div class="form-group">
-                                                                                    <label class="control-label mb-10" for="price_add">Vị trí</label>
-                                                                                    <div class="input-group">
-                                                                                        <input type="text" name ="position" class="form-control" id="price_add" value="" required>
-                                                                                    </div>
-                                                                                </div>
 
                                                                             <div class="form-group">
                                                                                 <label class="control-label mb-10" for="description_add">Lương</label>
@@ -222,11 +216,6 @@
                                                                                     <div class="input-group ">
                                                                                         <input type="text" name ="ID_k" class="form-control"  value="<?php echo $contract['ID_k'] ?>" style="cursor: no-drop;"  >
                                                                                     </div>
-                                                                                </div>
-
-                                                                                              <div class="form-group">
-                                                                                    <label class="control-label mb-10" for="price_add"></label>
-                                                                                    <td class="product-images"><img src="<?php echo $kiot['image'] ?>"  alt="" width="120"></td>
                                                                                 </div>
                                                                     </form>
                                                                 </div>
