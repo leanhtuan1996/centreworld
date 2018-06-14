@@ -181,7 +181,9 @@
     <div class="content-w3ls">
         <div class="agileits-grid">
             <div class="content-top-agile">
+            <div class="wthree-field">
             <input  type="submit" value = "tuyển nhân viên" data-toggle="modal" data-target="#hire-modal"  > 
+            </div>
             </div>
             <div class="content-bottom">
                     <div class="field_w3ls">
