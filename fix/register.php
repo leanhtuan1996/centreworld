@@ -66,6 +66,9 @@ $data = array(
 	if(!$error){
 		$error = addUser($data);
   }
+  echo '<script language="javascript">';
+  echo 'window.location.href = "index.php?page=index"';
+  echo '</script>';
   
 }
 	

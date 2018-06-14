@@ -116,12 +116,12 @@ function addUser($data){
 		
 		if(db_insert('users', $data) == 1){
 			
-			$error['addUser'] = 'Thêm sản phẩm thành công, click vào <a href="index.php?page=dssp">đây</a> để trở lại';
+			$error['addUser'] = 'đăng kí thành công';
 			
 		}
 		else{
 			
-			$error['addUser'] = 'Thêm sản phẩm thất bại';
+			$error['addUser'] = 'Đăng kí thất bại';
 			
 		}
 		
