@@ -121,7 +121,7 @@ function addUser($data){
 		}
 		else{
 			
-			$error['addUser'] = 'Thêm sản phẩm thất bại, click vào <a href="index.php?page=dssp">đây</a> để trở lại';
+			$error['addUser'] = 'Thêm sản phẩm thất bại';
 			
 		}
 		
