@@ -64,7 +64,7 @@
 							if ($rq ['recruitment'] == 1)
 							{
 							?>
-								 <option selected name = 'recruitment' value = "1">regular employee(full time)	</option>
+								 <option selected name = 'recruitment' value = "1">Nhân viên chính thức	</option>
 								 
 								 
 							<?php							
@@ -72,7 +72,7 @@
 							else 	
 							{				
 							?>
-								 <option selected name = 'recruitment' value = "0">part time employees</option>
+								 <option selected name = 'recruitment' value = "0">Nhân viên hợp đồng</option>
 								 
 								 
 							<?php							

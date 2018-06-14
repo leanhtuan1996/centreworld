@@ -129,7 +129,7 @@
                                                                         <div class="form-group"	>			 
                                                                             <label>Tuyển Dụng</label>
                                                                             <select class="form-control" name="sltParent">
-                                                                                <option name ="recruitment" value="1">regular employee(full time)</option><option name ="recruitment" value="2">Part time employees</option></select>
+                                                                                <option name ="recruitment" value="1">nhân viên chính thức</option><option name ="recruitment" value="2">Nhân viên hợp đồng</option></select>
                                                                         </div>
                                                                             <div class="form-group">
                                                                                     <label class="control-label mb-10" for="price_add">Vị trí</label>

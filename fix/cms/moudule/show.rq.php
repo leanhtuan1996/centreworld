@@ -19,13 +19,13 @@
 							<td><?php
 							 if ($recruitment == 1)
 							{
-								echo 'regular employee(full time) ';
+								echo 'Nhân viên chính thức ';
 							}
 							else
 
 							{
 								
-								echo 	'part time employees';
+								echo 	'Nhân viên hợp đồng';
 						
 							}
 
