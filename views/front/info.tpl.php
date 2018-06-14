@@ -215,7 +215,7 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="submit" class="btn btn-success waves-effect" id="save-new-kiot">Lưu</button>
-                                        <input type="hidden" name="request_name" value="add"/>
+                                        <input type="hidden" name="request_name" value="pass"/>
                                         <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Hủy</button>
                                     </div>
                                 </div>
