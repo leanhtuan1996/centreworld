@@ -61,11 +61,13 @@ $data = array(
 
 );
 
-	$error = db_user_validate($data);
+	// $error = db_user_validate($data);
 
-	if(!$error){
-		$error = addUser($data);
-	}
+	// if(!$error){
+	// 	$error = addUser($data);
+  // }
+  
+  addUser($data);
 }
 	
 
