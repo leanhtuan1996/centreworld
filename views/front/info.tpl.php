@@ -181,7 +181,7 @@
     <div class="content-w3ls">
         <div class="agileits-grid">
             <div class="content-top-agile">
-            <input  type="submit" value = "kiểm tra thông tin" data-toggle="modal" data-target="#check-info-modal"  > 
+                <h2>Centre World</h2>
             </div>
             <div class="content-bottom">
                     <div class="field_w3ls">
@@ -194,8 +194,7 @@
 
                         </div>
                         <div class="field-group">
-                         
-
+                      
                         </div>
                       <div class="field-group">
                          <div class="wthree-field">
