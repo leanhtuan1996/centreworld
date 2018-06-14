@@ -243,10 +243,10 @@
                             <?php show_error($error, 'price') ?>
                             <?php }  
                             ?>
-                    <?php if(isset($error['description'])) { ?>
-                            <?php show_error($error, 'description') ?>
-                            <?php }  
-                            ?>
+<?php if(isset($error['description'])) { ?>
+    <?php show_error($error, 'description') ?>
+<?php }  
+?>
                     <?php if(isset($error['addkiot'])) { ?>
                             <?php show_error($error, 'addkiot') ?>
                             <?php }  
