@@ -81,12 +81,12 @@ $data = array(
 
   <div class="register-box-body">
     <p class="login-box-msg">Đăng ký thành viên mới</p>
-    <?php if(isset($error_add['email'])) { ?>
-        <?php show_error($error_add, 'email') ?>
+    <?php if(isset($error['email'])) { ?>
+        <?php show_error($error, 'email') ?>
     <?php }  
     ?>
-<?php if(isset($error_add['addUser'])) { ?>
-    <?php show_error($error_add, 'addUser') ?>
+<?php if(isset($error['addUser'])) { ?>
+    <?php show_error($error, 'addUser') ?>
 <?php }  
 ?>
 
