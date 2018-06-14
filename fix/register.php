@@ -36,11 +36,11 @@
 
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-<?php 
+  <?php 
+include_once '../libraries/helper.php';
 include_once '../libraries/database.php';
-include_once '../libraries/role.php'; 
-include_once '../models/user.php';
 include_once '../libraries/session.php';
+include_once '../models/user.php';
 if(session_get('user')){	
 	
 	redirect('index.php');	
@@ -49,7 +49,7 @@ if(session_get('user')){
 $error = array();
 
 if(is_submit('register')){
-
+    // echo "<script type='text/javascript'>alert('$message');</script>";
 //Co ton tai
 $email =input_post('email');
 $password = md5(input_post('password'));
