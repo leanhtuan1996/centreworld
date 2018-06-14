@@ -65,15 +65,15 @@ function db_insert($table, $data = array())
     // Hai biến danh sách fields và values
     $fields = '';
     $values = '';
-    echo "<script type='text/javascript'>alert('$fields');</script>";
-    echo "<script type='text/javascript'>alert('$values');</script>";
+
     // Lặp mảng dữ liệu để nối chuỗi
     foreach ($data as $field => $value){
         $fields .= $field .',';
         $values .= "'".addslashes($value)."',";
      
     }
-     
+    echo "<script type='text/javascript'>alert('$fields');</script>";
+    echo "<script type='text/javascript'>alert('$values');</script>";
     // Xóa ký từ , ở cuối chuỗi
     $fields = trim($fields, ',');
     $values = trim($values, ',');
