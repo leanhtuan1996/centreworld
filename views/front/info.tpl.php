@@ -180,9 +180,6 @@
     <h1 class="title-agile text-center">Thông tin khách hàng</h1>
     <div class="content-w3ls">
         <div class="agileits-grid">
-            <div class="content-top-agile">
-                <h2>Centre World</h2>
-            </div>
             <div class="content-bottom">
                     <div class="field_w3ls">
                         <div class="field-group">
@@ -191,8 +188,6 @@
                         <input  type="submit" value = "kiểm tra thông tin" data-toggle="modal" data-target="#check-info-modal"  > 
                         </div>
 
-
-                        </div>
                         <div class="field-group">
                          
 
@@ -203,7 +198,15 @@
                         </div>
 
                         </div>
-
+                        </div>
+                        <div class="field-group">
+                            
+                            <div class="wthree-field" style="padding-bottom: 8px;">
+                            <input  type="submit" value = "Thay đổi mật khẩu" data-toggle="modal" data-target="#pass-info-modal"  > 
+                            </div>
+    
+    
+                            </div>
                     </div>
                     <div class="wthree-field">
                         <input id ="logout" onclick ="logout()" type="submit" value="Đăng xuất" /> 
