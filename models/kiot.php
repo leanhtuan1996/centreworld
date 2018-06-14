@@ -145,6 +145,13 @@ function db_contract_validate($data)
 		$error['ctID'] = 'ctID không được để trống';
 		
 	}
+	if (!($error) && isset($data['description']) && $data['description']){
+        $sql = "SELECT count(ID_k) as counter FROM kiot WHERE description='".addslashes($data['description'])."'";
+        $row = db_get_row($sql);
+        if ($row['counter'] > 0){
+            $error['description'] = 'thuơng hiệu này đã tồn tại';
+        }
+    }
 	
 	return $error;
 	
