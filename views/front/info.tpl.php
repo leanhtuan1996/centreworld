@@ -177,6 +177,53 @@
                             <!-- /.modal-dialog -->
                         </div>
                         </form>
+                        </form>
+                        <form action="" method="POST"enctype="multipart/form-data" class="form-horizontal row-fluid">     
+	                    <div id="pass-modal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        <h5 class="modal-title" id="myModalLabel"></h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Row -->
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="">
+                                                    <div class="panel-wrapper ">
+                                                        <div class="panel-body pa-0">
+                                                            <div class="col-sm-12 col-xs-12">
+                                                                <div class="form-wrap">
+                                                                    <form action="#">
+                                                                        <div class="form-body overflow-hide">>
+                                                                            <div class="form-group">
+                                                                                    <label class="control-label mb-10" for="price_add">mật khẩu mới</label>
+                                                                                    <div class="input-group">
+                                                                                        <input type="password" name ="password" class="form-control" id="password" value="" required>
+                                                                                    </div>
+                                                                                </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-success waves-effect" id="save-new-kiot">Lưu</button>
+                                        <input type="hidden" name="request_name" value="add"/>
+                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Hủy</button>
+                                    </div>
+                                </div>
+                                <!-- /.modal-content -->
+                            </div>
+                            <!-- /.modal-dialog -->
+                        </div>
+                        </form>
     <h1 class="title-agile text-center">Thông tin khách hàng</h1>
     <div class="content-w3ls">
         <div class="agileits-grid">
@@ -196,7 +243,7 @@
                         </div>
                       <div class="field-group">
                          <div class="wthree-field">
-                         <input  type="submit" value = "tuyển nhân viên" data-toggle="modal" data-target="#hire-modal"  > 
+                         <input  type="submit" value = "thay đổi mật khẩu" data-toggle="modal" data-target="#pass-modal"  > 
                         </div>
 
                         </div>
