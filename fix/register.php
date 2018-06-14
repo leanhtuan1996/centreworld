@@ -68,7 +68,7 @@ $data = array(
   }
   echo '<script language="javascript">';
   echo "<script>alert('Đăng ký thành công !')</script>";
-  echo 'window.location.href = "index.php?page=index"';
+  echo 'window.location.href = "index.php?page=users"';
   echo '</script>';
   
 }
