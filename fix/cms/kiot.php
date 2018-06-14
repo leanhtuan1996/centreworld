@@ -238,6 +238,23 @@
    <?php
       include 'moudule/add.kiot.php'
    ?>
+                   	              <!-- SHOW ERROR -->
+                     <?php if(isset($error['price'])) { ?>
+                            <?php show_error($error, 'price') ?>
+                            <?php }  
+                            ?>
+                    <?php if(isset($error['description'])) { ?>
+                            <?php show_error($error, 'description') ?>
+                            <?php }  
+                            ?>
+                    <?php if(isset($error['addkiot'])) { ?>
+                            <?php show_error($error, 'addkiot') ?>
+                            <?php }  
+                            ?>
+                            <?php if(isset($error['id_floor'])) { ?>
+                            <?php show_error($error, 'id_floor') ?>
+                            <?php }  
+                            ?>
 
                             <div class="modal-dialog">
                                 <div class="modal-content">
