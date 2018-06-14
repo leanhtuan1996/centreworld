@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="vn">
+<html lang="en">
 
 <head>
     <title>Centre World - Trung tâm thương mại</title>

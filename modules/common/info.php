@@ -57,7 +57,7 @@ if(session_get('user')){
 		);
 		resetUser($pass);
 		echo '<script language="javascript">';
-		echo 'alert("message successfully sent")';
+		echo 'alert("Thay đổi mật khẩu thành công")';
 		echo '</script>';
    }
 
