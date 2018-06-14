@@ -1,5 +1,5 @@
 <?php
-      $error_add = array();
+      $error = array();
       if(is_submit('addkiot')){
           //Co ton tai
           $name_k = input_post('name_k');
@@ -20,9 +20,9 @@
               'id_floor' => $id_floor,
               'image' => $image_add,
           );
-          $error_add = db_kiot_validate($kiot_add);
-          if(!$error_add){
-              $error_add = addkiot($kiot_add);  
+          $error = db_kiot_validate($kiot_add);
+          if(!$error){
+              $error = addkiot($kiot_add);  
               move_uploaded_file($_FILES['fImg']['tmp_name'], "../customer/$image_ori");
           }
         //   echo '<script language="javascript">';
@@ -31,19 +31,19 @@
       }
     ?>
                 	              <!-- SHOW ERROR -->
-                    <?php if(isset($error_add['price'])) { ?>
-                            <?php show_error($error_add, 'price') ?>
+                    <?php if(isset($error['price'])) { ?>
+                            <?php show_error($error, 'price') ?>
                             <?php }  
                             ?>
-                    <?php if(isset($error_add['description'])) { ?>
-                            <?php show_error($error_add, 'description') ?>
+                    <?php if(isset($error['description'])) { ?>
+                            <?php show_error($error, 'description') ?>
                             <?php }  
                             ?>
-                    <?php if(isset($error_add['addkiot'])) { ?>
-                            <?php show_error($error_add, 'addkiot') ?>
+                    <?php if(isset($error['addkiot'])) { ?>
+                            <?php show_error($error, 'addkiot') ?>
                             <?php }  
                             ?>
-                            <?php if(isset($error_add['id_floor'])) { ?>
-                            <?php show_error($error_add, 'id_floor') ?>
+                            <?php if(isset($error['id_floor'])) { ?>
+                            <?php show_error($error, 'id_floor') ?>
                             <?php }  
                             ?>
