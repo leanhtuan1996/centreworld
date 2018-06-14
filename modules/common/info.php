@@ -57,7 +57,7 @@ if(session_get('user')){
 		);
 		resetUser($pass);
 		echo '<script language="javascript">';
-		echo 'thay đổi mật khẩu thành công';
+		echo 'alert(thay đổi mật khẩu thành công)';
 		echo '</script>';
    }
 
