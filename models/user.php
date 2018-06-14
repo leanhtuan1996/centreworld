@@ -82,48 +82,54 @@ function getAllUsers()
 }
 
 // Hàm validate dữ liệu bảng User
-// function db_user_validate($data)
-// {
-//     // Biến chứa lỗi
-//     $error = array();
+function db_user_validate($data)
+{
+    // Biến chứa lỗi
+    $error = array();
         
-//     if (isset($data['email']) && filter_var($data['email'], FILTER_VALIDATE_EMAIL) === false){
-//         $error['email'] = 'Email không hợp lệ';
-//     }
+    if (isset($data['email']) && filter_var($data['email'], FILTER_VALIDATE_EMAIL) === false){
+        $error['email'] = 'Email không hợp lệ';
+    }
       
      
-//     /* VALIDATE LIÊN QUAN CSDL */
-//     // Chúng ta nên kiểm tra các thao tác trước có bị lỗi không, nếu không bị lỗi thì mới
-//     // tiếp tục kiểm tra bằng truy vấn CSDL
+    /* VALIDATE LIÊN QUAN CSDL */
+    // Chúng ta nên kiểm tra các thao tác trước có bị lỗi không, nếu không bị lỗi thì mới
+    // tiếp tục kiểm tra bằng truy vấn CSDL
          
-//     // Email
-//     if (!($error) && isset($data['email']) && $data['email']){
-//         $sql = "SELECT count(id) as counter FROM users WHERE email='".addslashes($data['email'])."'";
-//         $row = db_get_row($sql);
-//         if ($row['counter'] > 0){
-//             $error['email'] = 'Email này đã tồn tại';
-//         }
-//     }
+    // Email
+    if (!($error) && isset($data['email']) && $data['email']){
+        $sql = "SELECT count(id) as counter FROM users WHERE email='".addslashes($data['email'])."'";
+        $row = db_get_row($sql);
+        if ($row['counter'] > 0){
+            $error['email'] = 'Email này đã tồn tại';
+        }
+    }
      
-//     return $error;
-// }
+    return $error;
+}
 
 function addUser($data){
     // Biến chứa lỗi
-    $error = array();
-
+	$error = array();
+	
 	if(isset($data)){
+		
 		if(db_insert('users', $data) == 1){
-            
-         $error['addUser'] = 'Đăng kí thành viênthành công, click vào để trở lại';
-
-        }else{
-            $error['addUser'] = 'Đăng kí thành viên thất bại';
-        }
+			
+			$error['addUser'] = 'Thêm sản phẩm thành công, click vào <a href="index.php?page=dssp">đây</a> để trở lại';
+			
+		}
+		else{
+			
+			$error['addUser'] = 'Thêm sản phẩm thất bại, click vào <a href="index.php?page=dssp">đây</a> để trở lại';
+			
+		}
+		
 	}
+	
 	return $error;
+	
 }
-
 function editUser($user){
     $error = array();
     $id = $user['id'];
