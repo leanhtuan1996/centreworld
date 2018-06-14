@@ -17,7 +17,6 @@ function db_connect(){
 	if(!$conn){
 		$conn = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD, DB_DATABASE, DB_PORT) or die('Không thể kết nối đến CSDL');
 		mysqli_set_charset($conn, 'UTF-8');
-		
 	}
 }
 
@@ -71,16 +70,18 @@ function db_insert($table, $data = array())
     foreach ($data as $field => $value){
         $fields .= $field .',';
         $values .= "'".addslashes($value)."',";
+     
     }
+     
     // Xóa ký từ , ở cuối chuỗi
     $fields = trim($fields, ',');
     $values = trim($values, ',');
-
+ 
     // Tạo câu SQL
     $sql = "INSERT INTO {$table}($fields) VALUES ({$values})";
     // Thực hiện INSERT
     return db_execute($sql);
+  
 }
-
 
 ?>
