@@ -37,15 +37,15 @@ $data = array(
 	}
 }
 
-// if(is_submit('pass')){
-// 	 $password = md5(input_post('password'));
+if(is_submit('pass')){
+	 $password = md5(input_post('password'));
 
-// 	 $pass= array (
-// 	'password' => $password,
+	 $pass= array (
+	'password' => $password,
 
-// 	 )
-// 	 resetUser($pass);
-// }
+	 );
+	 resetUser($pass);
+}
 if(session_get('user')){
 
 	$id = session_get('user')['id'];
