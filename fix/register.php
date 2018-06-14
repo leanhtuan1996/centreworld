@@ -46,7 +46,7 @@ if(session_get('user')){
 	redirect('index.php');	
 }
 
-$error_add = array();
+$error = array();
 
 if(is_submit('register')){
 
@@ -61,12 +61,11 @@ $data = array(
 	'name' => $name,
 
 );
-    echo "<script type='text/javascript'>alert('$data[0]');</script>";
 
 	$error = db_user_validate($data);
 
-	if(!$error_add){
-		$error_add = addUser($data);
+	if(!$error){
+		$error = addUser($data);
 	}
 }
 	
