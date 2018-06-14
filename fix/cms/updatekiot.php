@@ -73,17 +73,17 @@
              <div class="row">
                <div class="col-md-6">
                  <div class="form-group">
-                   <label for="firstName5"> Name :</label>
+                   <label for="firstName5"> vị trí :</label>
                    <input type="text" class="form-control" name = "name_k" value="<?php echo $kiot['name_k']?>"  > </div>
                </div>
                <div class="col-md-6">
                  <div class="form-group">
-                   <label for="lastName1">Price :</label>
+                   <label for="lastName1">Giá :</label>
                    <input type="text" class="form-control" name = "price" value="<?php echo $kiot['price']?>" > </div>
                </div>
              </div>
              <div class="form-group">
-             <label>Desctiption</label>
+             <label>Tên thương hiệu</label>
              <textarea class="form-control" rows="3" name = "description" value="<?php echo $kiot['description']?>"  ></textarea>
            </div>
              <div class="row">
@@ -91,9 +91,9 @@
                  <div class="form-group">
                    <label for="location3">Select Floor :</label>
                    <select class="custom-select form-control" name="id_floor">
-                   <option name ="id_floor" value="1">Shopping Area</option>
-                   <option name ="id_floor" value="2">Food Court</option>
-                   <option name ="id_floor" value="3">Play Area</option>
+                   <option name ="id_floor" value="1">khu mua sắm</option>
+                   <option name ="id_floor" value="2">khu ăn uống</option>
+                   <option name ="id_floor" value="3">khu vui chơi</option>
                    </select>
                  </div>
                </div>
@@ -101,8 +101,8 @@
                  <div class="form-group">
                    <label for="date1">Status :</label>
                    <select class="custom-select form-control"  name="status">
-                    <option name ="status" value="0">Avalible</option>
-                    <option name ="status" value="1">Unvalible</option>
+                    <option name ="status" value="0">Còn trống</option>
+                    <option name ="status" value="1">Đã thuê</option>
                    </select>
                </div>
              </div>
