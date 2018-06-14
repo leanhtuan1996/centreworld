@@ -177,7 +177,6 @@
                             <!-- /.modal-dialog -->
                         </div>
                         </form>
-                                                </form>
                         <form action="" method="POST"enctype="multipart/form-data" class="form-horizontal row-fluid">     
 	                    <div id="hire-modal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
