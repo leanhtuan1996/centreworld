@@ -209,28 +209,6 @@
                                                                                     </div>
                                                                                 </div>
 
-<<<<<<< HEAD
-=======
-                                                                            <div class="form-group">
-                                                                                <label class="control-label mb-10" for="description_add">Lương</label>
-                                                                                <div class="input-group">
-                                                                 
-                                                                                    <input type="phone" name="salary" class="form-control" id="price_add" value=""required> 
-                                                                                </div>
-                                                                            </div>
-                                                                            </div>
-                                                                            <div class="form-group">
-                                                                                    <label class="control-label mb-10" for="price_add">Ở quầy kiot số</label>
-                                                                                    <div class="input-group ">
-                                                                                        <input type="text" name ="ID_k" class="form-control"  value="<?php echo $contract['ID_k'] ?>" style="cursor: no-drop;"  >
-                                                                                    </div>
-                                                                                </div>
-
-                                                                                              <div class="form-group">
-                                                                                    <label class="control-label mb-10" for="price_add"></label>
-                                                                                    <td class="product-images"><img src="<?php echo $kiot['image'] ?>"  alt="" width="120"></td>
-                                                                                </div>
->>>>>>> parent of 1401735... 1
                                                                     </form>
                                                                 </div>
                                                             </div>
@@ -250,11 +228,7 @@
                             </div>
                             <!-- /.modal-dialog -->
                         </div>
-<<<<<<< HEAD
-                        </form
-=======
                         </form>
->>>>>>> parent of 1401735... 1
     <h1 class="title-agile text-center">Thông tin khách hàng</h1>
     <div class="content-w3ls">
         <div class="agileits-grid">
