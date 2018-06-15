@@ -71,7 +71,7 @@
                 <div class="progress-bar" style="width: 85%"></div>
               </div>
               <span class="progress-description">
-                  Tổng số kiot: <?php 	echo count($contract); ?>
+                  Tổng số hợp đồng: <?php 	echo count($contract); ?>
                   </span>
             </div>
             <!-- /.info-box-content -->
