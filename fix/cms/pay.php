@@ -70,13 +70,13 @@
               <td class="text-right"><?php
 							 if ($pay['recruitment'] == 1)
 							{
-								echo 'regular employee(full time) ';
+								echo 'Nhân viên chính thức ';
 							}
 							else
 
 							{
 								
-								echo 	'part time employees';
+								echo 	'Nhân viên hợp đồng';
 						
 							}
 
@@ -102,9 +102,7 @@
           <img src="./images/mastercard.png" alt="Mastercard">
           <img src="./images/american-express.png" alt="American Express">
           <img src="./images/paypal2.png" alt="Paypal">
-
-          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-          
+          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">    
           </p>
         </div>
         <!-- /.col -->
