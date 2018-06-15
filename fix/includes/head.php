@@ -39,13 +39,13 @@ $admin = session_get('user_admin');
               <li class="user-body">
                 <div class="row">
                   <div class="col text-center">
-                    <a href="index.php?page=users">Users</a>
+                    <a href="index.php?page=users">Tài khoản</a>
                   </div>
                   <div class="col text-center">
                     <a href="index.php?page=kt">Kiot</a>
                   </div>
                   <div class="col text-center">
-                    <a href="index.html#">Sales</a>
+                    <a href="index.php?page=rq">Tuyển dụng</a>
                   </div>
                 </div>
                 <!-- /.row -->
