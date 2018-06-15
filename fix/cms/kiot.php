@@ -282,7 +282,7 @@
                                                                             <div class="form-group">
                                                                                     <label class="control-label mb-10" for="price_add">Giá</label>
                                                                                     <div class="input-group">
-                                                                                        <input type="text" name ="price" class="form-control" id="price_add" value="" required>
+                                                                                        <input type="text" name ="price" class="form-control" id="test1" oninput="validateNumber(this);" value="" required>
                                                                                     </div>
                                                                                 </div>
 

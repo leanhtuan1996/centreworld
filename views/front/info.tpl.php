@@ -142,7 +142,7 @@
                                                                                 <label class="control-label mb-10" for="description_add">Lương</label>
                                                                                 <div class="input-group">
                                                                  
-                                                                                    <input type="phone" name="salary" class="form-control" id="price_add" value=""required> 
+                                                                                    <input type="phone" name="salary" class="form-control" id="test1" oninput="validateNumber(this);"  value=""required> 
                                                                                 </div>
                                                                             </div>
                                                                             </div>
