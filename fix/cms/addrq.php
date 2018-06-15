@@ -95,7 +95,7 @@
              <div class="col-md-6">
                  <div class="form-group">
                    <label for="lastName1">Phí dịch vụ :</label>
-                   <input type="text" class="form-control" name = "price" value="" > </div>
+                   <input type="text"  id="test1" oninput="validateNumber(this);"  class="form-control" name = "price" value="" > </div>
                </div>                          
              <div class="col-md-6">
                  <div class="form-group">
