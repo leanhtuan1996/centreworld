@@ -60,14 +60,16 @@ if(session_get('user')){
 		if (	$p1 > $p2 )
 		{
 			echo '<script language="javascript">';
-			echo 'nhập lại")';
+			echo 'alert("nhập lại")';
 			echo '</script>';
 		}
+		else{
 		resetUser($pass);
 		
 		echo '<script language="javascript">';
 		echo 'alert("Thay đổi mật khẩu thành công")';
 		echo '</script>';
+		}
    }
 
 include_once 'views/front/info.tpl.php'; 
