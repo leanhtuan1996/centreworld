@@ -56,6 +56,24 @@ if(session_get('user')){
    
 		);
 		resetUser($pass);
+		<script>
+		$(function(){
+		  $("#first, #second").on("keyup", function () {
+			var fst=$("#first").val();
+			var sec=$("#second").val();
+			if (Number(sec)!=Number(fst)) {
+			  alert("Second value should less than first value");
+			return true;
+			}
+			// else
+			// (Number(sec)<Number(fst)) {
+			//   alert("first value should less than second value");
+			// return true;
+			// }
+		
+		  })
+		})
+			</script>
 		echo '<script language="javascript">';
 		echo 'alert("Thay đổi mật khẩu thành công")';
 		echo '</script>';
