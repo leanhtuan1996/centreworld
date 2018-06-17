@@ -303,6 +303,9 @@
             window.location.href= "?m=common&a=logout"
         }
     </script>
+    <script>
+
+    </script>
 
     <script>
     $('#myModal').on('shown.bs.modal', function () {

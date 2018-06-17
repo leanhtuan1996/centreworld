@@ -55,25 +55,26 @@ if(session_get('user')){
 		'id' => $id,
    
 		);
-		echo '<script language="javascript">';
-		echo '$(function(){'
-		echo   '$("#first, #second").on("keyup", function () {'
-		echo	'var fst=$("#first").val();'
-		echo '	var sec=$("#second").val();'
-		echo 'if (Number(sec)!=Number(fst)) {'	
-		echo 'alert("yêu cầu nhập lại");'	  
-		echo 'return true;'	
-		echo '}'	
-		echo'  })'
-		echo'	})'
-		echo '</script>';
+		echo"<script language='javascript'>
+		$(function(){
+			$('#first, #second").on("keyup', function () {
+			  var fst=$('#first').val();
+			  var sec=$('#second').val();
+			  if (Number(sec)!=Number(fst)) {
+				alert('yêu cầu nhập lại');
+			  return true;
+			  }
+			})
+		  })
+
+		</script>
+		";
 
 		resetUser($pass);
 		
 		echo '<script language="javascript">';
 		echo 'alert("Thay đổi mật khẩu thành công")';
 		echo '</script>';
-		
    }
 
 include_once 'views/front/info.tpl.php'; 
