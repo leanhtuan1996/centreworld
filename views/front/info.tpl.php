@@ -312,15 +312,14 @@ $(function(){
       alert("Second value should less than first value");
     return true;
     }
-    else
-    (Number(sec)<Number(fst)) {
-      alert("first value should less than second value");
-    return true;
-    }
+    // else
+    // (Number(sec)<Number(fst)) {
+    //   alert("first value should less than second value");
+    // return true;
+    // }
 
   })
 })
-
     </script>
 
     <script>
