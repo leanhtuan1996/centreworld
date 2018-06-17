@@ -55,9 +55,8 @@ if(session_get('user')){
 		'id' => $id,
    
 		);
-		$p1 = isset($_GET['password']) ? $_GET['password'] : '';    
+		$p1 = isset($_GET['first']) ? $_GET['first'] : '';    
 		$p2 =  isset($_GET['second']) ? $_GET['second'] : '';   
-		echo "<script type='text/javascript'>alert(' $p1');</script>";	
 		if (	$p1 < $p2 )
 		{
 			echo '<script language="javascript">';
