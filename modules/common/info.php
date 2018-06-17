@@ -55,9 +55,10 @@ if(session_get('user')){
 		'id' => $id,
    
 		);
-		$_GET["first"]
-		$_GET["second"]
-		if (	$_GET["first"] > 	$_GET["second"]){
+		$p1=  $_GET['first'];
+		$p2 =  $_GET['second'];
+		if (	$p1 > $p2 )
+		{
 			echo '<script language="javascript">';
 			echo 'nhập lại")';
 			echo '</script>';
