@@ -38,8 +38,22 @@ $data = array(
 }
 
 
-if(session_get('user')){
+if(session_get('user')){ 
+	?>
+	<script>
+	$(function(){
+		$("#first, #second").on("keyup", function () {
+		  var fst=$("#first").val();
+		  var sec=$("#second").val();
+		  if (Number(sec)!=Number(fst)) {
+			alert("yêu cầu nhập lại");
+		  return true;
+		  }
+		})
+	  })
 
+	</script>
+<?php
 	$id = session_get('user')['id'];
 	$contract = getContract($id);    
         
@@ -55,22 +69,7 @@ if(session_get('user')){
 		'id' => $id,
    
 		);
-		?>
-		<script>
-		$(function(){
-			$("#first, #second").on("keyup", function () {
-			  var fst=$("#first").val();
-			  var sec=$("#second").val();
-			  if (Number(sec)!=Number(fst)) {
-				alert("yêu cầu nhập lại");
-			  return true;
-			  }
-			})
-		  })
 
-		</script>
-
-<?php
 		resetUser($pass);
 		
 		echo '<script language="javascript">';
