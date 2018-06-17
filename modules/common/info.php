@@ -55,7 +55,8 @@ if(session_get('user')){
 		'id' => $id,
    
 		);
-		echo'<script language='javascript'>
+		?>
+		<script language='javascript'>
 		$(function(){
 			$("#first, #second").on("keyup", function () {
 			  var fst=$("#first").val();
@@ -68,8 +69,8 @@ if(session_get('user')){
 		  })
 
 		</script>
-		';
 
+<?php
 		resetUser($pass);
 		
 		echo '<script language="javascript">';
