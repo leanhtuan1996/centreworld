@@ -57,7 +57,7 @@ if(session_get('user')){
 		);
 		$p1 = isset($_GET['first']) ? $_GET['first'] : '';    
 		$p2 =  isset($_GET['second']) ? $_GET['second'] : '';   
-		if (	$p1 < $p2 )
+		if (	$p1 !== $p2 )
 		{
 			echo '<script language="javascript">';
 			echo 'alert("nhập lại")';
