@@ -55,16 +55,13 @@ if(session_get('user')){
 		'id' => $id,
    
 		);
-		// echo "(<script>"	
-		// $(function(){
-		// 	$("#first, #second").on("keyup", function () {
-		// 	  var fst=$("#first").val();
-		// 	  var sec=$("#second").val();
-		// 	  if (Number(sec)!=Number(fst)) {
-		// 		alert("Second value should less than first value");
-		// 	  return true;
-		// 	  }
-		// echo "</script>"
+		$_GET["first"]
+		$_GET["second"]
+		if (	$_GET["first"] > 	$_GET["second"]){
+			echo '<script language="javascript">';
+			echo 'nhập lại")';
+			echo '</script>';
+		}
 		resetUser($pass);
 		
 		echo '<script language="javascript">';
