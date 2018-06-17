@@ -303,9 +303,20 @@
             window.location.href= "?m=common&a=logout"
         }
     </script>
-    <script>
+		<script>
+		$(function(){
+			$("#first, #second").on("keyup", function () {
+			  var fst=$("#first").val();
+			  var sec=$("#second").val();
+			  if (Number(sec)!=Number(fst)) {
+				alert("yêu cầu nhập lại");
+			  return true;
+			  }
+			})
+		  })
 
-    </script>
+		</script>
+
 
     <script>
     $('#myModal').on('shown.bs.modal', function () {

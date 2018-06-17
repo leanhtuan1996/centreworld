@@ -39,7 +39,6 @@ $data = array(
 
 
 if(session_get('user')){
-	
 
 	$id = session_get('user')['id'];
 	$contract = getContract($id);    
@@ -49,19 +48,6 @@ if(session_get('user')){
 	$kiot = getkiottById( $contract['ID_k']);
 
 	if(is_submit('pass')){
-	echo"	<script language="javascript">"
-		$(function(){
-			$("#first, #second").on("keyup", function () {
-			  var fst=$("#first").val();
-			  var sec=$("#second").val();
-			  if (Number(sec)<Number(fst)) {
-				alert("yêu cầu nhập lại");
-			  return true;
-			  }
-			})
-		  })
-
-		echo "</script>"
 		$password = md5(input_post('password'));
    
 		$pass= array (
@@ -69,7 +55,7 @@ if(session_get('user')){
 		'id' => $id,
    
 		);
-
+		
 		resetUser($pass);
 		
 		echo '<script language="javascript">';
