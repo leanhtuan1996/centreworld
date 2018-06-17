@@ -304,23 +304,23 @@
         }
     </script>
     <script>
-$(function(){
-  $("#first, #second").on("keyup", function () {
-    var fst=$("#first").val();
-    var sec=$("#second").val();
-    if (Number(sec)!=Number(fst)) {
-      alert("Second value should less than first value");
-    return true;
-    }
-    // else
-    // (Number(sec)<Number(fst)) {
-    //   alert("first value should less than second value");
-    // return true;
-    // }
+// $(function(){
+//   $("#first, #second").on("keyup", function () {
+//     var fst=$("#first").val();
+//     var sec=$("#second").val();
+//     if (Number(sec)!=Number(fst)) {
+//       alert("Second value should less than first value");
+//     return true;
+//     }
+//     // else
+//     // (Number(sec)<Number(fst)) {
+//     //   alert("first value should less than second value");
+//     // return true;
+//     // }
 
-  })
-})
-    </script>
+//   })
+// })
+//     </script>
 
     <script>
     $('#myModal').on('shown.bs.modal', function () {
