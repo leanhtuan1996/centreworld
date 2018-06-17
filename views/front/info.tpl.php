@@ -202,11 +202,11 @@
                                                                                 <label class="control-label mb-10" for="description_add">Mật khẩu mới</label>
                                                                                 <div class="input-group">
                                                                  
-                                                                                    <input type="phone" name="password" class="form-control" id="first" value=""required> 
+                                                                                    <input type="password" name="password" class="form-control" id="first" value=""required> 
                                                                                 </div>
                                                                                 <div class="input-group">
                                                                  
-                                                                                <input type="phone" name="password" class="form-control" id="second" value=""required> 
+                                                                                <input type="password" name="password" class="form-control" id="second" value=""required> 
                                                                                  </div>
                                                                             </div>
                                                                             </div>
