@@ -55,21 +55,25 @@ if(session_get('user')){
 		'id' => $id,
    
 		);
-		$p1 = isset($_GET['first']) ? $_GET['first'] : '';    
-		$p2 =  isset($_GET['second']) ? $_GET['second'] : '';   
-		if (	$p1 !== $p2 )
-		{
-			echo '<script language="javascript">';
-			echo 'alert("nhập lại")';
-			echo '</script>';
-		}
-		else{
+		echo '<script language="javascript">';
+		echo '$(function(){'
+		echo   '$("#first, #second").on("keyup", function () {'
+		echo	'var fst=$("#first").val();'
+		echo '	var sec=$("#second").val();'
+		echo 'if (Number(sec)!=Number(fst)) {'	
+		echo 'alert("yêu cầu nhập lại");'	  
+		echo 'return true;'	
+		echo '}'	
+		echo'  })'
+		echo'	})'
+		echo '</script>';
+
 		resetUser($pass);
 		
 		echo '<script language="javascript">';
 		echo 'alert("Thay đổi mật khẩu thành công")';
 		echo '</script>';
-		}
+		
    }
 
 include_once 'views/front/info.tpl.php'; 
