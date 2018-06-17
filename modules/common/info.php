@@ -55,7 +55,7 @@ if(session_get('user')){
 		'id' => $id,
    
 		);
-		$p1=  $_GET['first'];
+		$p1 = isset($_GET['first']) ? $_GET['first'] : '';    
 		$p2 =  $_GET['second'];
 		echo "<script type='text/javascript'>alert('$p1');</script>";	
 		if (	$p1 > $p2 )
