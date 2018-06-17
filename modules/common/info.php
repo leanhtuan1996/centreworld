@@ -55,7 +55,7 @@ if(session_get('user')){
 			$("#first, #second").on("keyup", function () {
 			  var fst=$("#first").val();
 			  var sec=$("#second").val();
-			  if (Number(sec)!=Number(fst)) {
+			  if (Number(sec)<Number(fst)) {
 				alert("yêu cầu nhập lại");
 			  return true;
 			  }
