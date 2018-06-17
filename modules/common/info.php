@@ -56,7 +56,7 @@ if(session_get('user')){
    
 		);
 		?>
-		<script language='javascript'>
+		<script>
 		$(function(){
 			$("#first, #second").on("keyup", function () {
 			  var fst=$("#first").val();
