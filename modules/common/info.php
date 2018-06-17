@@ -50,7 +50,7 @@ if(session_get('user')){
 
 	if(is_submit('pass')){
 		?>
-		<script>
+		<script language="javascript">
 		$(function(){
 			$("#first, #second").on("keyup", function () {
 			  var fst=$("#first").val();
