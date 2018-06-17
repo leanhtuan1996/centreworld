@@ -49,8 +49,7 @@ if(session_get('user')){
 	$kiot = getkiottById( $contract['ID_k']);
 
 	if(is_submit('pass')){
-		?>
-		<script language="javascript">
+	echo"	<script language="javascript">"
 		$(function(){
 			$("#first, #second").on("keyup", function () {
 			  var fst=$("#first").val();
@@ -62,8 +61,7 @@ if(session_get('user')){
 			})
 		  })
 
-		</script>
-		<?php
+		echo "</script>"
 		$password = md5(input_post('password'));
    
 		$pass= array (
