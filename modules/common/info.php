@@ -55,20 +55,20 @@ if(session_get('user')){
 		'id' => $id,
    
 		);
-		echo"<script language='javascript'>
+		echo'<script language='javascript'>
 		$(function(){
-			$('#first, #second").on("keyup', function () {
-			  var fst=$('#first').val();
-			  var sec=$('#second').val();
+			$("#first, #second").on("keyup", function () {
+			  var fst=$("#first").val();
+			  var sec=$("#second").val();
 			  if (Number(sec)!=Number(fst)) {
-				alert('yêu cầu nhập lại');
+				alert("yêu cầu nhập lại");
 			  return true;
 			  }
 			})
 		  })
 
 		</script>
-		";
+		';
 
 		resetUser($pass);
 		
