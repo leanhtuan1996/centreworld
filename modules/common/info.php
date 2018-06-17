@@ -38,22 +38,9 @@ $data = array(
 }
 
 
-if(session_get('user')){ 
-	?>
-	<script>
-	$(function(){
-		$("#first, #second").on("keyup", function () {
-		  var fst=$("#first").val();
-		  var sec=$("#second").val();
-		  if (Number(sec)!=Number(fst)) {
-			alert("yêu cầu nhập lại");
-		  return true;
-		  }
-		})
-	  })
+if(session_get('user')){
+	
 
-	</script>
-<?php
 	$id = session_get('user')['id'];
 	$contract = getContract($id);    
         
@@ -62,6 +49,21 @@ if(session_get('user')){
 	$kiot = getkiottById( $contract['ID_k']);
 
 	if(is_submit('pass')){
+		?>
+		<script>
+		$(function(){
+			$("#first, #second").on("keyup", function () {
+			  var fst=$("#first").val();
+			  var sec=$("#second").val();
+			  if (Number(sec)!=Number(fst)) {
+				alert("yêu cầu nhập lại");
+			  return true;
+			  }
+			})
+		  })
+
+		</script>
+		<?php
 		$password = md5(input_post('password'));
    
 		$pass= array (
