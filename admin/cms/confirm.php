@@ -15,9 +15,9 @@
 
           confirm($cf);
 
-        //   echo '<script language="javascript">';
-        //   echo 'window.location.href = "index.php?page=bill"';
-        //   echo '</script>';
+          echo '<script language="javascript">';
+          echo 'window.location.href = "index.php?page=bill"';
+          echo '</script>';
             
 
           
