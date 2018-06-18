@@ -199,12 +199,12 @@
                                                                         <div class="form-body overflow-hide">
 
                                                                             <div class="form-group">
-                                                                                <label class="control-label mb-10" for="description_add">Mật khẩu mới</label>
+                                                                                <label class="control-label mb-10" >Mật khẩu mới</label>
                                                                                 <div class="input-group">
                                                                  
                                                                                     <input type="password" name="password" class="form-control" id="first" value=""required> 
                                                                                 </div>
-                                                                                <label class="control-label mb-10" for="description_add">Nhập lại mật khẩu mới</label>
+                                                                                <label class="control-label mb-10" >Nhập lại mật khẩu mới</label>
                                                                                 <div class="input-group">
                                                                  
                                                                                 <input type="password" name="password" class="form-control" id="second" value=""required> 
@@ -309,7 +309,7 @@
 			$("#first, #second").on("keyup", function () {
 			  var fst=$("#first").val();
 			  var sec=$("#second").val();
-			  if (Number(sec)<Number(fst)) {
+			  if (Number(fst)<Number(sec)) {
 				alert("yêu cầu nhập lại");
 			  return true;
 			  }
