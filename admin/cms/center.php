@@ -81,7 +81,7 @@
         <!-- /.col -->
         <div class="col-xl-3 col-md-6 col-12">
           <div class="info-box bg-red">
-            <span class="info-box-icon push-bottom"><i class="ion-ios-chatbubble-outline"></i></span>
+            <span class="info-box-icon push-bottom"><a href="?page=rq"<i class="ion-ios-chatbubble-outline"></a></i></span>
 
             <div class="info-box-content">
               <span class="info-box-text">Tuyển dụng</span>
