@@ -15,7 +15,7 @@
 							<td><?php echo $position ?></td>
 							<td><?php echo $email ?></td>	
 							<td><?php echo $address ?></td>
-							<td><?php echo $phone_number ?></td>	
+							<td>+84 <?php echo $phone_number ?></td>	
 
 
 				<td>

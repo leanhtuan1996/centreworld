@@ -550,7 +550,7 @@ include 'moudule/show.profile.php'
                                                                                 <label class="control-label mb-10">Số điện thoại</label>
                                                                                 <div class="input-group">
                                                                  
-                                                                                    <input type="number" name="phone_number"  placeholder="+84"class="form-control"  value="<?php echo $user['phone_number']?>" >
+                                                                                    <input type="number" name="phone_number"  placeholder="+84"class="form-control"  value="+84 <?php echo $user['phone_number']?>" >
                                                                                 </div>
                                                                             </div>
                                                                             <div class="form-group">
