@@ -12,7 +12,6 @@ include 'moudule/show.profile.php'
           <!-- Profile Image -->
           <div class="box box-primary">
             <div class="box-body box-profile">
-              <img class="profile-user-img rounded-circle img-fluid mx-auto d-block" src="../<?php echo $user['image']?>" alt="User profile picture">
 
               <h3 class="profile-username text-center"><?php echo $user['name']?></h3>
 
