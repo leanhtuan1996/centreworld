@@ -14,7 +14,7 @@
 				  <th>Lương</th>
 				  <th>Tuyển dụng</th>
 				  <th>Kiot số</th>
-				  <th>Số điện thoại</th>
+				  <th>Xác nhận</th>
 				  <th>Kiểm duyệt</th>
 				  <th>Xóa</th>
 				  <th>Thanh toán</th>
@@ -30,7 +30,7 @@
 				  <th>Lương</th>
 				  <th>Tuyển dụng</th>
 				  <th>Kiot số</th>
-				  <th>Số điện thoại</th>
+				  <th>Xác nhận</th>
 				  <th>Kiểm duyệt</th>
 				  <th>Xóa</th>
 				  <th>Thanh toán</th>
