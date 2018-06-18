@@ -32,6 +32,9 @@
               $error = editkiot($kiot_edit);
               move_uploaded_file($_FILES['fImg']['tmp_name'], "../customer/$image_ori");
             }
+            echo '<script language="javascript">';
+            echo 'window.location.href =  "index.php?page=kiot"';
+            echo '</script>';
 
           }
          ?>
