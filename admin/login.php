@@ -81,11 +81,11 @@ if ($email == "" || $password =="")
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index.php"><b>Fox</b>Admin</a>
+    <a href="../../index.php"><b>Centre world</b> Admin</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to start your session</p>
+    <p class="login-box-msg">Đăng nhập trang quản lý</p>
 
     <form action="" method="post" class="form-element">
       <div class="form-group has-feedback">
@@ -100,13 +100,7 @@ if ($email == "" || $password =="")
         <div class="col-6">
           <div class="checkbox">
             <input type="checkbox" id="basic_checkbox_1" >
-			<label for="basic_checkbox_1">Remember Me</label>
-          </div>
-        </div>
-        <!-- /.col -->
-        <div class="col-6">
-         <div class="fog-pwd">
-          	<a href="javascript:void(0)"><i class="ion ion-locked"></i> Forgot pwd?</a><br>
+			<label for="basic_checkbox_1">Ghi nhớ</label>
           </div>
         </div>
         <!-- /.col -->
@@ -120,9 +114,6 @@ if ($email == "" || $password =="")
 
     <!-- /.social-auth-links -->
 
-    <div class="margin-top-30 text-center">
-    	<p>Don't have an account? <a href="register.html" class="text-info m-l-5">Sign Up</a></p>
-    </div>
 
   </div>
   <!-- /.login-box-body -->
