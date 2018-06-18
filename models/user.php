@@ -157,6 +157,15 @@ function delUser($id){
     return db_execute($sql);
 }
 
+function delct($ID_CT){
+	
+	$sql = "DELETE FROM contract WHERE ID_CT= '{$ID_CT}'";
+	
+	return db_execute($sql);
+	
+}
+
+
 function resetUser($pass){
     $password = $pass ['password'];
     $id = $pass['id'];
