@@ -79,7 +79,7 @@ $data = array(
 <body class="hold-transition register-page">
 <div class="register-box">
   <div class="register-logo">
-    <a href="../../index.html"><b>Centre World </b>Admin</a>
+    <a href="./index.php"><b>Centre World </b>Admin</a>
   </div>
 
   <div class="register-box-body">
