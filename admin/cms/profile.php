@@ -87,7 +87,7 @@ include 'moudule/show.profile.php'
             <div class="col-sm-12 invoice-col">
 
           <?php
-          if ( $user['position'] == 'Customer' ){
+          if ( $user['position'] == 'Khách hàng' ){
 
               include 'moudule/show.contract.pf.php';
           }
