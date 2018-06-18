@@ -203,7 +203,7 @@
                                                                             <label class="control-label mb-10" >Mật khẩu cũ</label>
                                                                                 <div class="input-group">
                                                                  
-                                                                                    <input type="password" name="password" class="form-control" id="first" value=""required> 
+                                                                                    <input type="password" name="password" class="form-control" id="" value=""required> 
                                                                                 </div>
                                                                                 <label class="control-label mb-10" >Mật khẩu mới</label>
                                                                                 <div class="input-group">
