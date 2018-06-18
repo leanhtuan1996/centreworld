@@ -44,7 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner">
 		<div class="agileinfo-dot">
 			<div class="agileits-logo">
-				<h1><a href="index.html"><img src="images/cw.png" width="71" height="71"> CENTRE <span>WORLD</span></a></h1>
+				<h1><a href="index.php"><img src="images/cw.png" width="71" height="71"> CENTRE <span>WORLD</span></a></h1>
 			</div>
 			<?php if(session_get('user')) { ?>
 				<?php include_once 'views/front/layout/head-top.php' ?>
