@@ -93,7 +93,7 @@ if ($email == "" || $password =="")
         <span class="ion ion-email form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" name ="pass" class="form-control" placeholder="Password">
+        <input type="password" name ="pass" class="form-control" placeholder="Mật khẩu">
         <span class="ion ion-locked form-control-feedback"></span>
       </div>
       <div class="row">
