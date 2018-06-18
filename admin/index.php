@@ -798,6 +798,15 @@ function confirmDelete(isDelete) {
       }
     })
   })
+  jQuery(document).ready(($) => {
+    $('#billtable tbody').delegate('button.confirm_bill', 'click', (e) => {
+      var id = $(e.currentTarget).attr('data-id');
+      var status = $(e.currentTarget.parentElement.parentElement).find('option:selected').attr('value');
+      if (id && status) {
+        location.href= "index.php?page=confirm&id_b=" + id + "&status=" + status;
+      }
+    })
+  })
 </script>
 
   <script>

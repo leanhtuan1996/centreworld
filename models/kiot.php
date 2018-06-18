@@ -391,6 +391,30 @@ function updaterq($rq){
 }
 
 
+function confirm($cf){
+	$error = array();
+	
+	$id_b = $cf['id_b'];
+	$status = $cf['status'];
+
+
+	$sql = "UPDATE bill SET  status = '{$status}'  WHERE id_b = '{$id_b}'";
+
+		
+	if(db_execute($sql) > 0 ){
+		
+		$error['updaterq'] = 'Sửa thông tin thành công';
+		
+	}
+	else{
+		
+		$error['updaterq'] = 'Sửa thông tin thất bại';
+		
+	}
+	
+	
+	return $error;
+}
 
 
 function getrqbyrecruitment($recruitment){
