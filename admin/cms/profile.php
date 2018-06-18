@@ -622,7 +622,7 @@ if(is_submit('addcontract')){
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                        <h5 class="modal-title" id="myModalLabel">Edit user</h5>
+                                        <h5 class="modal-title" id="myModalLabel">Cấp hợp đồng</h5>
                                     </div>
                                     <div class="modal-body">
                                         <!-- Row -->
@@ -636,14 +636,14 @@ if(is_submit('addcontract')){
                                                                     <form action="#">
                                                                         <div class="form-body overflow-hide">
                                                                             <div class="form-group">
-                                                                                <label class="control-label mb-10" for="firstName_add">Name</label>
+                                                                                <label class="control-label mb-10" for="firstName_add">Họ và tên</label>
                                                                                 <div class="input-group">
                                                                               
                                                                                     <input type="text" name = "name" class="form-control" id="firstName_add" value="<?php echo $user['name']?> " >
                                                                                 </div>
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                    <label class="control-label mb-10" for="lastName_add">address</label>
+                                                                                    <label class="control-label mb-10" for="lastName_add">Địa chỉ</label>
                                                                                     <div class="input-group">
                                                                                        
                                                                                         <input type="text" name ="address" class="form-control" id="lastName_add" value="<?php echo $user['address']?>" >
@@ -651,7 +651,7 @@ if(is_submit('addcontract')){
                                                                             </div>
 
                                                                             <div class="form-group">
-                                                                                <label class="control-label mb-10" for="phone_add">Phone</label>
+                                                                                <label class="control-label mb-10" for="phone_add">Số điện thoại</label>
                                                                                 <div class="input-group">
                                                                  
                                                                                     <input type="phone" name="phone_number" class="form-control" id="phone_add" value="<?php echo $user['phone_number']?>" >
@@ -666,7 +666,7 @@ if(is_submit('addcontract')){
                                                                                 </div>
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                <label class="control-label mb-10" >Citizen ID </label>
+                                                                                <label class="control-label mb-10" >Số CMND</label>
                                                                                 <div class="input-group">
                                                                               
                                                                                     <input type="text" name = "citizenship_card" class="form-control"  value=" " >
@@ -676,7 +676,7 @@ if(is_submit('addcontract')){
                                                                               <!-- /.input group -->
                                                                             </div>
                                                                             <div class="form-group">
-                                                                            <label>Avalible Kiot</label>
+                                                                            <label>Kiot cồ trống</label>
                                                                               <select class="form-control" name = "ID_k">
                                                                                 <?php
 
@@ -713,9 +713,9 @@ for ($i=0; $i <count($kiot) ; $i++) {
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="submit" class="btn btn-success waves-effect" >Save</button>
+                                        <button type="submit" class="btn btn-success waves-effect" >Lưu</button>
                                         <input type="hidden" name="request_name" value="addcontract"/>
-                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Hủy</button>
                                     </div>
                                 </div>
                                 <!-- /.modal-content -->
