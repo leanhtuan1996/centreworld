@@ -203,17 +203,17 @@
                                                                             <label class="control-label mb-10" >Mật khẩu cũ</label>
                                                                                 <div class="input-group">
                                                                  
-                                                                                    <input type="password" name="password" class="form-control" id="" value=""required> 
+                                                                                    <input type="password" name="password" placeholder="mật khẩu cũ" class="form-control" id="" value=""required> 
                                                                                 </div>
                                                                                 <label class="control-label mb-10" >Mật khẩu mới</label>
                                                                                 <div class="input-group">
                                                                  
-                                                                                    <input type="password" name="password" class="form-control" id="first" value=""required> 
+                                                                                    <input type="password" name="password" placeholder="mật khẩu mới" class="form-control" id="first" value=""required> 
                                                                                 </div>
                                                                                 <label class="control-label mb-10" >Nhập lại mật khẩu mới</label>
                                                                                 <div class="input-group">
                                                                  
-                                                                                <input type="password" name="password" class="form-control" id="second" value=""required> 
+                                                                                <input type="password" name="password" class="form-control" placeholder="nhập lại mật khẩu" id="second" value=""required> 
                                                                                  </div>
                                                                             </div>
                                                                             </div>
