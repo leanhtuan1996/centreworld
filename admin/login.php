@@ -105,7 +105,7 @@ if ($email == "" || $password =="")
         </div>
         <!-- /.col -->
         <div class="col-12 text-center">
-          <button type="submit" class="btn btn-info btn-block btn-flat margin-top-10">SIGN IN</button>
+          <button type="submit" class="btn btn-info btn-block btn-flat margin-top-10">ĐĂNG NHẬP</button>
           <input type="hidden" name="request_name" value="login_admin"/>
         </div>
         <!-- /.col -->
