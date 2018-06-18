@@ -66,7 +66,7 @@
 	
 			  
 				<td>
-              <button type="button" class="btn btn-block btn-primary confirm_bill" data-id="<?php echo $id_b ?>"><i class="fa fa-trash" aria-hidden="true"></i> Xác nhận</button>
+              <button type="button" class="btn btn-block btn-primary confirm_bill" data-id="<?php echo $id_b ?>"><i class="fa fa-edit" aria-hidden="true"></i> Xác nhận</button>
 			  </td>	 
               <td>
               <button type="button" class="btn btn-block btn-danger delete_bill" data-id="<?php echo $id_b ?>"><i class="fa fa-trash" aria-hidden="true"></i> Xóa</button>

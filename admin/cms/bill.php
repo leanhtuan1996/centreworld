@@ -15,6 +15,7 @@
 				  <th>Tuyển dụng</th>
 				  <th>Kiot số</th>
 				  <th>Số điện thoại</th>
+          <th>Xác Nhận</th>
 				  <th>Giá</th>
 				  <th>Xóa</th>
 				  <th>Thanh toán</th>
@@ -31,6 +32,7 @@
 				  <th>Tuyển dụng</th>
 				  <th>Kiot số</th>
 				  <th>Số điện thoại</th>
+          <th>Xác Nhận</th>
 				  <th>Giá</th>
 				  <th>Xóa</th>
 				  <th>Thanh toán</th>
