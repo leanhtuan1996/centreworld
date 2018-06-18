@@ -201,7 +201,7 @@
                                                                                 <label class="control-label mb-10" >Mật khẩu cũ</label>
                                                                                 <div class="input-group">
                                                                  
-                                                                                    <input type="password" name="password" class="form-control" id="" value=""required> 
+                                                                                    <input type="password" name="" class="form-control" id="" value=""required> 
                                                                                 </div>
 
                                                                             <div class="form-group">
