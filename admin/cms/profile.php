@@ -547,7 +547,7 @@ include 'moudule/show.profile.php'
                                                                                 </div>
 
                                                                             <div class="form-group">
-                                                                                <label class="control-label mb-10" for="phone_add">Số điện thoại</label>
+                                                                                <label class="control-label mb-10">Số điện thoại</label>
                                                                                 <div class="input-group">
                                                                  
                                                                                     <input type="text" name="phone_number" id="test1" oninput="validateNumber(this);"class="form-control"  value="<?php echo $user['phone_number']?>" >
