@@ -569,9 +569,9 @@ include 'moudule/show.profile.php'
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="submit" class="btn btn-success waves-effect" id="save-new-user">Save</button>
+                                        <button type="submit" class="btn btn-success waves-effect" id="save-new-user">Lưu</button>
                                         <input type="hidden" name="request_name" value="editUser"/>
-                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Hủy</button>
                                     </div>
                                 </div>
                                 <!-- /.modal-content -->
