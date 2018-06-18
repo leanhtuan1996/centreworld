@@ -20,9 +20,9 @@
 								$user = session_get('user');
 								echo $user ['name'];
 								?></a></li>
+								<li><a href="#about" class="scroll">Giới thiệu</a></li>
 								<li><a href="#gallery" class="scroll">Kiot</a></li>
 								<li><a href="#testimonial" class="scroll">Tuyển dụng</a></li>
-								<li><a href="#about" class="scroll">Giới thiệu</a></li>
 								<li><a href="#markets" class="scroll">Dịch vụ</a></li>
 								<li><a href="#team" class="scroll">Tin tức nhanh</a></li>
 								<li><a href="#mail" class="scroll">Liên hệ</a></li>
