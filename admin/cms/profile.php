@@ -82,7 +82,7 @@ include 'moudule/show.profile.php'
 
 					  <div class="timeline-item">
 
-						<h3 class="timeline-header"><a href="profile.html#">Genelia</a> sent you an email</h3>
+						<h3 class="timeline-header"><a href="profile.html#">Hợp đồng</a></h3>
 
 						<div class="timeline-body">
             <div class="col-sm-12 invoice-col">
@@ -559,7 +559,7 @@ include 'moudule/show.profile.php'
                                                                             <div class="form-group">
                                                                                 <label class="control-label mb-10">Vai trò</label>
                                                                                <select class="form-control" name ="sltParent" >
-                                                                                <option name ="position" value="Customer">Khách hàng</option><option name ="position" value="employ">Nhân viên</option></select>
+                                                                                <option name ="position" value="Khách hàng">Khách hàng</option><option name ="position" value="Nhân viên">Nhân viên</option></select>
                                                                             </div>
                                                                         </div>			
                                                                     </form>
