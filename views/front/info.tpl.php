@@ -197,6 +197,12 @@
                                                                 <div class="form-wrap">
                                                                     <form action="#">
                                                                         <div class="form-body overflow-hide">
+                                                                        <div class="form-group">
+                                                                                <label class="control-label mb-10" >Mật khẩu cũ</label>
+                                                                                <div class="input-group">
+                                                                 
+                                                                                    <input type="password" name="password" class="form-control" id="" value=""required> 
+                                                                                </div>
 
                                                                             <div class="form-group">
                                                                                 <label class="control-label mb-10" >Mật khẩu mới</label>
