@@ -436,6 +436,75 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //markets -->
 
+	<!-- mail -->
+	<div class="mail" id="mail">
+		<div class="container">
+			<div class="agileits-title">
+				<h3>Liên hệ</h3>
+			</div> 
+			<div class="w3_mail_grids">
+				<form action="#" method="post">
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-10" name="Name" placeholder="Tên liên hệ" required/>
+						<label class="input__label input__label--jiro" for="input-10">
+							<span class="input__label-content input__label-content--jiro">Tên liên hệ</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="email" id="input-11" name="Email" placeholder="Địa chỉ Email" required/>
+						<label class="input__label input__label--jiro" for="input-11">
+							<span class="input__label-content input__label-content--jiro">Địa chỉ Email</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-12" name="Phone Number" placeholder="Số điện thoại" required/>
+						<label class="input__label input__label--jiro" for="input-12">
+							<span class="input__label-content input__label-content--jiro">Số điện thoại</span>
+						</label>
+					</span>
+					<textarea name="Tin nhắn" placeholder="Lời nhắn..." required></textarea>
+					<input type="submit" value="Gửi tin nhắn">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/classie.js"></script>
+	<script>
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+		</script>
+	<!-- //mail -->
 	<!-- contact -->
 	<div id="contact" class="contact">
 		<div class="contact-row agileits-w3layouts">  
