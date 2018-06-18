@@ -521,7 +521,7 @@ include 'moudule/show.profile.php'
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                        <h5 class="modal-title" id="myModalLabel">Edit user</h5>
+                                        <h5 class="modal-title" id="myModalLabel">Cập nhật thông tin</h5>
                                     </div>
                                     <div class="modal-body">
                                         <!-- Row -->
@@ -535,14 +535,14 @@ include 'moudule/show.profile.php'
                                                                     <form action="#">
                                                                         <div class="form-body overflow-hide">
                                                                             <div class="form-group">
-                                                                                <label class="control-label mb-10" for="firstName_add">Name</label>
+                                                                                <label class="control-label mb-10" for="firstName_add">Họ vs tên</label>
                                                                                 <div class="input-group">
                                                                               
                                                                                     <input type="text" name = "name" class="form-control" id="firstName_add" value="<?php echo $user['name']?> " >
                                                                                 </div>
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                    <label class="control-label mb-10" for="lastName_add">address</label>
+                                                                                    <label class="control-label mb-10" for="lastName_add">Địa chỉ</label>
                                                                                     <div class="input-group">
                                                                                        
                                                                                         <input type="text" name ="address" class="form-control" id="lastName_add" value="<?php echo $user['address']?>" >
@@ -550,7 +550,7 @@ include 'moudule/show.profile.php'
                                                                                 </div>
 
                                                                             <div class="form-group">
-                                                                                <label class="control-label mb-10" for="phone_add">Phone</label>
+                                                                                <label class="control-label mb-10" for="phone_add">Số điện thoại</label>
                                                                                 <div class="input-group">
                                                                  
                                                                                     <input type="phone" name="phone_number" class="form-control" id="phone_add" value="<?php echo $user['phone_number']?>" >
@@ -559,7 +559,7 @@ include 'moudule/show.profile.php'
                                                                             <div class="form-group">
                                                                                 <label class="control-label mb-10">Vai trò</label>
                                                                                <select class="form-control" name ="sltParent" >
-                                                                                <option name ="position" value="Customer">Customer</option><option name ="position" value="employ">employ</option></select>
+                                                                                <option name ="position" value="Customer">Khách hàng</option><option name ="position" value="employ">Nhân viên</option></select>
                                                                             </div>
                                                                         </div>			
                                                                     </form>
