@@ -58,9 +58,7 @@ include 'moudule/show.profile.php'
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
               
-              <li><a class="active" href="profile.html#timeline" data-toggle="tab">Timeline</a></li>
-              <li><a href="profile.html#activity" data-toggle="tab">Activity</a></li>
-              <li><a href="profile.html#settings" data-toggle="tab">Settings</a></li>
+              <li><a class="active" href="profile.html#timeline" data-toggle="tab">Hợp đồng</a></li>
             </ul>
                         
             <div class="tab-content">
@@ -96,8 +94,8 @@ include 'moudule/show.profile.php'
 </div>
 						</div>
 						<div class="timeline-footer text-right">
-						  <a href="profile.html#" class="btn btn-primary btn-sm">Read more</a>
-						  <a href="profile.html#" class="btn btn-danger btn-sm">Delete</a>
+						  <a href="profile.html#" class="btn btn-primary btn-sm">Xem thêm</a>
+						  <a href="profile.html#" class="btn btn-danger btn-sm">Xóa</a>
 						</div>
 					  </div>
 					</li>
