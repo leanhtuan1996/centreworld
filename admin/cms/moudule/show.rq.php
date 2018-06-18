@@ -66,7 +66,7 @@
 
 
 				<td>
-              <button type="button" class="btn btn-block btn-primary edit"  data-id="<?php echo $ID_h ?>"  ><i class="fa fa-edit"></i> Chỉnh sửa</button>
+              <button type="button" class="btn btn-block btn-primary edit"  data-id="<?php echo $ID_h ?>"  ><i class="fa fa-edit"></i> Duyệt</button>
               </td>
               <td>
               <button type="button" class="btn btn-block btn-danger delete_rq" data-id="<?php echo $ID_h ?>"    ><i class="fa fa-trash" aria-hidden="true"></i> Xóa</button>
