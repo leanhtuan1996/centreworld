@@ -14,7 +14,7 @@
 				  <th>Lương</th>
 				  <th>Tuyển dụng</th>
 				  <th>Kiot số</th>
-				  <th>Số điện thoại</th>
+				  <th>Tình trạng</th>
           <th>Xác Nhận</th>
 				  <th>Giá</th>
 				  <th>Xóa</th>
@@ -31,7 +31,7 @@
 				  <th>Lương</th>
 				  <th>Tuyển dụng</th>
 				  <th>Kiot số</th>
-				  <th>Số điện thoại</th>
+				  <th>Tình trạng</th>
           <th>Xác Nhận</th>
 				  <th>Giá</th>
 				  <th>Xóa</th>
