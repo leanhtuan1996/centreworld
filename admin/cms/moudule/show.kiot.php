@@ -19,11 +19,11 @@ for ($i=0; $i < count($kiot); $i++){
  				<td><?php echo $name_fl ?></td> 
   				<td><?php if ($status == 0)
   {
-	echo 'availble';
+	echo 'còn trống';
   }
   else 
   {
-	echo 'unavailable';
+	echo 'đã cho thuê';
   }
 	?> 
 			              
