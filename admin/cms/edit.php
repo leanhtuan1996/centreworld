@@ -15,9 +15,9 @@
 
           updaterq($rq);
 
-          echo '<script language="javascript">';
-          echo 'window.location.href = "index.php?page=rq"';
-          echo '</script>';
+          // echo '<script language="javascript">';
+          // echo 'window.location.href = "index.php?page=rq"';
+          // echo '</script>';
             
 
           
