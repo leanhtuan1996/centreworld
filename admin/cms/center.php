@@ -63,7 +63,7 @@
             <span class="info-box-icon push-bottom"><a href="?page=ct"<i class="fa fa-fw fa-file-text"></a></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Contract</span>
+              <span class="info-box-text">Hợp đồng</span>
               <span class="info-box-number"><?php   $contract = getallcontract();
 								echo count($contract); ?></span>
 
