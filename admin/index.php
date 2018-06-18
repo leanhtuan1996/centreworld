@@ -210,8 +210,8 @@ include_once '../models/kiot.php';
 
         break;
 
-        case "dellct";
-        include "cms/dellcontract.php";
+        case "delct";
+        include "cms/delct.php";
 
         break;
 
@@ -851,7 +851,7 @@ function confirmDelete(isDelete) {
       if (id) {
         confirmDelete((isDelete) => {
           if(isDelete) {
-            $.get(`?page=delrq`, {
+            $.get(`?page=delct`, {
               ID_CT: id
             }, (data) => {
               location.reload();
