@@ -177,6 +177,12 @@ include_once '../models/kiot.php';
 
         break;
 
+        case "confirm";
+        include "cms/confirm.php";
+
+        break;
+
+
         case "addrq";
         include "cms/addrq.php";
 
