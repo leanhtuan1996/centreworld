@@ -12,7 +12,7 @@
 <p>Hôm nay ngày. <span class="text-red"><?php echo $contract['date_time'] ?></span> <br>
 Tại số...  <br>Chúng tôi gồm có: </p>
 <p>Bên A (Bên thuê): <br>Tên:<span class="text-red"><?php echo $user['name'] ?></span><br>Địa chỉ:<span class="text-red"><?php echo $user['address']?></span> <br>Số điện thoại:<span class="text-red"><?php echo $user['phone_number']?></span> <br>Số chứng minh thư dân nhân:<span class="text-red"><?php echo $contract['citizenship_card'] ?></span>  <br>Số hộ khẩu: </p>
-  <p>Bên B (Bên cho thuê):  <br>Tên công ty: Công ty <span class="text-red">sứ mệnh cứu thế</span> <br>Địa chỉ:<span class="text-red">nhà của cường</span>  <br>Số điện thoại:<span class="text-red">Số điện thoại của cường</span> <br>Fax: <br>Địa chỉ email:<span class="text-red">tccuong.httt0114@student.ctuet.edu.vn</span> <br>Mã số thuế:<span class="text-red">mã số thuế của cường</span> <br>Người đại diện:<span class="text-red">Cường đẹp trai</span> <br>Chức vụ:<span class="text-red">Big Boss</span>  
+  <p>Bên B (Bên cho thuê):  <br>Tên công ty: Công ty <span class="text-red">Centre world</span> <br>Địa chỉ:<span class="text-red">256 Nguyễn Văn Cừ</span>  <br>Số điện thoại:<span class="text-red">Số điện thoại của cường</span> <br>Fax: <br>Địa chỉ email:<span class="text-red">tccuong.httt0114@student.ctuet.edu.vn</span> <br>Mã số thuế:<span class="text-red">mã số thuế của cường</span> <br>Người đại diện:<span class="text-red">Cường đẹp trai</span> <br>Chức vụ:<span class="text-red">Big Boss</span>  
 </p>
   <p>Bên A đồng ý thuê ki ốt (sạp hàng) của bên B và bên B đồng ý cho bên A thuê ki ốt (sạp hàng). Cả hai bên đồng ý với bản hợp đồng có những điều khoản như sau: <br>
     </p><p style="font-weight: bold;">Điều 1: Nội dung của bản hợp đồng </p>
