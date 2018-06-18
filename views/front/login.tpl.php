@@ -44,10 +44,10 @@
 							?>
                     <div class="field_w3ls">
                         <div class="field-group">
-                            <input name="email"  type="text" value="" placeholder="Username" required>
+                            <input name="email"  type="email" value="" placeholder="Email" required>
                         </div>
                         <div class="field-group">
-                            <input  type="password" class="form-control" name="password" value="" placeholder="Password">
+                            <input  type="password" class="form-control" name="password" value="" placeholder="Mật khẩu">
                             <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                         </div>
                     </div>
