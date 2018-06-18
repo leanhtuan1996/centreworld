@@ -48,20 +48,18 @@
 	  <ul class="treeview-menu">
 		<li><a href="?page=kt"><i class="fa fa-circle-o"></i>Kiot</a></li>
 		<li><a href="?page=ct"><i class="fa fa-circle-o"></i>Hợp đồng</a></li>
-		<li><a href="?page=rq"><i class="fa fa-circle-o"></i>Tuyển dụng</a></li>
-		<li><a href="?page=bill"><i class="fa fa-circle-o"></i>Thanh toán</a></li>
 	  </ul>
 	</li>
 	<li class="treeview">
 	  <a href="">
-		<i class="fa fa-address-card-o"></i> <span>Thông tin tài khoản</span>
+		<i class="fa fa-address-card-o"></i> <span>Dịch vụ kèm theo</span>
 		<span class="pull-right-container">
 		  <i class="fa fa-angle-left pull-right"></i>
 		</span>
 	  </a>
 	  <ul class="treeview-menu">
-		<li><a href="?page=users"><i class="fa fa-circle-o"></i>Thông tin tài khoản</a></li>
-		<li><a href="./register.php"><i class="fa fa-circle-o"></i>Đăng ký</a></li>
+		<li><a href="?page=rq"><i class="fa fa-circle-o"></i>Tuyển dụng</a></li>
+		<li><a href="?page=bill"><i class="fa fa-circle-o"></i>Thanh toán</a></li>
 	  </ul>
 	</li>
 	</ul>
