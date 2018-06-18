@@ -260,7 +260,7 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                        <h5 class="modal-title" id="myModalLabel">Add Kiot</h5>
+                                        <h5 class="modal-title" id="myModalLabel">Thêm Kiot</h5>
                                     </div>
                                     <div class="modal-body">
                                         <!-- Row -->
@@ -295,7 +295,7 @@
                                                                             </div>
                                                                             </div>
                                                                             <div class="form-group"	>			 
-                                                                            <label>Floor</label>
+                                                                            <label>Tầng</label>
                                                                             <select class="form-control" name="sltParent">
                                                                                 <option name ="id_floor" value="1">Khu mua sắm</option><option name ="id_floor" value="2">Khu ăn uống</option><option name ="id_floor" value="3">Khu vui chơi</option></select>
                                                                         </div>
@@ -311,9 +311,9 @@
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="submit" class="btn btn-success waves-effect" id="save-new-kiot">Save</button>
+                                        <button type="submit" class="btn btn-success waves-effect" id="save-new-kiot">Lưu</button>
                                         <input type="hidden" name="request_name" value="addkiot"/>
-                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Hủy</button>
                                     </div>
                                 </div>
                                 <!-- /.modal-content -->

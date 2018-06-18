@@ -71,12 +71,12 @@
                             <?php }  
                             ?>  
            <!-- Step 1 -->
-           <h6 id="steps-uid-0-h-0" tabindex="-1" class="title current">Personal Info</h6>
+           <h6 id="steps-uid-0-h-0" tabindex="-1" class="title current">Cập nhật</h6>
            <section id="steps-uid-0-p-0" role="tabpanel" aria-labelledby="steps-uid-0-h-0" class="body current" aria-hidden="false" style="">
              <div class="row">
                <div class="col-md-6">
                  <div class="form-group">
-                   <label for="firstName5"> vị trí :</label>
+                   <label for="firstName5"> Vị trí :</label>
                    <input type="text" class="form-control" name = "name_k" value="<?php echo $kiot['name_k']?>"  > </div>
                </div>
                <div class="col-md-6">
@@ -102,7 +102,7 @@
                </div>
                <div class="col-md-6">
                  <div class="form-group">
-                   <label for="date1">Status :</label>
+                   <label for="date1">Tình trạng :</label>
                    <select class="custom-select form-control"  name="status">
                     <option name ="status" value="0">Còn trống</option>
                     <option name ="status" value="1">Đã thuê</option>
@@ -119,7 +119,7 @@
               
            </section>
            <div class="text-xs-right">
-            <button type="submit" class="btn btn-info">Submit</button>
+            <button type="submit" class="btn btn-info">Lưu</button>
             <input type="hidden" name="request_name" value="editkiot"/>
 					</div>
            </div>
