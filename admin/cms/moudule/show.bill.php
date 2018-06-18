@@ -9,6 +9,7 @@
 																					$salary =$bill[$i]['salary'];
 																					$ID_k = $bill[$i]['ID_k'];
 																					$price = $bill[$i]['price'];
+																					$status = $bill[$i]['status'];
 																		
 																					
 							?>
