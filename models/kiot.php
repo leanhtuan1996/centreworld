@@ -403,12 +403,12 @@ function confirm($cf){
 		
 	if(db_execute($sql) > 0 ){
 		
-		$error['updaterq'] = 'Sửa thông tin thành công';
+		$error['confirm'] = 'Sửa thông tin thành công';
 		
 	}
 	else{
 		
-		$error['updaterq'] = 'Sửa thông tin thất bại';
+		$error['confirm'] = 'Sửa thông tin thất bại';
 		
 	}
 	
