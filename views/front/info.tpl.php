@@ -217,7 +217,7 @@
                         <h5>Nhập mật khẩu <span class="text-danger">*</span></h5>
 						<div class="controls">
                         <div class="input-group">
-							<input type="password" name="password" value ="" class="form-control" required  minlength="6"> </div>
+							<input type="password" name="password" value ="" class="form-control" required data-validation-required-message="" minlength="6"> </div>
                     </div>
                     </div>
 					<div class="form-group">
