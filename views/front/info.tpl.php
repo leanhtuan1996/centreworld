@@ -207,7 +207,7 @@
                                                                                 </div>
                                                                                 <label class="control-label mb-10" >Mật khẩu mới</label>
                                                                                 <div class="input-group">
-                                                                                <input type="password" name="password" class="form-control" required data-validation-required-message="This field is required"minlength="6"> 
+                                                                                <input type="password" name="password" class="form-control" required minlength="6"> 
                                                                                 </div>
                                                                                 <label class="control-label mb-10" >Nhập lại mật khẩu mới</label>
                                                                                 <div class="input-group">
