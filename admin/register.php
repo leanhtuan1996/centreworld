@@ -144,11 +144,8 @@ $data = array(
 	<script src="assets/vendor_components/popper/dist/popper.min.js"></script>
 	
 	<!-- Bootstrap 4.0-->
-	<script src="assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	
-		<!-- Form validator JavaScript -->
-    <script src="js/pages/validation.js"></script>
-    <script>
+  <script src="assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
     ! function(window, document, $) {
         "use strict";
         $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(), $(".skin-square input").iCheck({
@@ -157,5 +154,8 @@ $data = array(
         }), $(".touchspin").TouchSpin(), $(".switchBootstrap").bootstrapSwitch();
     }(window, document, jQuery);
     </script>
+	
+		<!-- Form validator JavaScript -->
+    <script src="js/pages/validation.js"></script>
 </body>
 </html>
