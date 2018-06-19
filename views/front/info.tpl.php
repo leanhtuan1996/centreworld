@@ -208,7 +208,7 @@
                                                                             
 
                                                                             <div class="form-group">
-                                                                            <label class="control-label mb-10" >Mật khẩu cũ</label>
+                                                                            <h5>Nhập mật khẩu cũ<span class="text-danger">*</span></h5>
                                                                                 <div class="input-group">
                                                                  
                                                                                     <input type="password" name="" placeholder="mật khẩu cũ" class="form-control" id="" value=""required> 
@@ -217,14 +217,14 @@
                         <h5>Nhập mật khẩu <span class="text-danger">*</span></h5>
 						<div class="controls">
                         <div class="input-group">
-							<input type="password" name="password" value ="" class="form-control" required data-validation-required-message="" minlength="6"> </div>
+							<input type="password" name="password" value =""placeholder="nhập mật khẩu mới" class="form-control" required data-validation-required-message="" minlength="6"> </div>
                     </div>
                     </div>
 					<div class="form-group">
                         <h5>Nhập lại mật khẩu<span class="text-danger">*</span></h5>
 						<div class="controls">
                         <div class="input-group">
-							<input type="password" name="password2" data-validation-match-match="password" class="form-control" value ="" required> </div>
+							<input type="password" name="password2" placeholder="nhập mật khẩu cũ" data-validation-match-match="password" class="form-control" value ="" required> </div>
                     </div>
                     </div>
                     </div>
