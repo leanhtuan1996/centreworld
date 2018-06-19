@@ -47,7 +47,7 @@
                             <input name="email"  type="email" value="" placeholder="Email" required>
                         </div>
                         <div class="field-group">
-                            <input  type="password" class="form-control" name="password" value="" placeholder="Mật khẩu">
+                            <input  type="password" class="form-control" name="password" value="" placeholder="Mật khẩu" minlength="6">
                             <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                         </div>
                         
@@ -80,6 +80,16 @@
                 input.attr("type", "password");
             }
         });
+    </script>
+      <script src="../../admin/js/pages/validation.js"></script>
+    <script>
+    ! function(window, document, $) {
+        "use strict";
+        $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(), $(".skin-square input").iCheck({
+            checkboxClass: "icheckbox_square-green",
+            radioClass: "iradio_square-green"
+        }), $(".touchspin").TouchSpin(), $(".switchBootstrap").bootstrapSwitch();
+    }(window, document, jQuery);
     </script>
     <!-- /script for show password -->
 
