@@ -214,7 +214,8 @@
 						<h5>Nhập lại mật khẩu<span class="text-danger">*</span></h5>
 						<div class="controls">
 							<input type="password" name="password2" data-validation-match-match="password" class="form-control" required> </div>
-					</div>
+                    </div>
+                    </div>
                                                                             </div>
                                                                     </form>
                                                                 </div>
