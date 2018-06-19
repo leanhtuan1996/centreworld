@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../images/favicon.ico">
 
-    <title>Fox Admin - Log in </title>
+    <title>Centre World - Admin </title>
   
 	<!-- Bootstrap 4.0-->
 	<link rel="stylesheet" href="assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">

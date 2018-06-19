@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../images/favicon.ico">
 
-    <title>Fox Admin - 404 Page not found </title>
+    <title>Centre- 404 Page not found </title>
   
 	<!-- Bootstrap 4.0-->
 	<link rel="stylesheet" href="../../admin/assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">
