@@ -207,6 +207,7 @@
                                                                                 </div>
                                                                                 <label class="control-label mb-10" >Mật khẩu mới</label>
                                                                                 <div class="input-group">
+<<<<<<< HEAD
                                                                                 <div class="controls">
 							<input type="password" name="password" class="form-control" required data-validation-required-message="This field is required"minlength="6"> </div>
                                                                                 </div>
@@ -215,6 +216,14 @@
                                                                                 <div class="controls">
 							<input type="password" name="password2" data-validation-match-match="password" class="form-control" required> </div>
 					</div>
+=======
+                                                                                <input type="password" name="password" class="form-control" required data-validation-required-message="This field is required"minlength="6"> </div>
+                                                                                </div>
+                                                                                <label class="control-label mb-10" >Nhập lại mật khẩu mới</label>
+                                                                                <div class="input-group">
+                                                                                <input type="password" name="password2" data-validation-match-match="password" class="form-control" required> </div> 
+                                                                                 </div>
+>>>>>>> parent of 5bd8695... 1
                                                                             </div>
                                                                             </div>
                                                                     </form>
