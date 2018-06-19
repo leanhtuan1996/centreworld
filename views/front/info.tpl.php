@@ -212,12 +212,16 @@
 
 							<input type="password" name="password" class="form-control" required data-validation-required-message="This field is required" minlength="6"> </div>
                     </div>
+                    
+                    </div>
                     <div class="form-group">
                                                                             <label class="control-label mb-10" >Mật khẩu cũ</label>
                                                                                 <div class="input-group">
 						<div class="controls">
 							<input type="password" name="password2" data-validation-match-match="password" class="form-control" required> </div>
                     </div>
+                    </div>
+                    
                     </div>
 
                                                                             </div>
