@@ -34,6 +34,14 @@
     	<!-- Bootstrap 4.0-->
 	<link rel="stylesheet" href="../../admin/assets/vendor_components/bootstrap/dist/css/bootstrap-extend.css">
     <link rel="stylesheet" href="../../admin/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css">
+    	<!-- Bootstrap 4.0-->
+	<link rel="stylesheet" href="../../admin/assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="../../assets/admin/vendor_components/font-awesome/css/font-awesome.min.css">
+
+<!-- Ionicons -->
+<link rel="stylesheet" href="../../assets/admin/vendor_components/Ionicons/css/ionicons.min.css">
 </head>
 
 <body>
