@@ -12,13 +12,13 @@
     <title>Fox Admin - 404 Page not found </title>
   
 	<!-- Bootstrap 4.0-->
-	<link rel="stylesheet" href="../../assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../admin/assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">
 
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="../../assets/vendor_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../admin/assets/vendor_components/font-awesome/css/font-awesome.min.css">
 
 	<!-- Ionicons -->
-	<link rel="stylesheet" href="../../assets/vendor_components/Ionicons/css/ionicons.min.css">
+	<link rel="stylesheet" href="../../admin/assets/vendor_components/Ionicons/css/ionicons.min.css">
 
 	<!-- Theme style -->
 	<link rel="stylesheet" href="../../css/master_style.css">
@@ -83,13 +83,13 @@
 
 
 	<!-- jQuery 3 -->
-	<script src="../../assets/vendor_components/jquery/dist/jquery.min.js"></script>
+	<script src="../../admin/assets/vendor_components/jquery/dist/jquery.min.js"></script>
 	
 	<!-- popper -->
-	<script src="../../assets/vendor_components/popper/dist/popper.min.js"></script>
+	<script src="../../admin/assets/vendor_components/popper/dist/popper.min.js"></script>
 	
 	<!-- Bootstrap 4.0-->
-	<script src="../../assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="../../admin/assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
 </body>
