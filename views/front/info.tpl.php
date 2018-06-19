@@ -209,14 +209,14 @@
                         <h5>Nhập mật khẩu <span class="text-danger">*</span></h5>
 						<div class="controls">
                         <div class="input-group">
-							<input type="password" name="password" class="form-control" required data-validation-required-message="This field is required" minlength="6"> </div>
+							<input type="password" name="password" value ="" class="form-control" required data-validation-required-message="This field is required" minlength="6"> </div>
                     </div>
                     </div>
 					<div class="form-group">
                         <h5>Nhập lại mật khẩu<span class="text-danger">*</span></h5>
 						<div class="controls">
                         <div class="input-group">
-							<input type="password" name="password2" data-validation-match-match="password" class="form-control" required> </div>
+							<input type="password" name="password2" data-validation-match-match="password" class="form-control" value ="" required> </div>
                     </div>
                     </div>
                     </div>
