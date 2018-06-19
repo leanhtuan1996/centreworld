@@ -121,7 +121,7 @@
            <div class="text-xs-right">
             <button type="submit" class="btn btn-info">Lưu</button>
             <input type="hidden" name="request_name" value="editkiot"/>
-            <button type="button" class="btn btn-block " onclick="location.href='index.php'">Thoát</button>
+            <button type="submit" class="btn btn-block btn-warning " onclick="location.href='index.php'">Thoát</button>
 					</div>
            </div>
            <!-- /.box-body -->
