@@ -208,7 +208,7 @@
                                                                                 <div class="form-group">
 						<h5>Nhập mật khẩu <span class="text-danger">*</span></h5>
 						<div class="controls">
-							<input type="password" name="password" class="form-control" required data-validation-required-message="This field is required"minlength="6"> </div>
+							<input type="password" name="password" class="form-control" required minlength="6"> </div>
 					</div>
 					<div class="form-group">
 						<h5>Nhập lại mật khẩu<span class="text-danger">*</span></h5>
