@@ -146,6 +146,16 @@ $data = array(
 	<!-- Bootstrap 4.0-->
 	<script src="assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	
-	
+		<!-- Form validator JavaScript -->
+    <script src="../../js/pages/validation.js"></script>
+    <script>
+    ! function(window, document, $) {
+        "use strict";
+        $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(), $(".skin-square input").iCheck({
+            checkboxClass: "icheckbox_square-green",
+            radioClass: "iradio_square-green"
+        }), $(".touchspin").TouchSpin(), $(".switchBootstrap").bootstrapSwitch();
+    }(window, document, jQuery);
+    </script>
 </body>
 </html>
