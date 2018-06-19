@@ -32,8 +32,8 @@
     <!-- Font-Awesome-File -->
     <link rel="stylesheet" href="css/font-hub.css" type="text/css" media="all">
     	<!-- Bootstrap 4.0-->
-	<link rel="stylesheet" href="assets/vendor_components/bootstrap/dist/css/bootstrap-extend.css">
-    <link rel="stylesheet" href="assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css">
+	<link rel="stylesheet" href="../../admin/assets/vendor_components/bootstrap/dist/css/bootstrap-extend.css">
+    <link rel="stylesheet" href="../../admin/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css">
 </head>
 
 <body>
@@ -328,6 +328,13 @@
 
 		</script>
 
+        	<!-- Bootstrap 4.0-->
+	<script src="../../admin/assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- jQuery 3 -->
+	<script src="../../admin/assets/vendor_components/jquery/dist/jquery.min.js"></script>
+	
+	<!-- popper -->
+  <script src="../../admin/assets/vendor_components/popper/dist/popper.min.js"></script>
 
     <script>
     $('#myModal').on('shown.bs.modal', function () {
