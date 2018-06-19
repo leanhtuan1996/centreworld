@@ -150,7 +150,8 @@ $data = array(
 	
 	<!-- Bootstrap 4.0-->
   <script src="assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
-      <script>
+  <script src="js/pages/validation.js"></script>
+    <script>
     ! function(window, document, $) {
         "use strict";
         $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(), $(".skin-square input").iCheck({
@@ -161,6 +162,6 @@ $data = array(
     </script>
 	
 		<!-- Form validator JavaScript -->
-    <script src="js/pages/validation.js"></script>
+
 </body>
 </html>
