@@ -206,10 +206,12 @@
                                                                                     <input type="password" name="password" placeholder="mật khẩu cũ" class="form-control" id="" value=""required> 
                                                                                 </div>
                                                                                 <label class="control-label mb-10" >Mật khẩu mới</label>
-                                                                                <input type="password" name="password" class="form-control" required data-validation-required-message="This field is required"minlength="6"  placeholder="nhập mật khẩu" > </div>
+                                                                                <div class="input-group">
+                                                                                <input type="password" name="password" class="form-control" required data-validation-required-message="This field is required"minlength="6"> </div>
                                                                                 </div>
-                                                                                <input type="password" name="password2" data-validation-match-match="password" class="form-control"  placeholder="nhập lại mật khẩu"  required> </div>>
-                                                                 
+                                                                                <label class="control-label mb-10" >Nhập lại mật khẩu mới</label>
+                                                                                <div class="input-group">
+                                                                                <input type="password" name="password2" data-validation-match-match="password" class="form-control" required> </div> 
                                                                                  </div>
                                                                             </div>
                                                                             </div>
@@ -338,17 +340,6 @@ function validateNumber(elem) {
   }
 }
 </script>
-	<!-- Form validator JavaScript -->
-    <script src="../../admin/js/pages/validation.js"></script>
-    <script>
-    ! function(window, document, $) {
-        "use strict";
-        $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(), $(".skin-square input").iCheck({
-            checkboxClass: "icheckbox_square-green",
-            radioClass: "iradio_square-green"
-        }), $(".touchspin").TouchSpin(), $(".switchBootstrap").bootstrapSwitch();
-    }(window, document, jQuery);
-    </script>
 
     <!-- /script for show password -->
 
