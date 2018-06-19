@@ -100,6 +100,11 @@ $data = array(
       <div class="form-group has-feedback">
       <div class="form-group"><input type="email" class="form-control" name="email"  value= "" placeholder="Email(*)" required></div>
       </div>
+      <div class="form-group has-feedback">
+      <div class="controls">
+							<input type="text" name="password" required class="form-control"required data-validation-required-message="This field is required" minlength="6">
+						<div class="help-block"></div></div>
+      </div>
       <div class="row">
         <div class="col-12">
           <div class="checkbox">
