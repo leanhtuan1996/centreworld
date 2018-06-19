@@ -205,15 +205,17 @@
                                                                  
                                                                                     <input type="password" name="" placeholder="mật khẩu cũ" class="form-control" id="" value=""required> 
                                                                                 </div>
-                                                                                <div class="input-group">
+                                                                                <div class="form-group">
                         <h5>Nhập mật khẩu <span class="text-danger">*</span></h5>
 						<div class="controls">
-
+                        <div class="input-group">
 							<input type="password" name="password" class="form-control" required data-validation-required-message="This field is required" minlength="6"> </div>
                     </div>
-                    <div class="input-group">
+                    </div>
+					<div class="form-group">
                         <h5>Nhập lại mật khẩu<span class="text-danger">*</span></h5>
 						<div class="controls">
+                        <div class="input-group">
 							<input type="password" name="password2" data-validation-match-match="password" class="form-control" required> </div>
                     </div>
                     </div>
