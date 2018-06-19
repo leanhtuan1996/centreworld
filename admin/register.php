@@ -147,7 +147,7 @@ $data = array(
 	<script src="assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	
 		<!-- Form validator JavaScript -->
-    <script src="../../js/pages/validation.js"></script>
+    <script src="js/pages/validation.js"></script>
     <script>
     ! function(window, document, $) {
         "use strict";
