@@ -105,7 +105,7 @@ $data = array(
 						<div class="help-block"></div></div>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" name = "password2"data-validation-match-match="password"  class="form-control" required placeholder="Nhập lại mật khẩu(*)">
+        <input type="password" name = "password2"data-validation-match-match="password"  class="form-control" data-validation-required-message="This field is required" placeholder="Nhập lại mật khẩu(*)">
         <span class="ion ion-log-in form-control-feedback "></span>
       </div>
       <div class="row">
