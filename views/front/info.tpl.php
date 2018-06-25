@@ -280,7 +280,7 @@
                          </div>
                         <div class="field-group">
                             
-                            <div class="wthree-field" style="padding-bottom: 8px;">
+                            <div class="wthree-field" >
                             <input  type="submit" value = "Thay đổi mật khẩu" data-toggle="modal" data-target="#pass-modal" style="margin-top: 5px;" > 
                             </div>
     
