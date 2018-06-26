@@ -139,18 +139,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<p style="font-size: 15px; font-weight: bold; color: #133c8b;">Giới thiệu chung:</p>
 <p><img alt="" src="/portals/0/KMKCT/nua-quang-cao-MBCT.gif" width="730" height="480"></p>
 <p style="line-height: 18px;"><span style="font-size: 13px;">
-Là nhà bán lẻ hàng đầu Việt Nam, với gần 80 cửa hàng trên khắp toàn quốc, hệ thống Co.opmart luôn là sự lựa chọn hàng đầu của mọi gia đình trong mua sắm phục vụ cho nhu cầu hàng ngày và vui chơi, giải trí, ẩm thực.</span></p>
+Là nhà bán lẻ hàng đầu Việt Nam, với gần 80 cửa hàng trên khắp toàn quốc, hệ thống centreworld luôn là sự lựa chọn hàng đầu của mọi gia đình trong mua sắm phục vụ cho nhu cầu hàng ngày và vui chơi, giải trí, ẩm thực.</span></p>
 <span style="font-size: 13px;">
 </span>
 <p style="line-height: 18px;"><span style="font-size: 13px;">
-Khu Cho Thuê Co.opmart với không gian mua sắm rộng rãi, hiện đại, đa dạng ngành hàng như ẩm thực, thời trang, vui chơi giải trí, đồ dùng gia đình, chăm  sóc sức khỏe sắc đẹp với các thương hiệu nổi tiếng trong nước và quốc tế. Đến với Co.opmart, khách hàng có thể dễ dàng lưa chọn những sản phẩm thời trang dạo phố, thời trang công sở thanh lịch của những thương hiệu nổi tiếng. Các cửa hàng trang sức tại Co.opmart là nơi hội tụ của những thương hiệu trang sức hàng đầu Việt Nam. Ngoài ra các sản phẩm đồng hồ, kính mắt cũng được bày bán tại Khu Cho Thuê Co.opmart. Nếu có nhu cầu tìm kiếm các sản phẩm chăm sóc sức khỏe sắc đẹp, khách hàng có thể dễ dàng tìm thấy các sản phẩm dưỡng da, trang điểm của các thương hiệu đến từ Hàn Quốc, Pháp, Mỹ, ….Sau những giờ trải nghiệm mua sắm thú vị, khách hàng có thể dễ dàng thưởng thức được những miếng gà rán giòn tan, những miếng burger tuyệt hảo hoặc những ly kem ngọt mát trong các nhà hàng thức ăn nhanh tại Co.opmart. Khu vui chơi giải trí với trang thiết bị hiện đại cùng hàng trăm trò chơi mới lạ sẽ giúp cho các bé thiếu nhi cùng gia đình có những giây phút thư giãn thoải mái, sảng khoái. </span></p>
+Khu Cho Thuê centreworld với không gian mua sắm rộng rãi, hiện đại, đa dạng ngành hàng như ẩm thực, thời trang, vui chơi giải trí, đồ dùng gia đình, chăm  sóc sức khỏe sắc đẹp với các thương hiệu nổi tiếng trong nước và quốc tế. Đến với centreworld, khách hàng có thể dễ dàng lưa chọn những sản phẩm thời trang dạo phố, thời trang công sở thanh lịch của những thương hiệu nổi tiếng. Các cửa hàng trang sức tại centreworld là nơi hội tụ của những thương hiệu trang sức hàng đầu Việt Nam. Ngoài ra các sản phẩm đồng hồ, kính mắt cũng được bày bán tại Khu Cho Thuê centreworld. Nếu có nhu cầu tìm kiếm các sản phẩm chăm sóc sức khỏe sắc đẹp, khách hàng có thể dễ dàng tìm thấy các sản phẩm dưỡng da, trang điểm của các thương hiệu đến từ Hàn Quốc, Pháp, Mỹ, ….Sau những giờ trải nghiệm mua sắm thú vị, khách hàng có thể dễ dàng thưởng thức được những miếng gà rán giòn tan, những miếng burger tuyệt hảo hoặc những ly kem ngọt mát trong các nhà hàng thức ăn nhanh tại centreworld. Khu vui chơi giải trí với trang thiết bị hiện đại cùng hàng trăm trò chơi mới lạ sẽ giúp cho các bé thiếu nhi cùng gia đình có những giây phút thư giãn thoải mái, sảng khoái. </span></p>
 <span style="font-size: 13px;">
 </span>
 <p style="line-height: 18px;"><span style="font-size: 13px;">
-Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, không gian mua sắm đẹp, hệ thống Co.opmart hiện là bạn đồng hành của hơn 1,000 đối tác thuê mặt bằng và đón tiếp, phục vụ hơn 500,000 lượt khách mua sắm mỗi ngày.
+Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, không gian mua sắm đẹp, hệ thống centreworld hiện là bạn đồng hành của hơn 1,000 đối tác thuê mặt bằng và đón tiếp, phục vụ hơn 500,000 lượt khách mua sắm mỗi ngày.
 <br>
 </span></p>
-<p style="font-size: 15px; font-weight: bold; color: #133c8b;">Quyền lợi khi đồng hành cùng Co.opmart:</p>
+<p style="font-size: 15px; font-weight: bold; color: #133c8b;">Quyền lợi khi đồng hành cùng centreworld:</p>
 <center>
 <table style="width: 100%;" cellspacing="3" cellpadding="2" border="0">
     <thead>
@@ -162,7 +162,7 @@ Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, kh
         </tr>
         <tr>
             <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">•&nbsp;</span></td>
-            <td style="width: 99%;"><span style="font-size: 13px;">Cơ hội đồng hành cùng Co.opmart phát triển mở rộng mạng lưới trên cả nước
+            <td style="width: 99%;"><span style="font-size: 13px;">Cơ hội đồng hành cùng centreworld phát triển mở rộng mạng lưới trên cả nước
             </span></td>
         </tr>
         <tr>
@@ -173,7 +173,7 @@ Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, kh
 </table>
 </center><br>
 <br>
-<p style="font-size: 15px; font-weight: bold; color: #133c8b;">Đăng ký thuê mặt bằng tại Co.opmart:</p>
+<p style="font-size: 15px; font-weight: bold; color: #133c8b;">Đăng ký thuê mặt bằng tại centreworld:</p>
 <center>
 <table style="width: 100%;" cellspacing="3" cellpadding="2" border="0">
     <thead>
@@ -185,7 +185,7 @@ Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, kh
         </tr>
         <tr valign="top">
             <td style="text-align: left; vertical-align: top;">&nbsp;</td>
-            <td style="width: 99%;"><span style="font-size: 13px;">Khi xem xét các hồ sơ đề nghị thuê mặt bằng của Quý đối tác, Co.opmart sẽ ưu tiên lựa chọn Quý đối tác sau để đồng hành cùng Co.opmart:</span></td>
+            <td style="width: 99%;"><span style="font-size: 13px;">Khi xem xét các hồ sơ đề nghị thuê mặt bằng của Quý đối tác, centreworld sẽ ưu tiên lựa chọn Quý đối tác sau để đồng hành cùng centreworld:</span></td>
         </tr>
         <tr valign="top">
             <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">&nbsp;</span></td>
@@ -199,7 +199,7 @@ Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, kh
                     </tr>
                     <tr valign="top">
                         <td><span style="font-size: 13px;">•&nbsp;</span></td>
-                        <td style="width: 99%;"><span style="font-size: 13px;">Sản phẩm dịch vụ phù hợp với đối tượng khách hàng đang mua sắm tại Co.opmart.</span></td>
+                        <td style="width: 99%;"><span style="font-size: 13px;">Sản phẩm dịch vụ phù hợp với đối tượng khách hàng đang mua sắm tại centreworld.</span></td>
                     </tr>
                 </tbody>
             </table>
@@ -226,7 +226,7 @@ Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, kh
                 <tbody>
                     <tr valign="top">
                         <td><span style="font-size: 13px;">•&nbsp;</span></td>
-                        <td style="width: 99%;"><span style="font-size: 13px;">Giai đoạn 1: Khi đăng ký thuê mặt bằng tại Co.opmart, Quý đối tác cần gửi thông tin cho Co.opmart theo mẫu - Phiếu đăng ký thuê mặt bằng <a href="/Portals/0/Document/PHIEU%20DANG%20KY%20THUE%20MAT%20BANG_IV.1.doc"><strong><em>(download thông tin tại đây)</em></strong></a></span>
+                        <td style="width: 99%;"><span style="font-size: 13px;">Giai đoạn 1: Khi đăng ký thuê mặt bằng tại centreworld, Quý đối tác cần gửi thông tin cho centreworld theo mẫu - Phiếu đăng ký thuê mặt bằng <a href="/Portals/0/Document/PHIEU%20DANG%20KY%20THUE%20MAT%20BANG_IV.1.doc"><strong><em>(download thông tin tại đây)</em></strong></a></span>
                         </td>
                     </tr>
                     <tr valign="top">
@@ -275,7 +275,7 @@ Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, kh
         </tr>
         <tr valign="top">
             <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;"><strong>3.</strong></span> </td>
-            <td style="width: 99%;"><span style="font-size: 13px;"><strong>Giới thiệu mặt bằng cho thuê tại hệ thống Co.opmart <a title="Download file Gioi thieu mat bang cho thue" href="/Portals/0/Document/GT_MAT_BANG_CHO_THUE_TAI_HT_CO.OPMART.pdf" target="_blank"><em>(dowload tại đây)</em></a></strong></span></td>
+            <td style="width: 99%;"><span style="font-size: 13px;"><strong>Giới thiệu mặt bằng cho thuê tại hệ thống centreworld <a title="Download file Gioi thieu mat bang cho thue" href="/Portals/0/Document/GT_MAT_BANG_CHO_THUE_TAI_HT_centreworld.pdf" target="_blank"><em>(dowload tại đây)</em></a></strong></span></td>
         </tr>
         <tr valign="top">
             <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;"><strong>4.</strong></span> </td>
