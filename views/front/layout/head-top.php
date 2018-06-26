@@ -25,7 +25,7 @@
 								<li><a href="#testimonial" class="scroll">Tuyển dụng</a></li>
 								<li><a href="#markets" class="scroll">Dịch vụ</a></li>
 								<li><a href="#team" class="scroll">Tin tức nhanh</a></li>
-								<li><a href="#mail" class="scroll">Liên hệ</a></li>
+								<li><a href="?m=common&a=contact" class="scroll">Liên hệ</a></li>
 							</ul>
 						</nav>
 					</div>
