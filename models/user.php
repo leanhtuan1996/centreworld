@@ -52,7 +52,7 @@ function getallUserByemploy()
 {
 
     //sql
-    $sql = "SELECT * FROM users WHERE position = 'employ'";
+    $sql = "SELECT * FROM users WHERE position = 'nhân viên'";
 
     //query
     return db_get_list($sql);
@@ -63,7 +63,7 @@ function getUserBycustomer()
 {
 
     //sql
-    $sql = "SELECT * FROM users WHERE position = 'customer'";
+    $sql = "SELECT * FROM users WHERE position = 'khách hàng'";
 
     //query
     return db_get_list($sql);
