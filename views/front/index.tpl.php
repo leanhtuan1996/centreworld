@@ -137,6 +137,305 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //about --> 
+			<!-- portfolio -->
+			<div class="portfolio" id="gallery">
+			<div class="container">
+				<div class="agileits-title"> 
+					<h3>Kiot</h3> 
+				</div>
+				<ul class="simplefilter w3layouts agileits">
+					<li class="active w3layouts agileits" data-filter="all">All</li>
+					<li class="w3layouts agileits" data-filter="1">Tầng 1</li>
+					<li class="w3layouts agileits" data-filter="2">Tầng 2</li>
+					<li class="w3layouts agileits" data-filter="3">Tầng 3</li>
+				</ul>
+	
+				<div class="filtr-container w3layouts agileits">
+				<?php 
+				$kiot = geatallKiotbyid_floor(1);
+				$count = count($kiot);
+				for ($i = 0; $i< $count ; $i++){
+	
+					$ID_k = $kiot[$i]['ID_k'];
+									
+					$name_pro = $kiot[$i]['name_k'];
+					
+					$img = $kiot[$i]['image'];
+	
+					$description = $kiot[$i]['description'];
+					
+					$id_floor = $kiot[$i]['id_floor'];
+	
+				?>
+	
+					<div class="filtr-item w3layouts agileits portfolio-t" data-category="1" data-sort="Busy streets">
+						<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<figcaption>
+								<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<?php } ?>
+	
+				<?php 
+				$kiot = geatallKiotbyid_floor(2);
+				$count = count($kiot);
+				for ($i = 0; $i< $count ; $i++){
+	
+					$ID_k = $kiot[$i]['ID_k'];
+									
+					$name_pro = $kiot[$i]['name_k'];
+					
+					$img = $kiot[$i]['image'];
+	
+					$id_floor = $kiot[$i]['id_floor'];
+	
+					$description = $kiot[$i]['description'];
+	
+				?>
+	
+					<div class="filtr-item w3layouts agileits portfolio-t" data-category="2" data-sort="Busy streets">
+						<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<figcaption>
+								<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<?php } ?>
+	
+								<?php 
+				$kiot = geatallKiotbyid_floor(3);
+				$count = count($kiot);
+				for ($i = 0; $i< $count ; $i++){
+	
+					$ID_k = $kiot[$i]['ID_k'];
+									
+					$name_pro = $kiot[$i]['name_k'];
+					
+					$img = $kiot[$i]['image'];
+	
+					$id_floor = $kiot[$i]['id_floor'];
+	
+					$description = $kiot[$i]['description'];
+	
+				?>
+	
+					<div class="filtr-item w3layouts agileits portfolio-t" data-category="3" data-sort="Busy streets">
+						<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<figcaption>
+									<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<?php } ?>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+			
+		<!-- //portfolio -->
+		<!-- testimonial -->
+		<div class="jarallax testimonial" id="testimonial">
+			<div class="testimonial-dot">
+				<div class="container">
+					<div class="agileits-title testimonial-heading"> 
+						<h3>Tuyển dụng</h3> 
+					</div>
+	
+				<div class="markets-grids">
+				<?php
+								$rq = getallrqbystatus();
+							
+				
+	
+								$count = count($rq);
+								
+								for ($i=0; $i < $count ; $i++)
+								{
+									$kiot = getkiottById($rq[$i]['ID_k']);
+									
+									$id = $rq[$i]['ID_k'];
+									$ID_h = $rq[$i]['ID_h'];
+									
+									$recruitment = $rq[$i]['recruitment'];
+									
+									$position = $rq[$i]['position'];
+									
+									$salary = $rq[$i]['salary'];
+									?>
+									<div class="col-md-4 w3ls-markets-grid">
+										<div class="agileits-icon-grid">
+											<div class="icon-left">
+												<i class="fa fa-gamepad" aria-hidden="true"></i>
+											</div>
+											<div class="icon-right">
+												<h5><?php echo $kiot ['description'] ?> - <?php echo $kiot ['name_k'] ?></h5>
+												<p> tuyển dụng: <?php echo $position ?></p>
+												<p>vị trí : <?php 		 if ($recruitment == 1)
+								{
+									echo 'Nhân viên chính thức';
+								}
+								else
+	
+								{
+									
+									echo 	'Nhân viên hợp đồng';
+							
+								}
+	 ?></p>
+	
+											</div>
+											<div class="clearfix"> </div>
+										</div>
+									</div>
+								<?php }?>
+	
+				</div>
+			  </div>
+	  </div>
+	</div>
+		</div>
+	<!-- //testimonial -->
+		<!-- team -->
+		<div class="team" id="team" style="padding-bottom: 200px;">
+			<div class="container">
+				<div class="agileits-title"> 
+					<h3>Tin tức nhanh</h3> 
+				</div>
+				<div class="agileits-team-grids">
+					<div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
+						<div class="team-info">
+							<img src="images/t1.jpg" alt="">
+							<div class="team-caption"> 
+								<h3>SPECIAL OFFERS</h3>
+								<ul>
+								</ul>
+							</div>
+						</div>
+								<p class="text-center">Nằm trong chuỗi các sự kiện tri ân Quý khách hàng, Giovanni trân trọng mang tới chương trình SPECIAL OFFERS với những ưu đãi hấp dẫn. Vậy bạn đã biết chuỗi các sự kiện tri ân Quý khách hàng chưa? Hãy cùng khám phá chuỗi các sự kiện tri ân Quý khách hàng nhé!</p>
+					</div>
+					<div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
+						<div class="team-info">
+							<img src="images/t2.jpg" alt="">
+							<div class="team-caption"> 
+								<h3>KHAI TRƯƠNG GIAN HÀNG H&M </h3>
+								<ul>
+								</ul>
+							</div>
+						</div>
+								<p class="text-center">Là một trong những thương hiệu đình đám với giá cả khá là bình dân H&M sẽ được ra mắt vào thời gian tới. Với không gian của gian hàng rộng rãi có thể trưng bày nhiều sản phầm để quý khách có thể lựa chọn. Với việc khai trương sẽ có những phần quà hấp dẫn giành tặng quý khách hàng!</p>
+					</div>
+				  <div class="col-md-3 agileits-team-grid" style="width: 380px;height: 250px;">
+						<div class="team-info">
+							<img src="images/t3.jpg" alt="">
+							<div class="team-caption"> 
+								<h3>VUI XUÂN ĐẮC LỘC ĐÓN ƯU ĐÃI NGẬP TRÀN</h3>
+								<ul>
+								</ul>
+							</div>
+						</div>
+								<p class="text-center">Tết sung túc là khi gia đình hạnh phúc, thuận hòa, là khi xung quanh ngập sắc hoa tươi, là khi gửi trao những lời chúc xuân ý nghĩa. Hiểu được điều đó Tết Mậu Tuất 2018, Centre World sẽ tái hiện khung cảnh HỘI CHỢ XUÂN ĐẮC LỘC với hàng loạt những décor đậm đà sắc xuân!</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!-- //team -->
+	
+	<!-- markets -->
+	<div class="markets" id="markets">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Dịch vụ</h3>
+			</div>
+			<div class="markets-grids">
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-gamepad" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Thời Trang - Làm Đẹp</h5>
+							<p>Tổng hợp các gian hàng cập nhật xu hướng thời trang mặc đẹp, mẹo làm đẹp mới nhất. Bí quyết, cách làm đẹp da, kiểu tóc đẹp, ăn mặc trẻ trung, hiện đại. Phù hợp với mọi đối tượng lứa tuổi.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-cutlery" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Ẩm Thực</h5>
+							<p>Các gian hàng ẩm thực đa dạng phong phú từ nhiều thể loại khác nhau như khu Food court, nhà hàng, các quán cà phê. Từ ẩm thực Hàn Quốc, Nhật Bản hay các dạng thức ăn nhanh của Mỹ.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-home" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Nhà Cửa - Gia Đình</h5>
+							<p>Các sản phẩm đồ dùng gia đình, đồ dùng tiện ích cần thiết cho ngôi nhà của bạn. Những gian hàng với những nhân viên tư vấn cực thân thiện chuyên nghiệp giúp bạn tìm được những sản phầm phù hợp nhất.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-gamepad" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Vui Chơi Giải Trí</h5>
+							<p>Khu vui chơi giải trí trong nhà với hàng trăm trò chơi, nhiều khu vui chơi theo lứa tuổi, sở thích là nơi lý tưởng để cha mẹ đưa trẻ đi trốn nóng dịp cuối tuần và ngày nghỉ.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-comments" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Góp ý</h5>
+							<p>Những thắc mắc sẽ được đội ngủ nhân viên giải đáp cận kẽ và những ý kiến của khách hàng về dịch vụ cũng như về thiết bị ở trung tâm thương mại.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Tin tức</h5>
+							<p>Nhận thông báo tin tức về các dịch vụ, các sự kiện khuyến mãi sớm nhất, thẻ thành viên và nhu cầu cho thuê Kiot hoặc tuyển nhân viên.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //markets -->
+
 	<!-- mail -->
 	<div class="mail" id="mail">
 		<div class="container">
@@ -316,19 +615,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 		</script>
 	<!-- //PopUp-Box-JavaScript -->
-	<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5b31c5c6eba8cd3125e32b71/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-
 </body>
 </html>
