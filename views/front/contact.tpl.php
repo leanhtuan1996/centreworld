@@ -131,7 +131,184 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<div class="about-w3lsrow"> 
-					<span class="color-elements">Trung tâm thương mại Centre World,</span> là thương hiệu kinh doanh mặt bằng bán lẻ thuộc Tập đoàn Centre - là một nhà phát triển trung tâm thương mại chuyên biệt. Với phương châm “Khách hàng là trên hết”, chúng tôi đã nỗ lực tạo ra các trung tâm thương mại nhằm nâng cao chất lượng cuộc sống, khuyến khích các hoạt động kinh tế ở địa phương, và đóng góp vào cuộc sống, văn hoá cộng đồng. Ngoài ra, Centre World còn hợp tác trong việc xây dựng các cộng đồng năng động và thú vị. Chúng tôi sẽ sử dụng khả năng và kinh nghiệm của mình để tiếp tục mang đến những giá trị mới nhằm thu hút khách hàng, cộng đồng và xã hội.</p>
+			<div id="content">
+			<div id="dnn_ContentPane">			
+			<div class="DnnModule DnnModule-DNN_HTML DnnModule-2133"><a name="2133"></a>
+<div><div id="dnn_ctr2133_ContentPane"><!-- Start_Module_2133 --><div id="dnn_ctr2133_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr2133_HtmlModule_lblContent" class="Normal">
+	<p style="font-size: 15px; font-weight: bold; color: #133c8b;">Giới thiệu chung:</p>
+<p><img alt="" src="/portals/0/KMKCT/nua-quang-cao-MBCT.gif" width="730" height="480"></p>
+<p style="line-height: 18px;"><span style="font-size: 13px;">
+Là nhà bán lẻ hàng đầu Việt Nam, với gần 80 cửa hàng trên khắp toàn quốc, hệ thống Co.opmart luôn là sự lựa chọn hàng đầu của mọi gia đình trong mua sắm phục vụ cho nhu cầu hàng ngày và vui chơi, giải trí, ẩm thực.</span></p>
+<span style="font-size: 13px;">
+</span>
+<p style="line-height: 18px;"><span style="font-size: 13px;">
+Khu Cho Thuê Co.opmart với không gian mua sắm rộng rãi, hiện đại, đa dạng ngành hàng như ẩm thực, thời trang, vui chơi giải trí, đồ dùng gia đình, chăm  sóc sức khỏe sắc đẹp với các thương hiệu nổi tiếng trong nước và quốc tế. Đến với Co.opmart, khách hàng có thể dễ dàng lưa chọn những sản phẩm thời trang dạo phố, thời trang công sở thanh lịch của những thương hiệu nổi tiếng. Các cửa hàng trang sức tại Co.opmart là nơi hội tụ của những thương hiệu trang sức hàng đầu Việt Nam. Ngoài ra các sản phẩm đồng hồ, kính mắt cũng được bày bán tại Khu Cho Thuê Co.opmart. Nếu có nhu cầu tìm kiếm các sản phẩm chăm sóc sức khỏe sắc đẹp, khách hàng có thể dễ dàng tìm thấy các sản phẩm dưỡng da, trang điểm của các thương hiệu đến từ Hàn Quốc, Pháp, Mỹ, ….Sau những giờ trải nghiệm mua sắm thú vị, khách hàng có thể dễ dàng thưởng thức được những miếng gà rán giòn tan, những miếng burger tuyệt hảo hoặc những ly kem ngọt mát trong các nhà hàng thức ăn nhanh tại Co.opmart. Khu vui chơi giải trí với trang thiết bị hiện đại cùng hàng trăm trò chơi mới lạ sẽ giúp cho các bé thiếu nhi cùng gia đình có những giây phút thư giãn thoải mái, sảng khoái. </span></p>
+<span style="font-size: 13px;">
+</span>
+<p style="line-height: 18px;"><span style="font-size: 13px;">
+Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, không gian mua sắm đẹp, hệ thống Co.opmart hiện là bạn đồng hành của hơn 1,000 đối tác thuê mặt bằng và đón tiếp, phục vụ hơn 500,000 lượt khách mua sắm mỗi ngày.
+<br>
+</span></p>
+<p style="font-size: 15px; font-weight: bold; color: #133c8b;">Quyền lợi khi đồng hành cùng Co.opmart:</p>
+<center>
+<table style="width: 100%;" cellspacing="3" cellpadding="2" border="0">
+    <thead>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">•&nbsp;</span></td>
+            <td style="width: 99%;"><span style="font-size: 13px;">Cơ hội tiếp cận lượng khách hàng ổn định một cách nhanh chóng và dễ dàng</span></td>
+        </tr>
+        <tr>
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">•&nbsp;</span></td>
+            <td style="width: 99%;"><span style="font-size: 13px;">Cơ hội đồng hành cùng Co.opmart phát triển mở rộng mạng lưới trên cả nước
+            </span></td>
+        </tr>
+        <tr>
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">•&nbsp;</span></td>
+            <td style="width: 99%;"><span style="font-size: 13px;">Chính sách giá và hỗ trợ hoạt động kinh doanh ưu đãi, linh hoạt.</span></td>
+        </tr>
+    </tbody>
+</table>
+</center><br>
+<br>
+<p style="font-size: 15px; font-weight: bold; color: #133c8b;">Đăng ký thuê mặt bằng tại Co.opmart:</p>
+<center>
+<table style="width: 100%;" cellspacing="3" cellpadding="2" border="0">
+    <thead>
+    </thead>
+    <tbody>
+        <tr valign="top">
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;"><strong>1.</strong></span> </td>
+            <td style="width: 99%;"><span style="font-size: 13px;"><strong>Tiêu chí lựa chọn đối tác thuê mặt bằng</strong></span></td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: left; vertical-align: top;">&nbsp;</td>
+            <td style="width: 99%;"><span style="font-size: 13px;">Khi xem xét các hồ sơ đề nghị thuê mặt bằng của Quý đối tác, Co.opmart sẽ ưu tiên lựa chọn Quý đối tác sau để đồng hành cùng Co.opmart:</span></td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">&nbsp;</span></td>
+            <td style="width: 99%;">
+            <center>
+            <table style="border-collapse: collapse;" cellspacing="2" cellpadding="2" border="0" width="98%">
+                <tbody>
+                    <tr valign="top">
+                        <td><span style="font-size: 13px;">•&nbsp;</span></td>
+                        <td style="width: 99%;"><span style="font-size: 13px;">Đối tác là những doanh nghiệp có thương hiệu uy tín quốc tế, quốc gia và địa phương.</span></td>
+                    </tr>
+                    <tr valign="top">
+                        <td><span style="font-size: 13px;">•&nbsp;</span></td>
+                        <td style="width: 99%;"><span style="font-size: 13px;">Sản phẩm dịch vụ phù hợp với đối tượng khách hàng đang mua sắm tại Co.opmart.</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            </center>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;"><strong>2.</strong></span> </td>
+            <td style="width: 99%;"><span style="font-size: 13px;"><strong>Phương thức đăng ký thuê mặt bằng</strong></span></td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">&nbsp;</span></td>
+            <td style="width: 99%;"><span style="font-size: 13px;">Quy trình thuê mặt bằng <a href="/Portals/0/Document/quytrinh_thue_matbang.pdf"><strong><em>(download tại đây)</em></strong></a><strong><em></em></strong></span></td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">&nbsp;</span></td>
+            <td style="width: 99%;"><span style="font-size: 13px;">Hồ sơ cần thiết khi thuê mặt bằng:</span></td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">&nbsp;</span></td>
+            <td style="width: 99%;">
+            <center>
+            <table style="border-collapse: collapse;" cellspacing="2" cellpadding="2" border="0" width="98%">
+                <tbody>
+                    <tr valign="top">
+                        <td><span style="font-size: 13px;">•&nbsp;</span></td>
+                        <td style="width: 99%;"><span style="font-size: 13px;">Giai đoạn 1: Khi đăng ký thuê mặt bằng tại Co.opmart, Quý đối tác cần gửi thông tin cho Co.opmart theo mẫu - Phiếu đăng ký thuê mặt bằng <a href="/Portals/0/Document/PHIEU%20DANG%20KY%20THUE%20MAT%20BANG_IV.1.doc"><strong><em>(download thông tin tại đây)</em></strong></a></span>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td><span style="font-size: 13px;">•&nbsp;</span></td>
+                        <td style="width: 99%;"><span style="font-size: 13px;">Giai đoạn 2: Khi trao đổi chi tiết về cơ hội  hợp tác, Quý đối tác cần bổ sung các giấy tờ sau: </span></td>
+                    </tr>
+                    <tr valign="top">
+                        <td><span style="font-size: 13px;">&nbsp;</span></td>
+                        <td style="width: 99%;">
+                        <center>
+                        <table style="border-collapse: collapse;" cellspacing="2" cellpadding="2" border="0" width="98%">
+                            <tbody>
+                                <tr valign="top">
+                                    <td><span style="font-size: 13px;">-&nbsp;</span></td>
+                                    <td style="width: 99%;"><span style="font-size: 13px;">Giấy Chứng Nhận Đăng Ký Kinh Doanh (đối với doanh nghiệp) hoặc Bản sao CMND và hộ khẩu (đối với khách hàng cá nhân)</span></td>
+                                </tr>
+                                <tr valign="top">
+                                    <td><span style="font-size: 13px;">-&nbsp;</span></td>
+                                    <td style="width: 99%;"><span style="font-size: 13px;">Giấy Chứng Nhận Đăng Ký Nhãn Hiệu bởi Cục Sở Hữu Trí Tuệ (nếu cần)</span></td>
+                                </tr>
+                                <tr valign="top">
+                                    <td><span style="font-size: 13px;">-&nbsp;</span></td>
+                                    <td style="width: 99%;"><span style="font-size: 13px;">Giấy tờ chứng minh nguồn gốc xuất xứ hàng hóa.</span></td>
+                                </tr>
+                                <tr valign="top">
+                                    <td><span style="font-size: 13px;">-&nbsp;</span></td>
+                                    <td style="width: 99%;"><span style="font-size: 13px;">Tải liệu giới thiệu về thương hiệu.</span></td>
+                                </tr>
+                                <tr valign="top">
+                                    <td><span style="font-size: 13px;">-&nbsp;</span></td>
+                                    <td style="width: 99%;"><span style="font-size: 13px;">Hình ảnh hoạt động tại các cửa hàng, chi nhánh bên ngoài, bên trong các TTTM/Siêu thị (nếu có)</span></td>
+                                </tr>
+                                <tr valign="top">
+                                    <td><span style="font-size: 13px;">-&nbsp;</span></td>
+                                    <td style="width: 99%;"><span style="font-size: 13px;">Giấy tờ khác theo quy định pháp luật hiện hành nếu kinh doanh hàng hóa dịch vụ đặc thù.</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </center>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </center>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;"><strong>3.</strong></span> </td>
+            <td style="width: 99%;"><span style="font-size: 13px;"><strong>Giới thiệu mặt bằng cho thuê tại hệ thống Co.opmart <a title="Download file Gioi thieu mat bang cho thue" href="/Portals/0/Document/GT_MAT_BANG_CHO_THUE_TAI_HT_CO.OPMART.pdf" target="_blank"><em>(dowload tại đây)</em></a></strong></span></td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;"><strong>4.</strong></span> </td>
+            <td style="width: 99%;"><span style="font-size: 13px;"><strong>Thông tin liên hệ:</strong></span></td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">&nbsp;</span></td>
+            <td style="width: 99%;"><span style="font-size: 13px;">Để biết thông tin chi tiết và đăng ký thuê mặt bằng, vui lòng liên hệ: <br>
+            </span>
+            <span style="font-size: 13px;"><strong>Liên hiệp HTX TM TP. Hồ Chí Minh (Saigon Co.op)  <br>
+            Phòng Quản Lý Không Gian Mua Sắm <br>
+            </strong>
+            Địa chỉ : 195-197 Nguyễn Thái Bình, Q.1, Tp.HCM<br>
+            Điện thoại: +84 8 3836 0143; Ext: 1167 | Fax: +84 8 3915 4335<br>
+            Email: thuematbang@coopmart.vn<br>
+            </span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</center>
+</div>
+
+</div><!-- End_Module_2133 --></div></div>
+<div class="SLi1"></div>
+
+</div></div>
+			<div id="dnn_ContentPane2" class="DNNEmptyPane">
+			</div>
+			<div id="dnn_ContentPane3" class="DNNEmptyPane">
+			</div>
+            
+		</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
