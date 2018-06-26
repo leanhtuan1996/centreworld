@@ -656,8 +656,7 @@ if(is_submit('addcontract')){
                                                                             <div class="form-group">
                                                                             <div class="form-group">
                                                                                 <label class="control-label mb-10" >Email</label>
-                                                                                <div class="input-group">
-                                                                              
+                                                                                <div class="input-group">                                                                            
                                                                                     <input type="text" name = "email" class="form-control"  value="<?php echo $user['email']?> " >
                                                                                 </div>
                                                                             </div>
