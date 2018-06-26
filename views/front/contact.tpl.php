@@ -226,7 +226,7 @@ Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, kh
                 <tbody>
                     <tr valign="top">
                         <td><span style="font-size: 13px;">•&nbsp;</span></td>
-                        <td style="width: 99%;"><span style="font-size: 13px;">Giai đoạn 1: Khi đăng ký thuê mặt bằng tại centreworld, Quý đối tác cần gửi thông tin cho centreworld theo mẫu - Phiếu đăng ký thuê mặt bằng <a href="/Portals/0/Document/PHIEU%20DANG%20KY%20THUE%20MAT%20BANG_IV.1.doc"><strong><em>(download thông tin tại đây)</em></strong></a></span>
+                        <td style="width: 99%;"><span style="font-size: 13px;">Giai đoạn 1: Khi đăng ký thuê mặt bằng tại centreworld, Quý đối tác cần gửi thông tin cho centreworld theo mẫu - Phiếu đăng ký thuê mặt bằng <a href="contact/quytrinh_thue_matbang.pdf"><strong><em>(download thông tin tại đây)</em></strong></a></span>
                         </td>
                     </tr>
                     <tr valign="top">
@@ -275,7 +275,7 @@ Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, kh
         </tr>
         <tr valign="top">
             <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;"><strong>3.</strong></span> </td>
-            <td style="width: 99%;"><span style="font-size: 13px;"><strong>Giới thiệu mặt bằng cho thuê tại hệ thống centreworld <a title="Download file Gioi thieu mat bang cho thue" href="/Portals/0/Document/GT_MAT_BANG_CHO_THUE_TAI_HT_centreworld.pdf" target="_blank"><em>(dowload tại đây)</em></a></strong></span></td>
+            <td style="width: 99%;"><span style="font-size: 13px;"><strong>Giới thiệu mặt bằng cho thuê tại hệ thống centreworld <a title="Download file Gioi thieu mat bang cho thue" href="contact/quytrinh_thue_matbang.pdf"target="_blank"><em>(dowload tại đây)</em></a></strong></span></td>
         </tr>
         <tr valign="top">
             <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;"><strong>4.</strong></span> </td>
