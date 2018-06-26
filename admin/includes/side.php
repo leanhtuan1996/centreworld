@@ -60,7 +60,8 @@
 	  <ul class="treeview-menu">
 		<li><a href="?page=rq"><i class="fa fa-circle-o"></i>Tuyển dụng</a></li>
 		<li><a href="?page=bill"><i class="fa fa-circle-o"></i>Thanh toán</a></li>
-	  </ul>
+		</ul>
+		<li><a href="https://dashboard.tawk.to"><i class="fa fa-circle-o"></i>Trò chuyện</a></li>
 	</li>
 	</ul>
 	
