@@ -27,10 +27,7 @@ Tại số...  <br>Chúng tôi gồm có: </p>
      <p>1. Đảm bảo và chịu trách nhiệm về mặt pháp lý về việc sử dụng và kinh doanh kiốt của bên A. <br>2. Tiến hành kiểm tra và quản lý thường xuyên để đảm bảo hoạt động kinh doanh văn minh. <br>3. Thu phí quản lý theo quy định và đảm bảo đúng thời hạn 4. Đảm bảo cung cấp các dịch vụ: an ninh, vệ sinh, điện, nước trong khu mua sắm. <br>5. Đảm bảo về điều kiện cơ sở hạ tầng tốt. <br>6. Bên B có trách nhiệm quảng bá và khuyếch trương khu thương mại để thu hút khách hàng đến khu mua sắm.</p>
      <p></p>
      <p style="font-weight: bold;">Điều 5: Các điều khoản khác: </p>- Trong quá trình thực hiện hợp đồng hai bên tích cực cùng nhau kết hợp thường xuyên giải quyết những vướng mắc (nếu có) phát sinh để không làm ảnh hưởng đến tiến độ thực hiện hợp đồng và quyền lợi chung. <br>- Hai bên có trách nhiệm bảo mật nội dung ghi trong bản hợp đồng này. <br>- Các tranh chấp nếu có ( có thể) xảy đến hoặc phát sinh trong hợp đồng này sẽ được hai bên thiện chí cùng nhau đàm phán, thương lượng giải quyết theo hướng hoà giải, tránh gây thiệt hại cả về lợi ích và uy tín của bên kia. Trong trường hợp tranh chấp không thể hoà giải thì sự vụ sẽ được đưa ra giải quyết tại Toà án kinh tế Hà nội, phán quyết của toà án là chung thẩm và rằng buộc các bên. Mọi chi phí tại toà án do bên thua kiện chịu.<p></p>
-       <p>
-       Hợp đồng có hiệu lực kể từ ngày hai bên ký kết và sẽ hết hạn vào ngày.....tháng .... năm ..... </p>
      <p>
        Bản hợp đồng được làm thành 2 bản, mỗi bản có 3 trang và có hiệu lực pháp lý như nhau. Mỗi bên giữ một bản.</p>
-<p align="right"> <span class="text-red"><?php echo $contract['date_time'] ?></span> </p>
 <p></p>
 </textarea>
