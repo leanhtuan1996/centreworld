@@ -550,7 +550,7 @@ include 'moudule/show.profile.php'
                                                                                 <label class="control-label mb-10">Số điện thoại</label>
                                                                                 <div class="input-group">
                                                                  
-                                                                                    <input type="phone" name="phone_number"  id="test1" oninput="validateNumber(this);"   placeholder="+84"class="form-control"  value="+84 <?php echo $user['phone_number']?>" >
+                                                                                    <input type="phone" name="phone_number"  id="test1" oninput="validateNumber(this);"   placeholder="+84"class="form-control"  value="<?php echo $user['phone_number']?>" >
                                                                                 </div>
                                                                             </div>
                                                                             <div class="form-group">
@@ -637,24 +637,20 @@ if(is_submit('addcontract')){
                                                                         <div class="form-body overflow-hide">
                                                                             <div class="form-group">
                                                                                 <label class="control-label mb-10" for="firstName_add">Họ và tên</label>
-                                                                                <div class="input-group">
-                                                                              
+                                                                                <div class="input-group">                                                                              
                                                                                     <input type="text" name = "name" class="form-control" id="firstName_add" value="<?php echo $user['name']?> " >
                                                                                 </div>
                                                                             </div>
                                                                             <div class="form-group">
                                                                                     <label class="control-label mb-10" for="lastName_add">Địa chỉ</label>
                                                                                     <div class="input-group">
-                                                                                       
                                                                                         <input type="text" name ="address" class="form-control" id="lastName_add" value="<?php echo $user['address']?>" >
                                                                                     </div>
                                                                             </div>
-
                                                                             <div class="form-group">
                                                                                 <label class="control-label mb-10" for="phone_add">Số điện thoại</label>
-                                                                                <div class="input-group">
-                                                                 
-                                                                                    <input type="phone" name="phone_number" class="form-control" id="phone_add" value="<?php echo $user['phone_number']?>" >
+                                                                                <div class="input-group">                                                                
+                                                                                    <input type="phone" name="phone_number" class="form-control"  value="<?php echo $user['phone_number']?>" >
                                                                                 </div>
                                                                             </div>
                                                                             <div class="form-group">
