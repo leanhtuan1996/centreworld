@@ -212,7 +212,7 @@ Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, kh
         </tr>
         <tr valign="top">
             <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">&nbsp;</span></td>
-            <td style="width: 99%;"><span style="font-size: 13px;">Quy trình thuê mặt bằng <a href="/Portals/0/Document/quytrinh_thue_matbang.pdf"><strong><em>(download tại đây)</em></strong></a><strong><em></em></strong></span></td>
+            <td style="width: 99%;"><span style="font-size: 13px;">Quy trình thuê mặt bằng <a href="contact/quytrinh_thue_matbang.pdf"><strong><em>(download tại đây)</em></strong></a><strong><em></em></strong></span></td>
         </tr>
         <tr valign="top">
             <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">&nbsp;</span></td>
