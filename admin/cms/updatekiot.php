@@ -11,7 +11,7 @@
             $status =  input_post('status');
             $id_floor =  input_post('id_floor');
             $image_ori = $_FILES['fImg']['name'];
-            $image_add ='';
+            $image_add ;
             if (empty($image_ori)){
               $error_add['image'] = 'Hình sản phẩm không được để trống';
           }else{
