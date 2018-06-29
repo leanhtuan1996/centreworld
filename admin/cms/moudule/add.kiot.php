@@ -25,8 +25,8 @@
               $error = addkiot($data);  
               move_uploaded_file($_FILES['fImg']['tmp_name'], "../customer/$image_ori");
           }
-          echo '<script language="javascript">';
-          echo 'window.location.href = "index.php?page=kt"';
-          echo '</script>';
+        //   echo '<script language="javascript">';
+        //   echo 'window.location.href = "index.php?page=kt"';
+        //   echo '</script>';
       }
     ?>
