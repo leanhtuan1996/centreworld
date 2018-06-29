@@ -15,7 +15,7 @@
             if (empty($image_edit)){
               $image = $kiot['image'];    
           }else{
-              $image = "customer/$image_edit";
+              $image = "../customer/$image_edit";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
