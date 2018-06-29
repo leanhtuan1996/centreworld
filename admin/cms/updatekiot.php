@@ -10,11 +10,11 @@
             $status =  input_post('status');
             $id_floor =  input_post('id_floor');
             $image_edit = $_FILES['fImg']['name'];
-            $image;
+            $image='';
             if (empty($image_edit)){
                 $image = $kiot['image'];
           }else{
-              $image = "../customer/$image_edit";
+              $image = "customer/$image_edit";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
@@ -29,7 +29,7 @@
             $error = db_kiot_validate($kiot_edit);
             if(!$error){
               $error = editkiot($kiot_edit);
-              move_uploaded_file($_FILES['fImg']['tmp_name'],"customer/$image");
+              move_uploaded_file($_FILES['fImg']['tmp_name'],"../customer/$image_edit");
             }
             // echo '<script language="javascript">';
             // echo 'window.location.href = "index.php?page=kt"';
