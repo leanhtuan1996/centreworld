@@ -30,7 +30,7 @@
             $error = db_kiot_validate($kiot_edit);
             if(!$error){
               $error = editkiot($kiot_edit);
-              move_uploaded_file($_FILES['fImg']['tmp_name'],"/home/leanhtuan110596/centreworld/customer/$image");
+              move_uploaded_file($_FILES['fImg']['tmp_name'],$image);
             }
             // echo '<script language="javascript">';
             // echo 'window.location.href = "index.php?page=kt"';
