@@ -31,7 +31,7 @@
 
             if(!$error){
               $error = editProduct($kiot_edit);
-              move_uploaded_file($_FILES['fImg']['tmp_name'],$image);
+              move_uploaded_file($_FILES['fImg']['tmp_name'],"../$image");
           }
             // echo '<script language="javascript">';
             // echo 'window.location.href = "index.php?page=kt"';
