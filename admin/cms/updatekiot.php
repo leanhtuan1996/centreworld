@@ -11,7 +11,6 @@
             $status =  input_post('status');
             $id_floor =  input_post('id_floor');
             $image_edit = $_FILES['fImg']['name'];
-            $image ;
             if (empty($image_edit)){
                 $image = $kiot['image'];
           }else{
