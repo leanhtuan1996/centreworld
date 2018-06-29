@@ -15,7 +15,7 @@
             if (empty($image_ori)){
               $error_add['image'] = 'Hình sản phẩm không được để trống';
           }else{
-              $image = "centreworld/customer/$image_ori";
+              $image = "../customer/$image_ori";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
