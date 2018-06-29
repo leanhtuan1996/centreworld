@@ -87,7 +87,7 @@
              </div>
              <div class="form-group">
              <label>Tên thương hiệu</label>
-             <textarea class="form-control" rows="3" name = "description" value="<?php echo $kiot['description']?>"  ></textarea>
+             <input class="form-control" name = "description" value="<?php echo $kiot['description']?>"  ></input>
            </div>
              <div class="row">
                <div class="col-md-6">
