@@ -15,7 +15,7 @@
             if (empty($image_edit)){
               $error_add['image'] = 'Hình sản phẩm không được để trống';
           }else{
-              $image = "../.././customer/$image_edit";
+              $image = "../customer/$image_edit";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
