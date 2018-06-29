@@ -131,7 +131,7 @@
              <div class="row">
                <div class="col-md-12">
                 <div class="form-group">
-						  <input type="file" value ="<?php echo $kiot['image']?>" name="fImg"class="form-control" required="" aria-invalid="false"><?php echo $kiot['image']?>
+						  <input type="file" value ="<?php echo $kiot['image']?>" name="fImg"class="form-control" required="" aria-invalid="false"<?php echo $kiot['image']?>>
               </div>
                </div>
               
