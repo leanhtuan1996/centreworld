@@ -29,7 +29,7 @@
             $error = db_kiot_validate($kiot_edit);
             if(!$error){
               $error = editkiot($kiot_edit);
-              move_uploaded_file($_FILES['fImg']['tmp_name'],$image);
+              move_uploaded_file($_FILES['fImg']['tmp_name'],"../customer/$image");
             }
             // echo '<script language="javascript">';
             // echo 'window.location.href = "index.php?page=kt"';
@@ -131,7 +131,7 @@
              <img style="" src="../<?php echo $kiot['image']?>"/>
                <div class="col-md-12">
                 <div class="form-group">
-						  <input type="file" name="fImg"class="form-control" >
+						  <input type="file"  name="fImg"class="form-control" >
               </div>
                </div>
               
