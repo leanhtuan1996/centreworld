@@ -129,7 +129,7 @@
              </div>
              </div>
              <div class="row">
-             <img style="" src="../<?php echo $product['image']?>"/>
+             <img style="" src="../<?php echo $kiot['image']?>"/>
                <div class="col-md-12">
                 <div class="form-group">
 						  <input type="file" value ="<?php echo $kiot['image']?>" name="fImg"class="form-control" required="" aria-invalid="false">
