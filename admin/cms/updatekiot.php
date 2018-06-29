@@ -15,7 +15,7 @@
             if (empty($image_ori)){
               $error_add['image'] = 'Hình sản phẩm không được để trống';
           }else{
-              $image_add = "customer/$image_ori";
+              $image = "customer/$image_ori";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
@@ -24,13 +24,13 @@
             'description' => $description,
             'status' => $status,
             'id_floor' =>$id_floor,
-            'image' => $image_add,
+            'image' => $image,
             );
         
             $error = db_kiot_validate($kiot_edit);
             if(!$error){
               $error = editkiot($kiot_edit);
-              move_uploaded_file($_FILES['fImg']['tmp_name'],$image_add);
+              move_uploaded_file($_FILES['fImg']['tmp_name'],$image);
             }
             echo '<script language="javascript">';
             echo 'window.location.href = "index.php?page=kt"';
@@ -62,8 +62,8 @@
                             <?php show_error($error, 'id_floor') ?>
                             <?php }  
                             ?>
-                                <?php if(isset($error_add['status'])) { ?>
-                            <?php show_error($error, 'status') ?>
+                                <?php if(isset($error_add['image'])) { ?>
+                            <?php show_error($error, 'image') ?>
                             <?php }  
                             ?>
                     <?php if(isset($error['editkiot'])) { ?>
