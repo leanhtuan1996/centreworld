@@ -108,8 +108,8 @@
 							if ($kiot ['status'] == 0)
 							{
 							?>
-								 <option selected name = 'status' value = "0">Đã cho thuê</option>
-								 <option  name = 'status' value = "1">Còn trống</option>
+								 <option selected name = 'status' value = "1">Đã cho thuê</option>
+								 <option  name = 'status' value = "0">Còn trống</option>
 								 
 								 
 							<?php							
@@ -117,8 +117,8 @@
 							else 	
 							{				
 							?>
-								 <option  name = 'status' value = "0">Đã cho thuê</option>
-								 <option selected name = 'status' value = "1">Còn trống</option>
+								 <option  name = 'status' value = "1">Đã cho thuê</option>
+								 <option selected name = 'status' value = "0">Còn trống</option>
 								 
 								 
 							<?php							
