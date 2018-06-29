@@ -10,12 +10,12 @@
             $description =  input_post('description');
             $status =  input_post('status');
             $id_floor =  input_post('id_floor');
-            $image_ori = $_FILES['fImg']['name'];
+            $image_edit = $_FILES['fImg']['name'];
             $image ;
-            if (empty($image_ori)){
+            if (empty($image_edit)){
               $error_add['image'] = 'Hình sản phẩm không được để trống';
           }else{
-              $image = "../.././customer/$image_ori";
+              $image = "../.././customer/$image_edit";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
