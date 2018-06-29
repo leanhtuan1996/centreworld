@@ -2,7 +2,8 @@
    <?php
       		
           $ID_k = isset($_GET['ID_k']) ? $_GET['ID_k'] : '';    	
-          $kiot = getkiottById($ID_k);       
+          $kiot = getkiottById($ID_k);  
+          $error = array();     
           if(is_submit('editkiot')){
             $name_k = input_post('name_k');
             $price =  input_post('price');
