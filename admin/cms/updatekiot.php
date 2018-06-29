@@ -37,6 +37,7 @@
             // echo 'window.location.href = "index.php?page=kt"';
             // echo '</script>';
             echo "<script type='text/javascript'>alert('$image');</script>";	
+            echo "<script type='text/javascript'>alert('$name_k');</script>";	
           }
          ?>
         
