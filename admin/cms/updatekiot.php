@@ -9,12 +9,12 @@
             $description =  input_post('description');
             $status =  input_post('status');
             $id_floor =  input_post('id_floor');
-            $image_edit = $_FILES['fImg']['name'];
-            $image='';
-            if (empty($image_edit)){
-                $image = $kiot['image'];
+            $image_ori = $_FILES['fImg']['name'];
+            $image_add ='';
+            if (empty($image_ori)){
+              $error_add['image'] = 'Hình sản phẩm không được để trống';
           }else{
-              $image = "customer/$image_edit";
+              $image_add = "customer/$image_ori";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
@@ -23,13 +23,13 @@
             'description' => $description,
             'status' => $status,
             'id_floor' =>$id_floor,
-            'image' => $image,
+            'image' => $image_add,
             );
         
             $error = db_kiot_validate($kiot_edit);
             if(!$error){
               $error = editkiot($kiot_edit);
-              move_uploaded_file($_FILES['fImg']['tmp_name'],"../customer/$image_edit");
+              move_uploaded_file($_FILES['fImg']['tmp_name'],"../customer/$image_ori");
             }
             // echo '<script language="javascript">';
             // echo 'window.location.href = "index.php?page=kt"';
@@ -131,11 +131,8 @@
              <img style="" src="../<?php echo $kiot['image']?>"/>
                <div class="col-md-12">
                 <div class="form-group">
-<<<<<<< HEAD
+
 						  <input type="file" value ="<?php echo $kiot['image']?>" name="fImg"class="form-control" >
-=======
-						  <input type="file" name="fImg"class="form-control" required="" aria-invalid="false">
->>>>>>> parent of 32f4e36... 1
               </div>
                </div>
               
