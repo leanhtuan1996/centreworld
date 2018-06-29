@@ -262,7 +262,6 @@ function editkiot($kiot){
 	
 	$id_floor = $kiot['id_floor'];
 
-
 	$image = $kiot['image'];
 	
 	
@@ -271,12 +270,12 @@ function editkiot($kiot){
 	
 	if(db_execute($sql) > 0 ){
 		
-		$error['editkiot'] = 'Sửa thông tin thành công';
+		$error['editkiot'] = 'Sửa thông tin thành công, click vào <a href="index.php?page=kt">đây</a> để trở lại';
 		
 	}
 	else{
 		
-		$error['editkiot'] = 'Sửa thông tin thất bại';
+		$error['editkiot'] = 'Sửa thông tin thất bại, click vào <a href="index.php?page=kt">đây</a> để trở lại';
 		
 	}
 	
