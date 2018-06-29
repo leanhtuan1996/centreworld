@@ -130,12 +130,12 @@
              </div>
              <div class="row">
              <img style="" src="../<?php echo $kiot['image']?>"/>
-               <div class="col-md-12">
-                <div class="form-group">
-
-						  <input type="file" name="fImg"class="form-control" >
-              </div>
-               </div>
+             <div class="control-group" style="">
+                    <label class="control-label">Hình ảnh</label>
+                        <div class="controls">
+                            <input type="file" name="fImg" />
+                        </div>
+                </div> 
               
            </section>
            <div class="text-xs-right">
