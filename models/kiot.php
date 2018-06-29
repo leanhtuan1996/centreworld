@@ -278,6 +278,7 @@ function editkiot($kiot){
 		$error['editkiot'] = 'Sửa thông tin thất bại, click vào <a href="index.php?page=kt">đây</a> để trở lại';
 		
 	}
+
 	
 	
 	return $error;
