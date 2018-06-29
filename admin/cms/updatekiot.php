@@ -10,12 +10,12 @@
             $description =  input_post('description');
             $status =  input_post('status');
             $id_floor =  input_post('id_floor');
-            $image_ori = $_FILES['fImg']['name'];
-            $image_add ='';
-            if (empty($image_ori)){
-              $error_add['image'] = 'Hình sản phẩm không được để trống';
+            $image_edit = $_FILES['fImg']['name'];
+            $image;
+            if (empty($image_edit)){
+              $image = $kiot['image'];    
           }else{
-              $image_add = "customer/$image_ori";
+              $image = "customer/$image_edit";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
@@ -24,13 +24,13 @@
             'description' => $description,
             'status' => $status,
             'id_floor' =>$id_floor,
-            'image' => $image_add,
+            'image' => $image,
             );
         
             $error = db_kiot_validate($kiot_edit);
             if(!$error){
               $error = editkiot($kiot_edit);
-              move_uploaded_file($_FILES['fImg']['tmp_name'],"../customer/$image_ori");
+              move_uploaded_file($_FILES['fImg']['tmp_name'],$image);
             }
             // echo '<script language="javascript">';
             // echo 'window.location.href = "index.php?page=kt"';
