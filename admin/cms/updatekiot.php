@@ -105,7 +105,7 @@
                    <label for="date1">Tình trạng :</label>
                    <select class="custom-select form-control"  name="status">
                    <?php
-							if ($status == 0)
+							if ($kiot ['status'] == 0)
 							{
 							?>
 								 <option selected name = 'status' value = "0">Đã cho thuê</option>
