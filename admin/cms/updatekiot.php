@@ -103,7 +103,7 @@
                <div class="col-md-6">
                  <div class="form-group">
                    <label for="date1">Tình trạng :</label>
-                   <select class="custom-select form-control"  name="status">
+                   <select class="form-control">
                    <?php
 							if ($kiot ['status'] == 0)
 							{
