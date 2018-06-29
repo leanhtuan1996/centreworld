@@ -133,7 +133,7 @@
                <div class="col-md-12">
                 <div class="form-group">
 
-						  <input type="file" value ="<?php echo $kiot['image']?>" name="fImg"class="form-control" >
+						  <input type="file" name="fImg"class="form-control" >
               </div>
                </div>
               
