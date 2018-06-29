@@ -263,8 +263,6 @@ function editkiot($kiot){
 	$id_floor = $kiot['id_floor'];
 
 
-	$id_floor = $kiot['id_floor'];
-
 	$image = $kiot['image'];
 	
 	
