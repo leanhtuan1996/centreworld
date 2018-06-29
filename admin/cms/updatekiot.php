@@ -104,8 +104,26 @@
                  <div class="form-group">
                    <label for="date1">Tình trạng :</label>
                    <select class="custom-select form-control"  name="status">
-                    <option name ="status" value="0">Còn trống</option>
-                    <option name ="status" value="1">Đã thuê</option>
+                   <?php
+							if ($status == 0)
+							{
+							?>
+								 <option selected name = 'status' value = "0">Đã cho thuê</option>
+								 <option  name = 'status' value = "1">Còn trống</option>
+								 
+								 
+							<?php							
+							}	
+							else 	
+							{				
+							?>
+								 <option  name = 'status' value = "0">Đã cho thuê</option>
+								 <option selected name = 'status' value = "1">Còn trống</option>
+								 
+								 
+							<?php							
+							}						
+							?>
                    </select>
                </div>
              </div>
