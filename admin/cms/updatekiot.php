@@ -13,9 +13,9 @@
             $image_edit = $_FILES['fImg']['name'];
             $image ;
             if (empty($image_edit)){
-              $error_add['image'] = 'Hình sản phẩm không được để trống';
+                $image = $kiot['image'];
           }else{
-              $image = "http://centreworld.alomobile.tech:8081/customer/$image_edit";
+              $image = "../customer/$image_edit";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
