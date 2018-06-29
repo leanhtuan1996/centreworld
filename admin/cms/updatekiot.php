@@ -15,7 +15,7 @@
             if (empty($image_edit)){
               $image = $kiot['image'];    
           }else{
-              $image = "../customer/$image_edit";
+              $image = "/home/leanhtuan110596/centreworld/customer/$image_edit";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
@@ -109,7 +109,7 @@
                <div class="col-md-6">
                  <div class="form-group">
                    <label for="date1">Tình trạng :</label>
-                   <select class="form-control">
+                   <select class="form-control" name ='status'>
                    <?php
 							if ($kiot ['status'] == 1)
 							{
