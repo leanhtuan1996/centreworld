@@ -605,13 +605,7 @@ if(is_submit('addcontract')){
     );
 
             // $message = "wrong answer";
-            echo "<script type='text/javascript'>alert('$name');</script>";	
-            echo "<script type='text/javascript'>alert('$name_k');</script>";	
-            echo "<script type='text/javascript'>alert('$email');</script>";	
-            echo "<script type='text/javascript'>alert('$date_time');</script>";	
-            echo "<script type='text/javascript'>alert('$citizenship_card');</script>";	
-            echo "<script type='text/javascript'>alert('$address');</script>";	
-            echo "<script type='text/javascript'>alert('$ID_k');</script>";	
+            // echo "<script type='text/javascript'>alert('$message');</script>";	
             // editkiotbystatus($status);
           addcontract($data);
           editkiotbystatus($ID_k);
