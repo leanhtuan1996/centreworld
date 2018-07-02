@@ -35,7 +35,7 @@
 		  </tbody>
 		  <tfoot>
 			  <tr>
-				  <th>Tên Kiot</th>
+				  <th>Vị trí kiot</th>
 				  <th>Miêu tả</th>
 				  <th>Giá</th>
          		  <th>Tên tầng</th>
