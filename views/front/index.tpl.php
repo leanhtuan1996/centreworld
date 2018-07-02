@@ -138,6 +138,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //about --> 
 			<!-- portfolio -->
+			<div class="portfolio" id="gallery">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Kiot</h3> 
+			</div>
+			<ul class="simplefilter w3layouts agileits">
+				<li class="active w3layouts agileits" data-filter="all">All</li>
+				<li class="w3layouts agileits" data-filter="1">Tầng 1</li>
+				<li class="w3layouts agileits" data-filter="2">Tầng 2</li>
+				<li class="w3layouts agileits" data-filter="3">Tầng 3</li>
+			</ul>
+
 			<div class="filtr-container w3layouts agileits">
 			<?php 
 			$kiot = geatallKiotbyid_floor(1);
