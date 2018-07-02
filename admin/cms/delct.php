@@ -3,6 +3,7 @@
       include_once './models/kiot.php';
      $ID_CT = isset($_GET['ID_CT']) ? $_GET['ID_CT'] : '';
     $ID_k = getidkbyct($ID_CT);
+    echo "<script type='text/javascript'>alert('$ID_k');</script>";
      editkiotbyct($ID_k);
      if(!empty($ID_CT)){
           if(delct($ID_CT) > 0){
