@@ -15,7 +15,7 @@ for ($i=0; $i < count($kiot); $i++){
 				?>
 				<td><?php echo $name_k ?></td>
 				<td><?php echo $description ?></td>
-				<td><?php echo number_format($price) ?></td>	
+				<td><?php echo money_format($price) ?></td>	
  				<td><?php echo $name_fl ?></td> 
   				<td><?php if ($status == 0)
   {
