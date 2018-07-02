@@ -77,12 +77,12 @@
                <div class="col-md-6">
                  <div class="form-group">
                    <label for="firstName5"> Vị trí :</label>
-                   <input type="text" class="form-control" name = "name_k" value="<?php echo number_format ($kiot['name_k'])."<br>"?>".  > </div>
+                   <input type="text" class="form-control" name = "name_k" value="<?php echo  $kiot['name_k']?>"  > </div>
                </div>
                <div class="col-md-6">
                  <div class="form-group">
                    <label for="lastName1">Giá :</label>
-                   <input type="text" class="form-control" name = "price" value="<?php echo $kiot['price']?>" > </div>
+                   <input type="text" class="form-control" name = "price" value="<?php echo number_format($kiot['price'])."<br>"?>" > </div>
                </div>
              </div>
              <div class="form-group">
