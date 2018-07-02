@@ -99,6 +99,15 @@ function getbillbyid($id_b)
 	return db_get_row($sql);
 }
 
+function getidkbyct($ID_CT)
+{
+
+	$ID_CT = addslashes($ID_CT);
+
+	$sql = "SELECT ID_k FROM `contract` WHERE ID_CT = '{$ID_CT}'";
+
+	return db_get_row($sql);
+}
 
 
 function db_kiot_validate($data)
@@ -242,7 +251,7 @@ function editkiotbystatus($ID_k){
 	return $error;
 }
 
-function editkiotbystatus1($ID_k){
+function editkiotbyct($ID_k){
 	$error = array();
 	$status = 0;
 
