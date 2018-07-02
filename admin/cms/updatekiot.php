@@ -82,7 +82,7 @@
                <div class="col-md-6">
                  <div class="form-group">
                    <label for="lastName1">Giá :</label>
-                   <input type="text" class="form-control" name = "price" value="<?php echo number_format($kiot['price'])."<br>"?>" > </div>
+                   <input type="text" class="form-control" name = "price" value="<?php echo number_format($kiot['price'])?>" > </div>
                </div>
              </div>
              <div class="form-group">
