@@ -50,7 +50,7 @@
                <div class="col-md-6">
                  <div class="form-group">
                    <label for="lastName1">Lương :</label>
-                   <input type="text" class="form-control" name = "salary" value="<?php echo $rq number_format(['salary']) ?>" style="cursor: no-drop;" > </div>
+                   <input type="text" class="form-control" name = "salary" value="<?php echo number_format( $rq ['salary']) ?>" style="cursor: no-drop;" > </div>
                </div>
              </div>
              
