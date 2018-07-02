@@ -242,6 +242,28 @@ function editkiotbystatus($ID_k){
 	return $error;
 }
 
+function editkiotbystatus1($ID_k){
+	$error = array();
+	$status = 0;
+
+	$sql = "UPDATE kiot SET  status = '{$status}'  WHERE ID_k = '{$ID_k}'";
+
+		
+	if(db_execute($sql) > 0 ){
+		
+		$error['editkiotbystatus'] = 'Sửa thông tin thành công';
+		
+	}
+	else{
+		
+		$error['editkiotbystatus'] = 'Sửa thông tin thất bại';
+		
+	}
+	
+	
+	return $error;
+}
+
 
 
 
