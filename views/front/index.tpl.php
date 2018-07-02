@@ -145,10 +145,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<ul class="simplefilter w3layouts agileits">
 				<li class="active w3layouts agileits" data-filter="all">All</li>
+				<li class="w3layouts agileits" data-filter="0">Tầng trệt</li>
 				<li class="w3layouts agileits" data-filter="1">Tầng 1</li>
 				<li class="w3layouts agileits" data-filter="2">Tầng 2</li>
 				<li class="w3layouts agileits" data-filter="3">Tầng 3</li>
 			</ul>
+
+			<div class="filtr-container w3layouts agileits">
+			<?php 
+			$kiot = geatallKiotbyid_floor(0);
+			$count = count($kiot);
+			for ($i = 0; $i< $count ; $i++){
+
+				$ID_k = $kiot[$i]['ID_k'];
+								
+				$name_pro = $kiot[$i]['name_k'];
+				
+				$img = $kiot[$i]['image'];
+
+				$description = $kiot[$i]['description'];
+				
+				$id_floor = $kiot[$i]['id_floor'];
+
+			?>
+
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="0" data-sort="Busy streets">
+					<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+							<h3><?php echo $description ?> <span><?php echo $name_pro ?></span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<?php } ?>
 
 			<div class="filtr-container w3layouts agileits">
 			<?php 
