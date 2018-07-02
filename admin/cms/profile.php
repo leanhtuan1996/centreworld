@@ -669,7 +669,7 @@ if(is_submit('addcontract')){
                                                                                 <label class="control-label mb-10" >Số CMND</label>
                                                                                 <div class="input-group">
                                                                               
-                                                                                    <input type="text" name = "citizenship_card" class="form-control"  value="" >
+                                                                                    <input type="text" name = "citizenship_card" class="form-control"  value="" data-validation-containsnumber-regex="(\d)+" data-validation-containsnumber-message="No Characters Allowed, Only Numbers" >  <div class="help-block"></div>
                                                                                 </div>
                                                                             </div>
     
