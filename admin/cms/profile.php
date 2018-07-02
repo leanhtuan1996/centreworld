@@ -603,7 +603,8 @@ if(is_submit('addcontract')){
     );
 
             // $message = "wrong answer";
-            // echo "<script type='text/javascript'>alert('$message');</script>";	
+            echo "<script type='text/javascript'>alert('$CTid');</script>";	
+            echo "<script type='text/javascript'>alert('$ID_k');</script>";	
             // editkiotbystatus($status);
           addcontract($data);
           editkiotbystatus($ID_k);
@@ -662,7 +663,7 @@ if(is_submit('addcontract')){
                                                                                 <label class="control-label mb-10" >Số CMND</label>
                                                                                 <div class="input-group">
                                                                               
-                                                                                    <input type="text" name = "citizenship_card" class="form-control"  value=" " >
+                                                                                    <input type="text" name = "citizenship_card" class="form-control"  value="" >
                                                                                 </div>
                                                                             </div>
     
