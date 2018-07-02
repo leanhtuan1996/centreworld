@@ -687,7 +687,7 @@ for ($i=0; $i <count($kiot) ; $i++) {
 	
 	?>
 
-                                                                                    <option value="<?php echo $ID_k ?>" ><?php echo $namek ?></option>
+                                                                                    <option value="<?php echo $ID_k ?>" ><?php echo $namek ?>-<?php echo $description ?></option>
 
                                                                                 <?php    
 }
