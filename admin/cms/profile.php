@@ -654,12 +654,12 @@ if(is_submit('addcontract')){
                                                                             <div class="form-group">
                                                                                 <label class="control-label mb-10" for="phone_add">Số điện thoại</label>
                                                                                 <div class="input-group">                                                                
-                                                                                    <input type="phone" name="phone_number" class="form-control"  value="<?php echo $user['phone_number']?>"data-validation-containsnumber-regex="(\d)+" data-validation-containsnumber-message="No Characters Allowed, Only Numbers" >  <div class="help-block"></div>
+                                                                                    <input type="phone" name="phone_number" class="form-control"  id="test1" oninput="validateNumber(this);"   value="<?php echo $user['phone_number']?>" >
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="controls">
+                                                                            
                                                                             <div class="form-group">
-                                      
+                                                                            <div class="form-group">
                                                                                 <label class="control-label mb-10" >Email</label>
                                                                                 <div class="input-group">                                                                            
                                                                                     <input type="text" name = "email" class="form-control"  value="<?php echo $user['email']?> " >
@@ -669,7 +669,7 @@ if(is_submit('addcontract')){
                                                                                 <label class="control-label mb-10" >Số CMND</label>
                                                                                 <div class="input-group">
                                                                               
-                                                                                    <input type="text" name = "citizenship_card" class="form-control"  value="" data-validation-containsnumber-regex="(\d)+" data-validation-containsnumber-message="No Characters Allowed, Only Numbers" >  <div class="help-block"></div>
+                                                                                    <input type="text" name = "citizenship_card" class="form-control"  id="test1" oninput="validateNumber(this);"  value="" >
                                                                                 </div>
                                                                             </div>
     
