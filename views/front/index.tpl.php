@@ -151,7 +151,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li class="w3layouts agileits" data-filter="4">Tầng 3</li>
 			</ul>
 
+			
+
 			<div class="filtr-container w3layouts agileits">
+			
 			<?php 
 			$kiot = geatallKiotbyid_floor(0);
 			$count = count($kiot);
@@ -181,7 +184,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<?php } ?>
 
-			<div class="filtr-container w3layouts agileits">
 			<?php 
 			$kiot = geatallKiotbyid_floor(1);
 			$count = count($kiot);
