@@ -586,7 +586,6 @@ $kiot = getkiotbystatus();
 if(is_submit('addcontract')){
     //Co ton tai
     $name = input_post('name');
-    $name_k =$_POST['name_k'];
     $phone_number = input_post('phone_number');
     $ID_k = $_POST['ID_k'];
     $address = input_post('address'); 
@@ -595,7 +594,6 @@ if(is_submit('addcontract')){
     $CTid= input_post('citizenship_card');
     $data = array(
         'name' => $name,
-        'name_k' => $name_k,
         'phone_number' => $phone_number,
         'email' => $email,
         'date_time' => $date_time,
@@ -603,13 +601,6 @@ if(is_submit('addcontract')){
         'address' => $address,
         'ID_k' => $ID_k,
     );
-    echo "<script type='text/javascript'>alert('$name');</script>";	
-    echo "<script type='text/javascript'>alert('$name_k');</script>";	
-    echo "<script type='text/javascript'>alert('$email');</script>";	
-    echo "<script type='text/javascript'>alert('$date_time');</script>";	
-    echo "<script type='text/javascript'>alert('$CTid');</script>";	
-    echo "<script type='text/javascript'>alert('$address');</script>";
-    echo "<script type='text/javascript'>alert('$ID_k');</script>";	
 
             // $message = "wrong answer";
             // echo "<script type='text/javascript'>alert('$message');</script>";	
