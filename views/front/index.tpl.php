@@ -145,7 +145,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<ul class="simplefilter w3layouts agileits">
 				<li class="active w3layouts agileits" data-filter="all">All</li>
-				<li class="w3layouts agileits" data-filter="0">Tầng trệt</li>
+				<li class="w3layouts agileits" data-filter="4">Tầng trệt</li>
 				<li class="w3layouts agileits" data-filter="1">Tầng 1</li>
 				<li class="w3layouts agileits" data-filter="2">Tầng 2</li>
 				<li class="w3layouts agileits" data-filter="3">Tầng 3</li>
@@ -169,7 +169,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			?>
 
-				<div class="filtr-item w3layouts agileits portfolio-t" data-category="0" data-sort="Busy streets">
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="4" data-sort="Busy streets">
 					<a href="<?php echo $img ?>" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
 						<figure>
 							<img src="<?php echo $img ?>" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
