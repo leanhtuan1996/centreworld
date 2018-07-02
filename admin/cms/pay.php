@@ -84,7 +84,7 @@
 								
 							
 							?></td>
-              <td class="text-right"><?php echo $pay ['price']  ?></td>
+              <td class="text-right"><?php echo number_format( $pay ['price'] ) ?></td>
             </tr>
 
             </tbody>
@@ -111,7 +111,7 @@
 			
          	<div>
          		<p>Phí dịch vụ chưa thuế: <?php echo number_format ($pay ['price'])  ?></p>
-         		<p>VAT (10%): <?php echo number_format ($pay ['price']) *10/100 ?> </p>
+         		<p>VAT (10%): <?php echo number_format ($pay ['price'] *10/100) ?> </p>
          	</div>
          	<div class="total-payment">
          		<h3><b>Tổng thanh toán:</b> <?php echo $pay ['price'] + $pay ['price'] *10/100  ?></h3>
