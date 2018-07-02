@@ -297,7 +297,7 @@
                                                                             <div class="form-group"	>			 
                                                                             <label>Tầng</label>
                                                                             <select class="form-control" name="sltParent">
-                                                                                <option name ="id_floor" value="1">Khu mua sắm</option><option name ="id_floor" value="2">Khu ăn uống</option><option name ="id_floor" value="3">Khu vui chơi</option></select>
+                                                                            <option name ="id_floor" value="0">Khu tổng hợp</option> <option name ="id_floor" value="1">Khu mua sắm</option><option name ="id_floor" value="2">Khu ăn uống</option><option name ="id_floor" value="3">Khu vui chơi</option></select>
                                                                         </div>
                                                                         <div class="controls">
 						                                                              	<input type="file" name="fImg"class="form-control" required="" aria-invalid="false"> <div class="help-block"></div></div>		
