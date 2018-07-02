@@ -15,7 +15,7 @@
             if (empty($image_edit)){
               $image = $kiot['image'];    
           }else{
-              $image = "../customer/$image_edit";
+              $image = "customer/$image_edit";
           }
           $kiot_edit = array(
             'name_k' => $name_k,
@@ -36,12 +36,6 @@
             // echo '<script language="javascript">';
             // echo 'window.location.href = "index.php?page=kt"';
             // echo '</script>';
-            echo "<script type='text/javascript'>alert('$image');</script>";	
-            echo "<script type='text/javascript'>alert('$name_k');</script>";	
-            echo "<script type='text/javascript'>alert('$ID_k');</script>";	
-            echo "<script type='text/javascript'>alert('$price');</script>";	
-            echo "<script type='text/javascript'>alert('$status');</script>";	
-            echo "<script type='text/javascript'>alert('$description');</script>";	
           }
          ?>
         
