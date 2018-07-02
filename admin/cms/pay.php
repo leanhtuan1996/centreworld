@@ -110,8 +110,8 @@
 			<p class="lead"><b>Ngày sử dụng dịch vụ</b><span class="text-danger"> <?php echo $pay ['date_time']  ?> </span></p>
 			
          	<div>
-         		<p>Phí dịch vụ chưa thuế: <?php echo $pay number_format (['price'])  ?></p>
-         		<p>VAT (10%): <?php echo $pay number_format (['price']) *10/100 ?> </p>
+         		<p>Phí dịch vụ chưa thuế: <?php echo number_format ($pay ['price'])  ?></p>
+         		<p>VAT (10%): <?php echo number_format ($pay ['price']) *10/100 ?> </p>
          	</div>
          	<div class="total-payment">
          		<h3><b>Tổng thanh toán:</b> <?php echo $pay ['price'] + $pay ['price'] *10/100  ?></h3>
