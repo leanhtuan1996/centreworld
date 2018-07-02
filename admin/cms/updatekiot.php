@@ -65,7 +65,7 @@
                             <?php show_error($error, 'id_floor') ?>
                             <?php }  
                             ?>
-                                <?php if(isset($error_add['image'])) { ?>
+                               <?php if(isset($error_add['image'])) { ?>
                             <?php show_error($error, 'image') ?>
                             <?php }  
                             ?>
@@ -92,7 +92,7 @@
              <label>Tên thương hiệu</label>
              <input class="form-control" name = "description" value="<?php echo $kiot['description']?>"  ></input>
            </div>
-             <div class="row">
+           <div class="row">
                <div class="col-md-6">
                  <div class="form-group">
                    <label for="location3">Vị trí tầng:</label>
