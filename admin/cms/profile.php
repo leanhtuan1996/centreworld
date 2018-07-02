@@ -682,6 +682,7 @@ for ($i=0; $i <count($kiot) ; $i++) {
   $namek = $kiot[$i] ['name_k'];
   $floor = $kiot[$i] ['id_floor'];
   $status = $kiot[$i] ['status'];
+  $description = $kiot[$i] ['description'];
 	
 	
 	
