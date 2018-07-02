@@ -686,13 +686,13 @@ for ($i=0; $i <count($kiot) ; $i++) {
   $namek = $kiot[$i] ['name_k'];
   $floor = $kiot[$i] ['id_floor'];
   $status = $kiot[$i] ['status'];
-  $description = $kiot[$i] ['description'];
+
 	
 	
 	
 	?>
 
-                                                                                    <option value="<?php echo $ID_k ?>" ><?php echo $namek ?>- <?php echo $description ?></option>
+                                                                                    <option value="<?php echo $ID_k ?>" ><?php echo $namek ?>?></option>
 
                                                                                 <?php    
 }
