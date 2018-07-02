@@ -33,12 +33,10 @@
               $error = editkiot($kiot_edit);
               move_uploaded_file($_FILES['fImg']['tmp_name'],$image);
           }
-         echo "<script type='text/javascript'>alert('$id_floor');</script>";	
-         echo "<script type='text/javascript'>alert('$name_k');</script>";	
-         echo "<script type='text/javascript'>alert('$price');</script>";	
-         echo "<script type='text/javascript'>alert('$description');</script>";	
-         echo "<script type='text/javascript'>alert('$status');</script>";	
-         echo "<script type='text/javascript'>alert('$image');</script>";	
+          echo '<script language="javascript">';
+          echo 'window.location.href = "index.php?page=kt"';
+          echo '</script>';
+
           }
          ?>
         
