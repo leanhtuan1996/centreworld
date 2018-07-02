@@ -114,7 +114,7 @@
          		<p>VAT (10%): <?php echo number_format ($pay ['price'] *10/100) ?> </p>
          	</div>
          	<div class="total-payment">
-         		<h3><b>Tổng thanh toán:</b> <?php echo $pay ['price'] + $pay ['price'] *10/100  ?></h3>
+         		<h3><b>Tổng thanh toán:</b> <?php echo number_format( $pay ['price'] + $pay ['price'] *10/100 ) ?></h3>
          	</div>
          
         </div>
