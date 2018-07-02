@@ -96,7 +96,7 @@
                    if ($kiot ['id_floor']==0)
                    {
                      ?>
-                   <option selected name ="id_floor" value="0">khu tổng hợp</option>;
+                   <option selected name ="id_floor" value="0">khu tổng hợp</option>
                    <option  name ="id_floor" value="1">khu mua sắm</option>
                    <option name ="id_floor" value="2">khu ăn uống</option>
                    <option name ="id_floor" value="3">khu vui chơi</option>
