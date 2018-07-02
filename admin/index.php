@@ -854,7 +854,7 @@ function confirmDelete(isDelete) {
             $.get(`?page=delct`, {
               ID_CT: id
             }, (data) => {
-              location.reload();
+              //location.reload();
               echo "<script type='text/javascript'>alert('$ID_k');</script>";
             })
           }
