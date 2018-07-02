@@ -16,7 +16,7 @@ Tại số...  <br>Chúng tôi gồm có: </p>
 </p>
   <p>Bên A đồng ý thuê ki ốt (sạp hàng) của bên B và bên B đồng ý cho bên A thuê ki ốt (sạp hàng). Cả hai bên đồng ý với bản hợp đồng có những điều khoản như sau: <br>
     </p><p style="font-weight: bold;">Điều 1: Nội dung của bản hợp đồng </p>
-    <p>Bên A cho bên B thuê: <br>Quầy ki ốt số:<span class="text-red"><?php echo $contract['ID_k'] ?></span>  <br>Địa điểm:<span class="text-red"><?php echo $contract['name_floor'] ?></span>  <br>Diện tích: <br>Thời gian cho thuê: <span class="text-red"><?php echo $contract['date_time'] ?></span>  <br>Tổng giá tiền cho thuê:  <span class="text-red"><?php echo $contract['price'] ?></span> 
+    <p>Bên A cho bên B thuê: <br>Quầy ki ốt số:<span class="text-red"><?php echo $contract['ID_k'] ?></span>  <br>Địa điểm:<span class="text-red"><?php echo $contract['name_floor'] ?></span>  <br>Diện tích: <br>Thời gian cho thuê: <span class="text-red"><?php echo $contract['date_time'] ?></span>  <br>Tổng giá tiền cho thuê:  <span class="text-red"><?php echo number_format ($contract['price']) ?></span> 
     <p></p>
     <p style="font-weight: bold;">Điều 2: Phương thức và thời hạn thanh toán</p>
 		 Thanh toán 100% từ  <span class="text-red"><?php echo $contract['date_time'] ?></span> đến 3 tháng sau kể từ ngày bắt đầu ký hợp đồng <p></p>
