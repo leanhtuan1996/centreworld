@@ -603,8 +603,13 @@ if(is_submit('addcontract')){
     );
 
             // $message = "wrong answer";
-            echo "<script type='text/javascript'>alert('$CTid');</script>";	
+            echo "<script type='text/javascript'>alert('$name');</script>";	
             echo "<script type='text/javascript'>alert('$ID_k');</script>";	
+            echo "<script type='text/javascript'>alert('$CTid');</script>";	
+            echo "<script type='text/javascript'>alert('$address');</script>";	
+            echo "<script type='text/javascript'>alert('$date_time');</script>";	
+            echo "<script type='text/javascript'>alert('$email');</script>";	
+            echo "<script type='text/javascript'>alert('$phone_number');</script>";
             // editkiotbystatus($status);
           addcontract($data);
           editkiotbystatus($ID_k);
