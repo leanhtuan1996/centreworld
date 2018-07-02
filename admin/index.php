@@ -864,7 +864,7 @@ function confirmDelete(isDelete) {
 </script>
 
 <script>
-var validNumber = new RegExp(/^\d*\.?\d*$/);
+var validNumber = new RegExp(^\d+(\.|\,)\d{2}$);
 var lastValid = document.getElementById("test1").value;
 function validateNumber(elem) {
   if (validNumber.test(elem.value)) {
