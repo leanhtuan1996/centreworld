@@ -607,7 +607,7 @@ if(is_submit('addcontract')){
     echo "<script type='text/javascript'>alert('$name_k');</script>";	
     echo "<script type='text/javascript'>alert('$email');</script>";	
     echo "<script type='text/javascript'>alert('$date_time');</script>";	
-    echo "<script type='text/javascript'>alert('$citizenship_card');</script>";	
+    echo "<script type='text/javascript'>alert('$CTid');</script>";	
     echo "<script type='text/javascript'>alert('$address');</script>";
     echo "<script type='text/javascript'>alert('$ID_k');</script>";	
 
@@ -695,7 +695,7 @@ for ($i=0; $i <count($kiot) ; $i++) {
 	
 	?>
 
-                                                                                    <option value="<?php echo $ID_k ?>" ><?php echo $namek ?></option>
+                                                                                    <option value="<?php echo $ID_k ?>" ><?php echo $namek ?>- <?php echo $description ?></option>
 
                                                                                 <?php    
 }
