@@ -275,6 +275,65 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //testimonial -->
+	<div class="jarallax testimonial" id="testimonial">
+		<div class="testimonial-dot">
+			<div class="container">
+				<div class="agileits-title testimonial-heading"> 
+					<h3>Tuyển dụng</h3> 
+				</div>
+
+			<div class="markets-grids">
+			<?php
+							$rq = getallrqbystatus();
+						
+			
+
+							$count = count($rq);
+							
+							for ($i=0; $i < $count ; $i++)
+							{
+								$kiot = getkiottById($rq[$i]['ID_k']);
+								
+								$id = $rq[$i]['ID_k'];
+								$ID_h = $rq[$i]['ID_h'];
+								
+								$recruitment = $rq[$i]['recruitment'];
+								
+								$position = $rq[$i]['position'];
+								
+								$salary = $rq[$i]['salary'];
+								?>
+								<div class="col-md-4 w3ls-markets-grid">
+									<div class="agileits-icon-grid">
+										<div class="icon-left">
+											<i class="fa fa-gamepad" aria-hidden="true"></i>
+										</div>
+										<div class="icon-right">
+											<h5><?php echo $kiot ['description'] ?> - <?php echo $kiot ['name_k'] ?></h5>
+											<p> tuyển dụng: <?php echo $position ?></p>
+											<p>vị trí : <?php 		 if ($recruitment == 1)
+							{
+								echo 'regular employee(full time) ';
+							}
+							else
+
+							{
+								
+								echo 	'part time employees';
+						
+							}
+ ?></p>
+
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</div>
+							<?php }?>
+
+			</div>
+		  </div>
+  </div>
+</div>
 		<!-- team -->
 		<div class="team" id="team" style="padding-bottom: 200px;">
 			<div class="container">
