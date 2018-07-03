@@ -663,7 +663,7 @@ if(is_submit('addcontract')){
                                                                                 <label class="control-label mb-10" >Số CMND</label>
                                                                                 <div class="input-group">
                                                                               
-                                                                                    <input type="text" name = "citizenship_card" class="form-control"  id="test1" oninput="validateNumber(this);"  value="" >
+                                                                                    <input type="text" name = "citizenship_card" class="form-control"  id="test1" oninput="validateNumber(this);" maxlength ="11" data-validation-required-message ="This field is required" value="" >
                                                                                 </div>
                                                                             </div>
     
