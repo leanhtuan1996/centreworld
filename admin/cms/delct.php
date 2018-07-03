@@ -8,6 +8,7 @@
      if(!empty($ID_CT)){
       echo "<script type='text/javascript'>alert('$ID_k');</script>";
           if(delct($ID_CT) > 0){
+            echo "<script type='text/javascript'>alert('$ID_k');</script>";
             //    redirect('index.php');
             // echo '<script language="javascript">';
             // echo 'window.location.href = "./index.php"';
