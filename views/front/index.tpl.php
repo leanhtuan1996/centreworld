@@ -313,13 +313,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<p> tuyển dụng: <?php echo $position ?></p>
 											<p>vị trí : <?php 		 if ($recruitment == 1)
 							{
-								echo 'regular employee(full time) ';
+								echo 'Nhân viên chính thức ';
 							}
 							else
 
 							{
 								
-								echo 	'part time employees';
+								echo 	'Nhân viên hợp đồng';
 						
 							}
  ?></p>
