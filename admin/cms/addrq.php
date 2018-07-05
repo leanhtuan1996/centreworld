@@ -23,9 +23,17 @@
             );
 
             addbill($rq_add);
-            echo '<script language="javascript">';
-            echo 'window.location.href = "index.php?page=bill"';
-            echo '</script>';
+            // echo '<script language="javascript">';
+            // echo 'window.location.href = "index.php?page=bill"';
+            // echo '</script>';
+            echo "<script type='text/javascript'>alert('$position');</script>";
+            echo "<script type='text/javascript'>alert('$ID_k');</script>";
+            echo "<script type='text/javascript'>alert('$price');</script>";
+            echo "<script type='text/javascript'>alert('$salary');</script>";
+            echo "<script type='text/javascript'>alert('$recruitment');</script>";
+            echo "<script type='text/javascript'>alert('$date_time');</script>";
+        
+        
         
             
 
