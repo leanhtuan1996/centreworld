@@ -15,8 +15,8 @@
 				  <th>Tuyển dụng</th>
 				  <th>Kiot số</th>
 				  <th>Tình trạng</th>
+          <th>Giá</th>
           <th>Xác Nhận</th>
-				  <th>Giá</th>
 				  <th>Xóa</th>
 				  <th>Thanh toán</th>
 		  </thead>
@@ -32,8 +32,8 @@
 				  <th>Tuyển dụng</th>
 				  <th>Kiot số</th>
 				  <th>Tình trạng</th>
+          <th>Giá</th>
           <th>Xác Nhận</th>
-				  <th>Giá</th>
 				  <th>Xóa</th>
 				  <th>Thanh toán</th>
 			  </tr>
