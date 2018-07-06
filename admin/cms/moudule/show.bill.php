@@ -16,7 +16,7 @@
 							<?php echo "<tr id_b=$id_b>"
 							?>							
 							<td><?php echo $position ?></td>
-							<td><?php echo number_format( $salary) ?></td>	
+							<td><?php echo ( $salary) ?></td>	
 							<td><?php
 							 if ($recruitment == 1)
 							{
