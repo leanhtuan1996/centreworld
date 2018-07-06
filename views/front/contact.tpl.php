@@ -285,7 +285,7 @@ Với chất lượng hàng hóa đảm bảo, thái độ phục vụ tốt, kh
             <td style="text-align: left; vertical-align: top;"><span style="font-size: 13px;">&nbsp;</span></td>
             <td style="width: 99%;"><span style="font-size: 13px;">Để biết thông tin chi tiết và đăng ký thuê mặt bằng, vui lòng liên hệ: <br>
             </span>
-            <span style="font-size: 13px;"><strong>Liên hiệp HTX TM TP. Cần Thơ (CanTho Centel)  <br>
+            <span style="font-size: 13px;"><strong>Liên hiệp HTX TM TP. Cần Thơ (CanTho Centrel)  <br>
             Phòng Quản Lý Không Gian Mua Sắm <br>
             </strong>
             Địa chỉ : 42 Võ Trường Toản<br>
